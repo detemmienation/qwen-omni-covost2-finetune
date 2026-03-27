@@ -22,8 +22,7 @@ os.makedirs(OFFLOAD_DIR, exist_ok=True)
 print("Loading processor...", flush=True)
 processor = AutoProcessor.from_pretrained(BASE_MODEL, trust_remote_code=True)
 
-# ===== 2. 4bit 量化配置 =====
-# 4bit 量化后整个模型约 5-6GB，16GB 显存轻松装下，不需要任何 offload
+# ===== 2. 4bit 量化加载 =====
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_compute_dtype=torch.float16,
@@ -37,27 +36,18 @@ model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
     quantization_config=bnb_config,
     device_map="auto",
     trust_remote_code=True,
-    # ★ 不传 offload_folder，量化后不需要 offload
 )
-
 print(f"GPU after base model: {torch.cuda.memory_allocated(0)/1e9:.2f} GB", flush=True)
 
-# ===== 3. LoRA（不传 device_map，继承 base model） =====
+# ===== 3. LoRA =====
 print("Loading LoRA...", flush=True)
-model = PeftModel.from_pretrained(
-    model,
-    LORA_PATH,
-    # ★ 不传 device_map / dtype / offload_folder
-)
-
+model = PeftModel.from_pretrained(model, LORA_PATH)
 print(f"GPU after LoRA: {torch.cuda.memory_allocated(0)/1e9:.2f} GB", flush=True)
 
-# ===== 4. 注意：4bit 量化模型不能直接 merge_and_unload =====
-# 直接用 PeftModel 推理即可，不需要 merge
 model.eval()
 print("Model ready.", flush=True)
 
-# ===== 5. 推理函数 =====
+# ===== 4. 推理函数 =====
 def infer(item):
     messages   = item["messages"]
     audio_path = item["audios"][0]
@@ -107,7 +97,8 @@ def infer(item):
             do_sample=False,
             use_audio_in_video=False,
         )
-    # ★ outputs 是 tuple，第 0 个是 text token ids
+
+    # outputs 是 tuple，第 0 个是 text token ids
     output_ids = outputs[0]
     input_len  = inputs["input_ids"].shape[1]
     prediction = processor.batch_decode(
@@ -119,20 +110,14 @@ def infer(item):
     return prediction, reference
 
 
-# ===== 6. 先跑第 1 条确认正常 =====
-print("\n--- Testing single item ---", flush=True)
+# ===== 5. 跑全部 100 条 =====
+print("Loading dataset...", flush=True)
 dataset = load_dataset("json", data_files=DATA_FILE)["train"]
+print(f"Dataset size: {len(dataset)}, starting inference...\n", flush=True)
 
-t0 = time.time()
-pred, ref = infer(dataset[0])
-print(f"Time : {time.time()-t0:.1f}s", flush=True)
-print(f"Ref  : {ref}", flush=True)
-print(f"Pred : {pred}", flush=True)
+results  = []
+t_total  = time.time()
 
-input("\n✅ Press Enter to run all 100, or Ctrl+C to stop...\n")
-
-# ===== 7. 跑全部 100 条 =====
-results = []
 for i, item in enumerate(dataset):
     t0 = time.time()
     try:
@@ -157,14 +142,14 @@ for i, item in enumerate(dataset):
     })
     print(
         f"[{i+1:3d}/100] {time.time()-t0:.1f}s | {status}"
-        f" | ref: {ref[:30]} | pred: {pred[:30]}",
+        f" | ref: {ref[:35]} | pred: {pred[:35]}",
         flush=True
     )
 
-# ===== 8. 保存 =====
+# ===== 6. 保存 =====
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 ok_count = sum(1 for r in results if r["status"] == "ok")
-print(f"\nDone. {ok_count}/100 successful.", flush=True)
+print(f"\nDone. {ok_count}/100 successful in {(time.time()-t_total)/60:.1f} min", flush=True)
 print(f"Saved to {OUTPUT_FILE}", flush=True)
