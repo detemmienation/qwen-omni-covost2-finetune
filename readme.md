@@ -75,44 +75,46 @@ Each JSONL record looks like this:
 
 ## Create Tiny Debug Split
 
-To reduce memory usage, create a small debug split:
+To reduce memory usage, create a debug split:
 ```
 head -n 20 data/debug_train.jsonl > data/tiny_train.jsonl
 head -n 5 data/debug_val.jsonl > data/tiny_val.jsonl
 ```
-If debug_train.jsonl and debug_val.jsonl do not exist yet, create them first from train.jsonl and val.jsonl.
+
+to train a size of 500 and 100, create split like 
+```
+head -n 500 data/debug_train.jsonl > data/train_500.jsonl
+head -n 100 data/debug_val.jsonl > data/val_100.jsonl
+```
 
 ## Training
 
-A minimal debug training command:
-```
+example training command(use size of 500 and 100):
 
+```
 CUDA_VISIBLE_DEVICES=0 \
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
 USE_HF=1 \
 swift sft \
   --model Qwen/Qwen2.5-Omni-7B \
   --use_hf true \
-  --dataset /home/ubuntu/project/data/tiny_train.jsonl \
-  --val_dataset /home/ubuntu/project/data/tiny_val.jsonl \
+  --dataset /home/ubuntu/project/data/train_500.jsonl \
+  --val_dataset /home/ubuntu/project/data/val_100.jsonl \
   --train_type lora \
   --torch_dtype float16 \
   --num_train_epochs 1 \
   --per_device_train_batch_size 1 \
   --per_device_eval_batch_size 1 \
   --gradient_accumulation_steps 1 \
-  --learning_rate 1e-4 \
-  --max_length 256 \
-  --logging_steps 1 \
+  --learning_rate 5e-5 \
+  --max_length 320 \
+  --logging_steps 10 \
   --save_steps 200 \
-  --eval_steps 1000 \
-  --lora_rank 2 \
-  --lora_alpha 4 \
+  --eval_steps 200 \
+  --lora_rank 4 \
+  --lora_alpha 8 \
   --lora_dropout 0.05 \
-  --output_dir /home/ubuntu/project/output/debug_run_tiny_fp16
+  --output_dir /home/ubuntu/project/output/run_500
 ```
+-> try to modify learning_rate/lora_rank/num_train_epochs...
 
-## Notes
-	•	Do not commit downloaded model weights or dataset audio files.
-	•	Use Hugging Face download instead of ModelScope for faster downloads on AWS US instances.
-	•	Full training may exceed memory limits on a single 24GB GPU.
