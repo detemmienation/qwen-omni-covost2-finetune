@@ -1,4 +1,5 @@
-# Qwen2.5-Omni Fine-tuning on CoVoST2 (English Speech → Chinese Text)
+# Qwen-Omni Fine-tuning on CoVoST2 
+(English Speech → Chinese Text)
 
 This repository contains a minimal pipeline for fine-tuning **Qwen2.5-Omni-7B** with **SWIFT** on a small subset of **CoVoST2** for speech translation from English audio to Chinese text.
 
