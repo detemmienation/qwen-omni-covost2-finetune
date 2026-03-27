@@ -13,8 +13,13 @@ from peft import PeftModel
 # ===== 路径配置 =====
 BASE_MODEL  = "Qwen/Qwen2.5-Omni-7B"
 LORA_PATH   = "/home/ubuntu/project/output/run_500/v0-20260327-185755/checkpoint-500"
-DATA_FILE   = "/home/ubuntu/project/data/val_100.jsonl"
-OUTPUT_FILE = "/home/ubuntu/project/predictions.json"
+# DATA_FILE   = "/home/ubuntu/project/data/val_100.jsonl"
+# OUTPUT_FILE = "/home/ubuntu/project/predictions.json"
+
+# 用text集来推理
+DATA_FILE   = "/home/ubuntu/project/data/test.jsonl"     
+# 输出路径
+OUTPUT_FILE = "/home/ubuntu/project/predictions_test.json" 
 OFFLOAD_DIR = "/home/ubuntu/project/offload"
 os.makedirs(OFFLOAD_DIR, exist_ok=True)
 
@@ -110,7 +115,7 @@ def infer(item):
     return prediction, reference
 
 
-# ===== 5. 跑全部 100 条 =====
+# ===== 5. 跑全部 =====
 print("Loading dataset...", flush=True)
 dataset = load_dataset("json", data_files=DATA_FILE)["train"]
 print(f"Dataset size: {len(dataset)}, starting inference...\n", flush=True)
@@ -141,7 +146,7 @@ for i, item in enumerate(dataset):
         "status":     status,
     })
     print(
-        f"[{i+1:3d}/100] {time.time()-t0:.1f}s | {status}"
+        f"[{i+1:3d}/{len(dataset)}] {time.time()-t0:.1f}s | {status}"
         f" | ref: {ref[:35]} | pred: {pred[:35]}",
         flush=True
     )
@@ -151,5 +156,5 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 ok_count = sum(1 for r in results if r["status"] == "ok")
-print(f"\nDone. {ok_count}/100 successful in {(time.time()-t_total)/60:.1f} min", flush=True)
+print(f"\nDone. {ok_count}/{len(dataset)} successful in {(time.time()-t_total)/60:.1f} min", flush=True)
 print(f"Saved to {OUTPUT_FILE}", flush=True)
