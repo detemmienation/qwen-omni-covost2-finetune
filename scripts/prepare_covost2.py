@@ -46,9 +46,14 @@ print("Loading CoVoST2...")
 train_ds = load_dataset("fixie-ai/covost2", "en_zh-CN", split="train")
 val_ds = load_dataset("fixie-ai/covost2", "en_zh-CN", split="validation")
 
-# 👉 只取小数据（先跑通）
-train_ds = train_ds.select(range(200))
-val_ds = val_ds.select(range(50))
+# ===== 数据配置 =====
+TRAIN_SIZE = 500
+VAL_SIZE = 100
+
+# 选择数据子集，快速测试脚本
+# 可以调整这个数字，或者直接注释掉，处理完整数据集
+train_ds = train_ds.select(range(TRAIN_SIZE))
+val_ds = val_ds.select(range(VAL_SIZE))
 
 print("Processing train...")
 

@@ -5,16 +5,7 @@ This repository contains a minimal pipeline for fine-tuning **Qwen2.5-Omni-7B** 
 The main goal of this repo is to provide a **reproducible debug pipeline**:
 - download a small subset of CoVoST2
 - convert it into SWIFT multimodal JSONL format
-- run LoRA fine-tuning on Qwen2.5-Omni
-
-## Project Status
-
-This pipeline has been tested on AWS and successfully runs a small debug fine-tuning job.
-
-Because Qwen2.5-Omni-7B is large, full-scale training is difficult on a single 24GB GPU. The current setup is mainly intended for:
-- pipeline validation
-- small-scale debugging
-- team reproduction
+- run LoRA fine-tuning on Qwen2.5-Omni/Qwem3.0-Omni
 
 ## Environment
 
@@ -82,15 +73,13 @@ Each JSONL record looks like this:
 }
 ```
 
-
 ## Create Tiny Debug Split
 
-To reduce memory usage, create a very small debug split:
+To reduce memory usage, create a small debug split:
 ```
 head -n 20 data/debug_train.jsonl > data/tiny_train.jsonl
 head -n 5 data/debug_val.jsonl > data/tiny_val.jsonl
 ```
-
 If debug_train.jsonl and debug_val.jsonl do not exist yet, create them first from train.jsonl and val.jsonl.
 
 ## Training
@@ -127,4 +116,3 @@ swift sft \
 	•	Do not commit downloaded model weights or dataset audio files.
 	•	Use Hugging Face download instead of ModelScope for faster downloads on AWS US instances.
 	•	Full training may exceed memory limits on a single 24GB GPU.
-	•	This repository is intended for reproducibility of the pipeline, not for storing training artifacts.
