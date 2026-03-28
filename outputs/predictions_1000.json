@@ -1,0 +1,6995 @@
+[
+  {
+    "id": 0,
+    "audio": "/home/ubuntu/project/data/audio/test/0.wav",
+    "reference": "她会没事的。",
+    "prediction": "她会好的。",
+    "status": "ok"
+  },
+  {
+    "id": 1,
+    "audio": "/home/ubuntu/project/data/audio/test/1.wav",
+    "reference": "皆大欢喜。",
+    "prediction": "一切顺利，结局美好。",
+    "status": "ok"
+  },
+  {
+    "id": 2,
+    "audio": "/home/ubuntu/project/data/audio/test/2.wav",
+    "reference": "是这个意思吗？",
+    "prediction": "你是认真的吗？",
+    "status": "ok"
+  },
+  {
+    "id": 3,
+    "audio": "/home/ubuntu/project/data/audio/test/3.wav",
+    "reference": "新型贴片相比旧款更具微创效果，但仍可导致机能退化。",
+    "prediction": "新的补丁比旧的补丁侵入性更小，但仍然会导致回退。",
+    "status": "ok"
+  },
+  {
+    "id": 4,
+    "audio": "/home/ubuntu/project/data/audio/test/4.wav",
+    "reference": "Mozilla 打算如何处理“queue”和“cue”这类易混淆的字词呢？",
+    "prediction": "Mozilla将如何处理诸如“q”之类的模糊性？",
+    "status": "ok"
+  },
+  {
+    "id": 5,
+    "audio": "/home/ubuntu/project/data/audio/test/5.wav",
+    "reference": "我想你一定会觉得我有些古怪吧。",
+    "prediction": "西方国家在战斗中使用它。",
+    "status": "ok"
+  },
+  {
+    "id": 6,
+    "audio": "/home/ubuntu/project/data/audio/test/6.wav",
+    "reference": "无法联系到远程机器附近的人员？",
+    "prediction": "机器旁边没有人，你可以打电话。",
+    "status": "ok"
+  },
+  {
+    "id": 7,
+    "audio": "/home/ubuntu/project/data/audio/test/7.wav",
+    "reference": "凡事应一视同仁。",
+    "prediction": "此地无银三百两。",
+    "status": "ok"
+  },
+  {
+    "id": 8,
+    "audio": "/home/ubuntu/project/data/audio/test/8.wav",
+    "reference": "Groves 从四岁起就开始写歌了。",
+    "prediction": "Graff 四岁开始写歌。",
+    "status": "ok"
+  },
+  {
+    "id": 9,
+    "audio": "/home/ubuntu/project/data/audio/test/9.wav",
+    "reference": "这座历史悠久的桥至今仍屹立不倒。",
+    "prediction": "这座历史悠久的桥至今仍然屹立。",
+    "status": "ok"
+  },
+  {
+    "id": 10,
+    "audio": "/home/ubuntu/project/data/audio/test/10.wav",
+    "reference": "除了他自己，没人能劝住他。",
+    "prediction": "除了他自己，没有什么可以阻止他。",
+    "status": "ok"
+  },
+  {
+    "id": 11,
+    "audio": "/home/ubuntu/project/data/audio/test/11.wav",
+    "reference": "我们经常这样说。",
+    "prediction": "我们经常聊天。",
+    "status": "ok"
+  },
+  {
+    "id": 12,
+    "audio": "/home/ubuntu/project/data/audio/test/12.wav",
+    "reference": "电工看起来一脸茫然。",
+    "prediction": "你会选择哪个？",
+    "status": "ok"
+  },
+  {
+    "id": 13,
+    "audio": "/home/ubuntu/project/data/audio/test/13.wav",
+    "reference": "消防车上的梯子不够长。",
+    "prediction": "消防车的梯子不够长。",
+    "status": "ok"
+  },
+  {
+    "id": 14,
+    "audio": "/home/ubuntu/project/data/audio/test/14.wav",
+    "reference": "我会告诉她我们的决定。",
+    "prediction": "我会告诉她我们的决定。",
+    "status": "ok"
+  },
+  {
+    "id": 15,
+    "audio": "/home/ubuntu/project/data/audio/test/15.wav",
+    "reference": "浓缩就是精华。",
+    "prediction": "好的东西包装很小。",
+    "status": "ok"
+  },
+  {
+    "id": 16,
+    "audio": "/home/ubuntu/project/data/audio/test/16.wav",
+    "reference": "该剧院是欧洲剧院联盟的成员。",
+    "prediction": "它是欧洲剧院联盟的成员剧院。",
+    "status": "ok"
+  },
+  {
+    "id": 17,
+    "audio": "/home/ubuntu/project/data/audio/test/17.wav",
+    "reference": "想出去谈谈吗？",
+    "prediction": "你想退出吗？",
+    "status": "ok"
+  },
+  {
+    "id": 18,
+    "audio": "/home/ubuntu/project/data/audio/test/18.wav",
+    "reference": "浸泡在热水中也会让蚕蛹失去生命。",
+    "prediction": "浸入热水中也会杀死病原体。",
+    "status": "ok"
+  },
+  {
+    "id": 19,
+    "audio": "/home/ubuntu/project/data/audio/test/19.wav",
+    "reference": "针对根服务器的攻击让我们的高级管理员相当紧张。",
+    "prediction": "对您路由器的攻击使我们的高级管理员感到紧张。",
+    "status": "ok"
+  },
+  {
+    "id": 20,
+    "audio": "/home/ubuntu/project/data/audio/test/20.wav",
+    "reference": "你希望我这样吗？",
+    "prediction": "你要我吗？",
+    "status": "ok"
+  },
+  {
+    "id": 21,
+    "audio": "/home/ubuntu/project/data/audio/test/21.wav",
+    "reference": "要是他这样做了就好玩了。",
+    "prediction": "如果他那样做会很有趣。",
+    "status": "ok"
+  },
+  {
+    "id": 22,
+    "audio": "/home/ubuntu/project/data/audio/test/22.wav",
+    "reference": "即便拥有鲜花和掌声，Mavis 仍然不满足。",
+    "prediction": "尽管得到了鲜花和掌声，Mavis 说她还是不满足。",
+    "status": "ok"
+  },
+  {
+    "id": 23,
+    "audio": "/home/ubuntu/project/data/audio/test/23.wav",
+    "reference": "添加列，将总和记录在这里。",
+    "prediction": "添加列，然后将总和放在这里。",
+    "status": "ok"
+  },
+  {
+    "id": 24,
+    "audio": "/home/ubuntu/project/data/audio/test/24.wav",
+    "reference": "Alston 评论称，他觉得这位漫画家“可能存在种族歧视”。",
+    "prediction": "Alston评论说，他觉得漫画家可能有一些种族意图。",
+    "status": "ok"
+  },
+  {
+    "id": 25,
+    "audio": "/home/ubuntu/project/data/audio/test/25.wav",
+    "reference": "倒立需要勤加练习才能学会。",
+    "prediction": "要练习很久才能倒立。",
+    "status": "ok"
+  },
+  {
+    "id": 26,
+    "audio": "/home/ubuntu/project/data/audio/test/26.wav",
+    "reference": "从上方俯视身穿红色 T 恤、带着棒球帽的男士，他有一大堆海报。",
+    "prediction": "从上面看，穿着红色T恤和棒球帽的男人面前摆着一堆海报。",
+    "status": "ok"
+  },
+  {
+    "id": 27,
+    "audio": "/home/ubuntu/project/data/audio/test/27.wav",
+    "reference": "两部电影相继在同一天内发布。",
+    "prediction": "这两部电影是在相隔一天内上映的。",
+    "status": "ok"
+  },
+  {
+    "id": 28,
+    "audio": "/home/ubuntu/project/data/audio/test/28.wav",
+    "reference": "经历过放飞自我的感官放纵后，Mike 确信自己吸毒过量了。",
+    "prediction": "在经历了一次令人瞠目的手淫之后，Mikes 确信自己过量服用了药物。",
+    "status": "ok"
+  },
+  {
+    "id": 29,
+    "audio": "/home/ubuntu/project/data/audio/test/29.wav",
+    "reference": "宗教节日包括伊斯兰教的开斋节，以及基督教的圣诞节和复活节。",
+    "prediction": "宗教节日包括穆斯林的斋月和基督徒的圣诞节和复活节。",
+    "status": "ok"
+  },
+  {
+    "id": 30,
+    "audio": "/home/ubuntu/project/data/audio/test/30.wav",
+    "reference": "你有什么建议吗，先生？",
+    "prediction": "先生，您有什么建议吗？",
+    "status": "ok"
+  },
+  {
+    "id": 31,
+    "audio": "/home/ubuntu/project/data/audio/test/31.wav",
+    "reference": "Charles 旁观着，因为无能为力而感到非常生气。",
+    "prediction": "查尔斯离开了，很生气，因为他觉得他什么都做不了。",
+    "status": "ok"
+  },
+  {
+    "id": 32,
+    "audio": "/home/ubuntu/project/data/audio/test/32.wav",
+    "reference": "和平港机场为和平港提供服务。",
+    "prediction": "Portage-Peguis 由 Portage-Peguis 机场提供服务。",
+    "status": "ok"
+  },
+  {
+    "id": 33,
+    "audio": "/home/ubuntu/project/data/audio/test/33.wav",
+    "reference": "呼吸调节中枢对其产生抑制作用。",
+    "prediction": "它受到神经毒中心的抑制。",
+    "status": "ok"
+  },
+  {
+    "id": 34,
+    "audio": "/home/ubuntu/project/data/audio/test/34.wav",
+    "reference": "他的灿烂笑容为他带来了许多朋友。",
+    "prediction": "他是又红又绿，有很多朋友。",
+    "status": "ok"
+  },
+  {
+    "id": 35,
+    "audio": "/home/ubuntu/project/data/audio/test/35.wav",
+    "reference": "锡比和奎达通过公路和铁路相连。",
+    "prediction": "它通过公路和铁路连接塞贝和奎拉。",
+    "status": "ok"
+  },
+  {
+    "id": 36,
+    "audio": "/home/ubuntu/project/data/audio/test/36.wav",
+    "reference": "尽管如此，我仍然相信火星上存在人类。",
+    "prediction": "尽管如此，我仍然相信火星上还有人。",
+    "status": "ok"
+  },
+  {
+    "id": 37,
+    "audio": "/home/ubuntu/project/data/audio/test/37.wav",
+    "reference": "土地遭到了破坏，我必须寻找其他营生方式。",
+    "prediction": "轮船的汽笛响了，然后它就径直开走了。",
+    "status": "ok"
+  },
+  {
+    "id": 38,
+    "audio": "/home/ubuntu/project/data/audio/test/38.wav",
+    "reference": "地板上有沾着泥浆的足迹。",
+    "prediction": "泥土地板上布满了脚印。",
+    "status": "ok"
+  },
+  {
+    "id": 39,
+    "audio": "/home/ubuntu/project/data/audio/test/39.wav",
+    "reference": "我指出了火星，那是一个明亮的光点。",
+    "prediction": "我指出火星是一颗明亮的光源。",
+    "status": "ok"
+  },
+  {
+    "id": 40,
+    "audio": "/home/ubuntu/project/data/audio/test/40.wav",
+    "reference": "他想，我知道自己为什么想要回到同类人之中。",
+    "prediction": "“我知道为什么想回到我的羊群中。”他想。",
+    "status": "ok"
+  },
+  {
+    "id": 41,
+    "audio": "/home/ubuntu/project/data/audio/test/41.wav",
+    "reference": "你应该特别关注另一个家伙，看看他多么擅长格斗。",
+    "prediction": "你应该看到另一个家伙，具体来说，他很擅长战斗。",
+    "status": "ok"
+  },
+  {
+    "id": 42,
+    "audio": "/home/ubuntu/project/data/audio/test/42.wav",
+    "reference": "他有着非裔美国人和意大利人血统。",
+    "prediction": "他是非裔美国人和意大利后裔。",
+    "status": "ok"
+  },
+  {
+    "id": 43,
+    "audio": "/home/ubuntu/project/data/audio/test/43.wav",
+    "reference": "那并不是 Carson Sphinx。",
+    "prediction": "那不是卡森·斯宾克斯。",
+    "status": "ok"
+  },
+  {
+    "id": 44,
+    "audio": "/home/ubuntu/project/data/audio/test/44.wav",
+    "reference": "Lorenz 被列为瑞士具有国家影响力的遗产。",
+    "prediction": "洛伦兹被列为瑞士具有国家重要意义的遗产。",
+    "status": "ok"
+  },
+  {
+    "id": 45,
+    "audio": "/home/ubuntu/project/data/audio/test/45.wav",
+    "reference": "我们不应将自己的幸运视为理所当然。",
+    "prediction": "我们不应该以为自己很幸运。",
+    "status": "ok"
+  },
+  {
+    "id": 46,
+    "audio": "/home/ubuntu/project/data/audio/test/46.wav",
+    "reference": "农民辛勤耕耘，种植粮食。",
+    "prediction": "农民耕种土地并生产粮食。",
+    "status": "ok"
+  },
+  {
+    "id": 47,
+    "audio": "/home/ubuntu/project/data/audio/test/47.wav",
+    "reference": "自从养了狗，狐狸就不再经常出现了。",
+    "prediction": "自从我有了狗，狐狸就再也不来了。",
+    "status": "ok"
+  },
+  {
+    "id": 48,
+    "audio": "/home/ubuntu/project/data/audio/test/48.wav",
+    "reference": "他演讲结束后，观众纷纷起立鼓掌。",
+    "prediction": "他的演讲以长时间的掌声结束。",
+    "status": "ok"
+  },
+  {
+    "id": 49,
+    "audio": "/home/ubuntu/project/data/audio/test/49.wav",
+    "reference": "男孩对太阳说：“风告诉我，你知道什么是爱”。",
+    "prediction": "“风告诉我你了解爱”，男孩对太阳说。",
+    "status": "ok"
+  },
+  {
+    "id": 50,
+    "audio": "/home/ubuntu/project/data/audio/test/50.wav",
+    "reference": "那些粉红色的小东西真可爱。",
+    "prediction": "小粉红色的家伙们太可爱了。",
+    "status": "ok"
+  },
+  {
+    "id": 51,
+    "audio": "/home/ubuntu/project/data/audio/test/51.wav",
+    "reference": "学生们用蜡笔涂颜色。",
+    "prediction": "学生们用蜡笔涂色。",
+    "status": "ok"
+  },
+  {
+    "id": 52,
+    "audio": "/home/ubuntu/project/data/audio/test/52.wav",
+    "reference": "在他看来，它似乎落在了离这儿以东一百英里的地方。",
+    "prediction": "他似乎觉得它落在离这里大约一百英里的地球上。",
+    "status": "ok"
+  },
+  {
+    "id": 53,
+    "audio": "/home/ubuntu/project/data/audio/test/53.wav",
+    "reference": "他拿起第四部分，交给了和尚。",
+    "prediction": "他取下斧头的一半交给了马克。",
+    "status": "ok"
+  },
+  {
+    "id": 54,
+    "audio": "/home/ubuntu/project/data/audio/test/54.wav",
+    "reference": "他是右撇子击球手和左手慢投球手。",
+    "prediction": "他是一名右撇子击球手和左撇子慢投手。",
+    "status": "ok"
+  },
+  {
+    "id": 55,
+    "audio": "/home/ubuntu/project/data/audio/test/55.wav",
+    "reference": "你要去哪儿？",
+    "prediction": "你要去哪？",
+    "status": "ok"
+  },
+  {
+    "id": 56,
+    "audio": "/home/ubuntu/project/data/audio/test/56.wav",
+    "reference": "房子的主人并不觉得好笑。",
+    "prediction": "房子的主人并不觉得好笑。",
+    "status": "ok"
+  },
+  {
+    "id": 57,
+    "audio": "/home/ubuntu/project/data/audio/test/57.wav",
+    "reference": "所有这些活动在密尔沃基都不是独一无二的。",
+    "prediction": "在密尔沃基的所有活动都不是独一无二的。",
+    "status": "ok"
+  },
+  {
+    "id": 58,
+    "audio": "/home/ubuntu/project/data/audio/test/58.wav",
+    "reference": "泰国舞者愉快地齐步走着。",
+    "prediction": "舞者们开心地同步完成了这些步骤。",
+    "status": "ok"
+  },
+  {
+    "id": 59,
+    "audio": "/home/ubuntu/project/data/audio/test/59.wav",
+    "reference": "很高兴见到你。",
+    "prediction": "很高兴见到你。",
+    "status": "ok"
+  },
+  {
+    "id": 60,
+    "audio": "/home/ubuntu/project/data/audio/test/60.wav",
+    "reference": "然后她向上看去。",
+    "prediction": "然后她抬头。",
+    "status": "ok"
+  },
+  {
+    "id": 61,
+    "audio": "/home/ubuntu/project/data/audio/test/61.wav",
+    "reference": "他是个什么样的人？",
+    "prediction": "他是什么样的人？",
+    "status": "ok"
+  },
+  {
+    "id": 62,
+    "audio": "/home/ubuntu/project/data/audio/test/62.wav",
+    "reference": "幸运的是，匕首没有穿透防弹背心。",
+    "prediction": "幸运的是，子弹无法穿透防弹背心。",
+    "status": "ok"
+  },
+  {
+    "id": 63,
+    "audio": "/home/ubuntu/project/data/audio/test/63.wav",
+    "reference": "这个区是根据地形命名的。",
+    "prediction": "这个女孩的名字叫露西。",
+    "status": "ok"
+  },
+  {
+    "id": 64,
+    "audio": "/home/ubuntu/project/data/audio/test/64.wav",
+    "reference": "“好像每个人都在学习，”他说。",
+    "prediction": "就像他说的那样，每个人都会学习。",
+    "status": "ok"
+  },
+  {
+    "id": 65,
+    "audio": "/home/ubuntu/project/data/audio/test/65.wav",
+    "reference": "在罗马尼亚，这有点邪教的味道。",
+    "prediction": "在罗马尼亚，这已经成为一种文化。",
+    "status": "ok"
+  },
+  {
+    "id": 66,
+    "audio": "/home/ubuntu/project/data/audio/test/66.wav",
+    "reference": "火车多久晚点一次?",
+    "prediction": "火车多久会晚点一次？",
+    "status": "ok"
+  },
+  {
+    "id": 67,
+    "audio": "/home/ubuntu/project/data/audio/test/67.wav",
+    "reference": "他目前是 Jefferies 投资银行全球高级顾问委员会的成员。",
+    "prediction": "他目前是投资银行杰富瑞的高级顾问。",
+    "status": "ok"
+  },
+  {
+    "id": 68,
+    "audio": "/home/ubuntu/project/data/audio/test/68.wav",
+    "reference": "这位政治家发起了一场运动来提高他在民意调查中的支持率。",
+    "prediction": "为了增加在公众舆论调查中的受欢迎程度，政治家们开始了竞选活动。",
+    "status": "ok"
+  },
+  {
+    "id": 69,
+    "audio": "/home/ubuntu/project/data/audio/test/69.wav",
+    "reference": "独特的设计和颜色组合用来纪念特殊的比赛。",
+    "prediction": "在许多特殊的比赛中使用了独特的设计和颜色组合。",
+    "status": "ok"
+  },
+  {
+    "id": 70,
+    "audio": "/home/ubuntu/project/data/audio/test/70.wav",
+    "reference": "现在，墓地由三个信托基金管理。",
+    "prediction": "现在，公墓由三个信托基金管理。",
+    "status": "ok"
+  },
+  {
+    "id": 71,
+    "audio": "/home/ubuntu/project/data/audio/test/71.wav",
+    "reference": "那么，它在哪儿呢?",
+    "prediction": "那它在哪里？",
+    "status": "ok"
+  },
+  {
+    "id": 72,
+    "audio": "/home/ubuntu/project/data/audio/test/72.wav",
+    "reference": "提问题始终应该客观一些。",
+    "prediction": "总是要问一个客观的问题。",
+    "status": "ok"
+  },
+  {
+    "id": 73,
+    "audio": "/home/ubuntu/project/data/audio/test/73.wav",
+    "reference": "给当前这本书打两颗星",
+    "prediction": "当前的天气状况如何？",
+    "status": "ok"
+  },
+  {
+    "id": 74,
+    "audio": "/home/ubuntu/project/data/audio/test/74.wav",
+    "reference": "需要多讨论一下如何筹措资金。",
+    "prediction": "需要进行更多的讨论来确定如何对其进行 Financing。",
+    "status": "ok"
+  },
+  {
+    "id": 75,
+    "audio": "/home/ubuntu/project/data/audio/test/75.wav",
+    "reference": "此举立即生效。",
+    "prediction": "该行动立即生效。",
+    "status": "ok"
+  },
+  {
+    "id": 76,
+    "audio": "/home/ubuntu/project/data/audio/test/76.wav",
+    "reference": "一名戴粉色围巾的士兵从车顶向外张望。",
+    "prediction": "一名身系粉红色围巾的士兵从车辆顶部探出头来。",
+    "status": "ok"
+  },
+  {
+    "id": 77,
+    "audio": "/home/ubuntu/project/data/audio/test/77.wav",
+    "reference": "“Bambalio”是指有点结巴的意思。",
+    "prediction": "“倾向于”指的是对某件事有强烈的欲望。",
+    "status": "ok"
+  },
+  {
+    "id": 78,
+    "audio": "/home/ubuntu/project/data/audio/test/78.wav",
+    "reference": "“今天剩下的时间我都可以工作，”男孩回答说。",
+    "prediction": "“我今天其余的时间可以工作，”男孩回答。",
+    "status": "ok"
+  },
+  {
+    "id": 79,
+    "audio": "/home/ubuntu/project/data/audio/test/79.wav",
+    "reference": "我想点一些肉桂椒盐卷饼。",
+    "prediction": "我想点一些肉桂椒盐卷饼。",
+    "status": "ok"
+  },
+  {
+    "id": 80,
+    "audio": "/home/ubuntu/project/data/audio/test/80.wav",
+    "reference": "男孩也很伤心；他的朋友在追求自己的梦想。",
+    "prediction": "这个男孩也为他的朋友追求命运而感到悲伤。",
+    "status": "ok"
+  },
+  {
+    "id": 81,
+    "audio": "/home/ubuntu/project/data/audio/test/81.wav",
+    "reference": "这群人中女性不到一半。",
+    "prediction": "女性的人数少于一半。",
+    "status": "ok"
+  },
+  {
+    "id": 82,
+    "audio": "/home/ubuntu/project/data/audio/test/82.wav",
+    "reference": "男人们踢足球，一群人在围观。",
+    "prediction": "当众人观看时，男人踢足球。",
+    "status": "ok"
+  },
+  {
+    "id": 83,
+    "audio": "/home/ubuntu/project/data/audio/test/83.wav",
+    "reference": "再绕公园转一圈怎么样?",
+    "prediction": "再来一轮，怎么样？",
+    "status": "ok"
+  },
+  {
+    "id": 84,
+    "audio": "/home/ubuntu/project/data/audio/test/84.wav",
+    "reference": "歌、女孩、伴娘。",
+    "prediction": "这首歌是关于爱的。",
+    "status": "ok"
+  },
+  {
+    "id": 85,
+    "audio": "/home/ubuntu/project/data/audio/test/85.wav",
+    "reference": "今天，地铁图上的这条线显示为橙色条纹。",
+    "prediction": "Tiran今天作为橙色驱逐舰出现在Tube Map上。",
+    "status": "ok"
+  },
+  {
+    "id": 86,
+    "audio": "/home/ubuntu/project/data/audio/test/86.wav",
+    "reference": "这是什么样的证据？",
+    "prediction": "那是什么类型的证明？",
+    "status": "ok"
+  },
+  {
+    "id": 87,
+    "audio": "/home/ubuntu/project/data/audio/test/87.wav",
+    "reference": "申请被拒绝了。",
+    "prediction": "该申请被拒绝。",
+    "status": "ok"
+  },
+  {
+    "id": 88,
+    "audio": "/home/ubuntu/project/data/audio/test/88.wav",
+    "reference": "他们有很多事情要讲。",
+    "prediction": "他们有很多事情要做。",
+    "status": "ok"
+  },
+  {
+    "id": 89,
+    "audio": "/home/ubuntu/project/data/audio/test/89.wav",
+    "reference": "日子天天要过，或标志着一个人离开了这个世界。",
+    "prediction": "每天都可以生活，直到离开世界。",
+    "status": "ok"
+  },
+  {
+    "id": 90,
+    "audio": "/home/ubuntu/project/data/audio/test/90.wav",
+    "reference": "薯片是油炸土豆片，当零食吃",
+    "prediction": "薯条是作为零食的薄切炸土豆。",
+    "status": "ok"
+  },
+  {
+    "id": 91,
+    "audio": "/home/ubuntu/project/data/audio/test/91.wav",
+    "reference": "我们不让他们休息。",
+    "prediction": "我们是国王吉姆的诺里斯！",
+    "status": "ok"
+  },
+  {
+    "id": 92,
+    "audio": "/home/ubuntu/project/data/audio/test/92.wav",
+    "reference": "我们整天都在提防着敌人。",
+    "prediction": "在整个白天，我们都会留意我们的敌人。",
+    "status": "ok"
+  },
+  {
+    "id": 93,
+    "audio": "/home/ubuntu/project/data/audio/test/93.wav",
+    "reference": "整形手术越来越流行。",
+    "prediction": "整形手术越来越受欢迎。",
+    "status": "ok"
+  },
+  {
+    "id": 94,
+    "audio": "/home/ubuntu/project/data/audio/test/94.wav",
+    "reference": "跟踪参考不起作用。",
+    "prediction": "追踪器没起作用。",
+    "status": "ok"
+  },
+  {
+    "id": 95,
+    "audio": "/home/ubuntu/project/data/audio/test/95.wav",
+    "reference": "你在开玩笑吧。",
+    "prediction": "但你在开玩笑！",
+    "status": "ok"
+  },
+  {
+    "id": 96,
+    "audio": "/home/ubuntu/project/data/audio/test/96.wav",
+    "reference": "由于没有武器，他唯一可以选择的攻击方式就是空中撞击。",
+    "prediction": "没有武器，他唯一的选择是空中撞击。",
+    "status": "ok"
+  },
+  {
+    "id": 97,
+    "audio": "/home/ubuntu/project/data/audio/test/97.wav",
+    "reference": "触摸屏没有触觉反馈。",
+    "prediction": "LCD 不提供触觉反馈。",
+    "status": "ok"
+  },
+  {
+    "id": 98,
+    "audio": "/home/ubuntu/project/data/audio/test/98.wav",
+    "reference": "这是一个帐篷，就像绿洲中的许多帐篷一样。",
+    "prediction": "它像绿洲中的许多帐篷一样。",
+    "status": "ok"
+  },
+  {
+    "id": 99,
+    "audio": "/home/ubuntu/project/data/audio/test/99.wav",
+    "reference": "这种模糊的断层扫描对我的诊断帮助不大。",
+    "prediction": "这种模糊的断层摄影对诊断没有太大帮助。",
+    "status": "ok"
+  },
+  {
+    "id": 100,
+    "audio": "/home/ubuntu/project/data/audio/test/100.wav",
+    "reference": "涂防晒霜或呆在阴凉的地方可以避免晒伤。",
+    "prediction": "涂抹防晒霜或待在阴凉处可以避免被晒伤。",
+    "status": "ok"
+  },
+  {
+    "id": 101,
+    "audio": "/home/ubuntu/project/data/audio/test/101.wav",
+    "reference": "离职后，他还参加了一些其他重要活动。",
+    "prediction": "自离开职位以来，他参加了许多其他重要活动。",
+    "status": "ok"
+  },
+  {
+    "id": 102,
+    "audio": "/home/ubuntu/project/data/audio/test/102.wav",
+    "reference": "“Fatima。”女孩转过头说。",
+    "prediction": "法蒂玛说着移开了视线。",
+    "status": "ok"
+  },
+  {
+    "id": 103,
+    "audio": "/home/ubuntu/project/data/audio/test/103.wav",
+    "reference": "她还在加州大学伯克利分校教授新闻学。",
+    "prediction": "她还在加州大学伯克利分校教新闻学。",
+    "status": "ok"
+  },
+  {
+    "id": 104,
+    "audio": "/home/ubuntu/project/data/audio/test/104.wav",
+    "reference": "大智若愚。",
+    "prediction": "静水流深。",
+    "status": "ok"
+  },
+  {
+    "id": 105,
+    "audio": "/home/ubuntu/project/data/audio/test/105.wav",
+    "reference": "这所大学是几个高校组织的成员。",
+    "prediction": "该大学是几个学院和大学组织的成员。",
+    "status": "ok"
+  },
+  {
+    "id": 106,
+    "audio": "/home/ubuntu/project/data/audio/test/106.wav",
+    "reference": "钟声悠扬。",
+    "prediction": "这些钟声听起来很柔和。",
+    "status": "ok"
+  },
+  {
+    "id": 107,
+    "audio": "/home/ubuntu/project/data/audio/test/107.wav",
+    "reference": "以前从没有人这样做过。",
+    "prediction": "以前没有人做过这件事。",
+    "status": "ok"
+  },
+  {
+    "id": 108,
+    "audio": "/home/ubuntu/project/data/audio/test/108.wav",
+    "reference": "你想玩什么游戏?",
+    "prediction": "你想玩什么游戏?",
+    "status": "ok"
+  },
+  {
+    "id": 109,
+    "audio": "/home/ubuntu/project/data/audio/test/109.wav",
+    "reference": "已签署租船合同的称为租船方。",
+    "prediction": "完成的和弦进行称为和弦路径。",
+    "status": "ok"
+  },
+  {
+    "id": 110,
+    "audio": "/home/ubuntu/project/data/audio/test/110.wav",
+    "reference": "也许那座长着梧桐树的教堂一直闹鬼。",
+    "prediction": "也许长满桑树的教堂会闹鬼。",
+    "status": "ok"
+  },
+  {
+    "id": 111,
+    "audio": "/home/ubuntu/project/data/audio/test/111.wav",
+    "reference": "我马上就去。",
+    "prediction": "我马上去。",
+    "status": "ok"
+  },
+  {
+    "id": 112,
+    "audio": "/home/ubuntu/project/data/audio/test/112.wav",
+    "reference": "随着所有权变更，该公司停止了大部分图书出版工作。",
+    "prediction": "所有权变更后，公司暂停了大部分图书出版工作。",
+    "status": "ok"
+  },
+  {
+    "id": 113,
+    "audio": "/home/ubuntu/project/data/audio/test/113.wav",
+    "reference": "您需要了解如何构建自己的自定义环境。",
+    "prediction": "您需要了解如何构建自己的定制环境。",
+    "status": "ok"
+  },
+  {
+    "id": 114,
+    "audio": "/home/ubuntu/project/data/audio/test/114.wav",
+    "reference": "一名年轻女子在空中跳跃的精彩画面",
+    "prediction": "一张年轻女子在空中跳跃的精彩照片。",
+    "status": "ok"
+  },
+  {
+    "id": 115,
+    "audio": "/home/ubuntu/project/data/audio/test/115.wav",
+    "reference": "当然，不见不散！",
+    "prediction": "当然，在见。",
+    "status": "ok"
+  },
+  {
+    "id": 116,
+    "audio": "/home/ubuntu/project/data/audio/test/116.wav",
+    "reference": "一些并行编程模型包括协进程和确定性并行。",
+    "prediction": "一些并发编程模型包括确定性并发中的协处理器。",
+    "status": "ok"
+  },
+  {
+    "id": 117,
+    "audio": "/home/ubuntu/project/data/audio/test/117.wav",
+    "reference": "有些风暴不得不付出代价。",
+    "prediction": "有些风暴值得庆幸。",
+    "status": "ok"
+  },
+  {
+    "id": 118,
+    "audio": "/home/ubuntu/project/data/audio/test/118.wav",
+    "reference": "这种约定是自然的。",
+    "prediction": "这种约定是自然的。",
+    "status": "ok"
+  },
+  {
+    "id": 119,
+    "audio": "/home/ubuntu/project/data/audio/test/119.wav",
+    "reference": "最终奖牌总数东道主越南获得冠军，泰国和印度尼西亚为亚军和第三。",
+    "prediction": "最终奖牌榜由东道主越南队领衔，泰国队和印度尼西亚队紧随其后。",
+    "status": "ok"
+  },
+  {
+    "id": 120,
+    "audio": "/home/ubuntu/project/data/audio/test/120.wav",
+    "reference": "茶有点太烫了。",
+    "prediction": "茶有点太烫了。",
+    "status": "ok"
+  },
+  {
+    "id": 121,
+    "audio": "/home/ubuntu/project/data/audio/test/121.wav",
+    "reference": "Kimberly 和 Tiffany 姐妹，以及 Ryan 兄弟。",
+    "prediction": "妹妹金伯莉和蒂芙尼，哥哥瑞安。",
+    "status": "ok"
+  },
+  {
+    "id": 122,
+    "audio": "/home/ubuntu/project/data/audio/test/122.wav",
+    "reference": "蛤蜊又小又圆，嫩滑且美味。",
+    "prediction": "蛤蜊小、圆、柔软且美味。",
+    "status": "ok"
+  },
+  {
+    "id": 123,
+    "audio": "/home/ubuntu/project/data/audio/test/123.wav",
+    "reference": "她妈妈四点钟带她去上柔道课。",
+    "prediction": "他将参加比赛。",
+    "status": "ok"
+  },
+  {
+    "id": 124,
+    "audio": "/home/ubuntu/project/data/audio/test/124.wav",
+    "reference": "泰国成为了度假胜地。",
+    "prediction": "泰国证明是一个非常令人满意的目的地。",
+    "status": "ok"
+  },
+  {
+    "id": 125,
+    "audio": "/home/ubuntu/project/data/audio/test/125.wav",
+    "reference": "像匹老火马。",
+    "prediction": "像老人一样！",
+    "status": "ok"
+  },
+  {
+    "id": 126,
+    "audio": "/home/ubuntu/project/data/audio/test/126.wav",
+    "reference": "最初，第六季的结局被宣传为惊险片。",
+    "prediction": "最初，第六季的决赛作为剪辑章节推广。",
+    "status": "ok"
+  },
+  {
+    "id": 127,
+    "audio": "/home/ubuntu/project/data/audio/test/127.wav",
+    "reference": "我注意到你还记得。",
+    "prediction": "我需要你给我提供一些信息。",
+    "status": "ok"
+  },
+  {
+    "id": 128,
+    "audio": "/home/ubuntu/project/data/audio/test/128.wav",
+    "reference": "它在这些维度上足够大，可以从太空中看到。",
+    "prediction": "从这些尺寸来看，它足够大，可以从太空中看到。",
+    "status": "ok"
+  },
+  {
+    "id": 129,
+    "audio": "/home/ubuntu/project/data/audio/test/129.wav",
+    "reference": "互联网建立在许多完美互补的协议之上。",
+    "prediction": "互联网是基于许多相互补充的协议。",
+    "status": "ok"
+  },
+  {
+    "id": 130,
+    "audio": "/home/ubuntu/project/data/audio/test/130.wav",
+    "reference": "等待战争结束。",
+    "prediction": "等待世界末日。",
+    "status": "ok"
+  },
+  {
+    "id": 131,
+    "audio": "/home/ubuntu/project/data/audio/test/131.wav",
+    "reference": "最后，甲壳虫乐队开始偶尔在 Jac 演奏。",
+    "prediction": "最终，披头士乐队开始偶尔在杰克演奏。",
+    "status": "ok"
+  },
+  {
+    "id": 132,
+    "audio": "/home/ubuntu/project/data/audio/test/132.wav",
+    "reference": "请放下铅笔，时间到了。",
+    "prediction": "二十个下坡，时间到了。",
+    "status": "ok"
+  },
+  {
+    "id": 133,
+    "audio": "/home/ubuntu/project/data/audio/test/133.wav",
+    "reference": "“这片沙漠曾经是一片海，”他说。",
+    "prediction": "“这片沙漠曾经是一片海洋，”他说。",
+    "status": "ok"
+  },
+  {
+    "id": 134,
+    "audio": "/home/ubuntu/project/data/audio/test/134.wav",
+    "reference": "好看的鞋往往夹脚。",
+    "prediction": "一只好看的鞋经常挤压脚。",
+    "status": "ok"
+  },
+  {
+    "id": 135,
+    "audio": "/home/ubuntu/project/data/audio/test/135.wav",
+    "reference": "他乘坐一艘名为“小猎犬号”的船航行。",
+    "prediction": "他乘一艘叫“小猎犬号”的船航行。",
+    "status": "ok"
+  },
+  {
+    "id": 136,
+    "audio": "/home/ubuntu/project/data/audio/test/136.wav",
+    "reference": "我可以向你保证，在石油安全与和平得到保障之前，我们不会撤退。",
+    "prediction": "我可以向您保证，我们不会撤退，直到石油安全为止。",
+    "status": "ok"
+  },
+  {
+    "id": 137,
+    "audio": "/home/ubuntu/project/data/audio/test/137.wav",
+    "reference": "那个大波斯人比她更早知道他的存在。",
+    "prediction": "在《大 Persia》中，他知道的存在比她知道的还要早。",
+    "status": "ok"
+  },
+  {
+    "id": 138,
+    "audio": "/home/ubuntu/project/data/audio/test/138.wav",
+    "reference": "但是，Musial 的投球手臂伤了之后，他的职业生涯就岌岌可危了。",
+    "prediction": "但是在Sal受伤后，他的职业生涯面临严重危险。",
+    "status": "ok"
+  },
+  {
+    "id": 139,
+    "audio": "/home/ubuntu/project/data/audio/test/139.wav",
+    "reference": "Toby 说要起诉他的前妻",
+    "prediction": "托比说他要见他的前妻。",
+    "status": "ok"
+  },
+  {
+    "id": 140,
+    "audio": "/home/ubuntu/project/data/audio/test/140.wav",
+    "reference": "我可以向你保证，在和平得到保障之前，我们不会撤退。",
+    "prediction": "我可以向您保证，我们不会撤退，直到恢复和平。",
+    "status": "ok"
+  },
+  {
+    "id": 141,
+    "audio": "/home/ubuntu/project/data/audio/test/141.wav",
+    "reference": "我不怪你。",
+    "prediction": "我不怪你。",
+    "status": "ok"
+  },
+  {
+    "id": 142,
+    "audio": "/home/ubuntu/project/data/audio/test/142.wav",
+    "reference": "他跳了起来，迅速转过身去，面对着想象中的恐怖，尖叫着“回来!”",
+    "prediction": "他跳了起来，转过身面对想象中的敌人，大喊“退后！”。",
+    "status": "ok"
+  },
+  {
+    "id": 143,
+    "audio": "/home/ubuntu/project/data/audio/test/143.wav",
+    "reference": "他内敛而认真，这是受人尊敬的另一个标志。",
+    "prediction": "他很保守和严肃，这是值得尊重的另一项标志。",
+    "status": "ok"
+  },
+  {
+    "id": 144,
+    "audio": "/home/ubuntu/project/data/audio/test/144.wav",
+    "reference": "它是铜结合蛋白质体蓝素家族中的一员。",
+    "prediction": "它是铜结合蛋白家族的成员。",
+    "status": "ok"
+  },
+  {
+    "id": 145,
+    "audio": "/home/ubuntu/project/data/audio/test/145.wav",
+    "reference": "我爸爸是共和党人。",
+    "prediction": "我的爸爸是共和党人。",
+    "status": "ok"
+  },
+  {
+    "id": 146,
+    "audio": "/home/ubuntu/project/data/audio/test/146.wav",
+    "reference": "“红眼”从来没有做过比这更无耻的事。",
+    "prediction": "红眼从未犯过如此肆虐的罪行。",
+    "status": "ok"
+  },
+  {
+    "id": 147,
+    "audio": "/home/ubuntu/project/data/audio/test/147.wav",
+    "reference": "除了秋千和滑梯，好操场还提供更多的东西。",
+    "prediction": "好的游乐场不仅仅有秋千和滑梯。",
+    "status": "ok"
+  },
+  {
+    "id": 148,
+    "audio": "/home/ubuntu/project/data/audio/test/148.wav",
+    "reference": "内政部长 Mostefa Bensamour 后来视察了屠杀现场。",
+    "prediction": "后来，内政部长Mostafa Ben Slama访问了大屠杀现场。",
+    "status": "ok"
+  },
+  {
+    "id": 149,
+    "audio": "/home/ubuntu/project/data/audio/test/149.wav",
+    "reference": "抱歉，测试期已过。",
+    "prediction": "抱歉，试用期已过。",
+    "status": "ok"
+  },
+  {
+    "id": 150,
+    "audio": "/home/ubuntu/project/data/audio/test/150.wav",
+    "reference": "森林燃烧了 13 天。",
+    "prediction": "森林烧了十三天。",
+    "status": "ok"
+  },
+  {
+    "id": 151,
+    "audio": "/home/ubuntu/project/data/audio/test/151.wav",
+    "reference": "他一直全速行驶，完全没有被爆胎的拍打声吓到。",
+    "prediction": "他可以开车，但必须说意大利语。",
+    "status": "ok"
+  },
+  {
+    "id": 152,
+    "audio": "/home/ubuntu/project/data/audio/test/152.wav",
+    "reference": "我指控这个人是个骗子！",
+    "prediction": "我指责这个人是骗子。",
+    "status": "ok"
+  },
+  {
+    "id": 153,
+    "audio": "/home/ubuntu/project/data/audio/test/153.wav",
+    "reference": "站在我们身后的一个女人发出一声尖叫。",
+    "prediction": "我们后面有个人发出一声尖叫。",
+    "status": "ok"
+  },
+  {
+    "id": 154,
+    "audio": "/home/ubuntu/project/data/audio/test/154.wav",
+    "reference": "不是迪伦！",
+    "prediction": "不是迪兰。",
+    "status": "ok"
+  },
+  {
+    "id": 155,
+    "audio": "/home/ubuntu/project/data/audio/test/155.wav",
+    "reference": "心在哪儿，家就在哪儿。",
+    "prediction": "家是心灵的港湾。",
+    "status": "ok"
+  },
+  {
+    "id": 156,
+    "audio": "/home/ubuntu/project/data/audio/test/156.wav",
+    "reference": "他的手开始颤抖，女人感觉到了。",
+    "prediction": "他的手开始颤抖，那女人感到了。",
+    "status": "ok"
+  },
+  {
+    "id": 157,
+    "audio": "/home/ubuntu/project/data/audio/test/157.wav",
+    "reference": "您可能会更多地听到“字型设置”，而不是“字体”，即使它们可能意味着相同的意思。",
+    "prediction": "尽管它们的意思相同，但你可能会在植物家族中听到“科”这个词，而不是“属”。",
+    "status": "ok"
+  },
+  {
+    "id": 158,
+    "audio": "/home/ubuntu/project/data/audio/test/158.wav",
+    "reference": "一个留着白胡子的男人正在写书，两个女人在一旁看着",
+    "prediction": "一个穿着白衬衫的男人正在看书，而两个女人在旁边看着。",
+    "status": "ok"
+  },
+  {
+    "id": 159,
+    "audio": "/home/ubuntu/project/data/audio/test/159.wav",
+    "reference": "我的学士论文写的是乳胶。",
+    "prediction": "我用LaTeX写了我的学士论文。",
+    "status": "ok"
+  },
+  {
+    "id": 160,
+    "audio": "/home/ubuntu/project/data/audio/test/160.wav",
+    "reference": "我把它们重新粘在一起了。",
+    "prediction": "我又把它拼回来了。",
+    "status": "ok"
+  },
+  {
+    "id": 161,
+    "audio": "/home/ubuntu/project/data/audio/test/161.wav",
+    "reference": "它是世界上最有价值的邮票。",
+    "prediction": "这是世界上最珍贵的邮票。",
+    "status": "ok"
+  },
+  {
+    "id": 162,
+    "audio": "/home/ubuntu/project/data/audio/test/162.wav",
+    "reference": "此外，当时的中国文学中也没有提及彗星。",
+    "prediction": "此外，在当时中国的文学作品中也没有提到彗星。",
+    "status": "ok"
+  },
+  {
+    "id": 163,
+    "audio": "/home/ubuntu/project/data/audio/test/163.wav",
+    "reference": "Norfolk 是诗人萨里伯爵 Henry Howard 的儿子。",
+    "prediction": "Norfolk是萨里伯爵诗人托马斯·霍尔的的儿子。",
+    "status": "ok"
+  },
+  {
+    "id": 164,
+    "audio": "/home/ubuntu/project/data/audio/test/164.wav",
+    "reference": "得朋友难，失朋友易。",
+    "prediction": "朋友易寻，知心难觅。",
+    "status": "ok"
+  },
+  {
+    "id": 165,
+    "audio": "/home/ubuntu/project/data/audio/test/165.wav",
+    "reference": "时间飞逝",
+    "prediction": "时间飞逝。",
+    "status": "ok"
+  },
+  {
+    "id": 166,
+    "audio": "/home/ubuntu/project/data/audio/test/166.wav",
+    "reference": "四百五十美元。",
+    "prediction": "她正在往回走。",
+    "status": "ok"
+  },
+  {
+    "id": 167,
+    "audio": "/home/ubuntu/project/data/audio/test/167.wav",
+    "reference": "我们得走到塔顶上去。",
+    "prediction": "我们喜欢看小猫。",
+    "status": "ok"
+  },
+  {
+    "id": 168,
+    "audio": "/home/ubuntu/project/data/audio/test/168.wav",
+    "reference": "塑料栅栏破裂了。",
+    "prediction": "塑料障碍物碎了。",
+    "status": "ok"
+  },
+  {
+    "id": 169,
+    "audio": "/home/ubuntu/project/data/audio/test/169.wav",
+    "reference": "一大清早，人们就看见它朝东奔去。",
+    "prediction": "它很早就密封了，俄罗斯人从东边冲了进来。",
+    "status": "ok"
+  },
+  {
+    "id": 170,
+    "audio": "/home/ubuntu/project/data/audio/test/170.wav",
+    "reference": "它分布在印度次大陆、中国和东南亚。",
+    "prediction": "它分布在印度次大陆、中国和东南亚。",
+    "status": "ok"
+  },
+  {
+    "id": 171,
+    "audio": "/home/ubuntu/project/data/audio/test/171.wav",
+    "reference": "“扮演一个不受限制的吸血鬼角色是一种刺激，”她说。",
+    "prediction": "她说，能够扮演一个像吸血鬼一样无所不能的人是一种刺激。",
+    "status": "ok"
+  },
+  {
+    "id": 172,
+    "audio": "/home/ubuntu/project/data/audio/test/172.wav",
+    "reference": "男人抱着一个裹了一条蓝、粉、白相间毯子的刚出生婴儿。",
+    "prediction": "有一个人在蓝色、粉红色和白色毯子下抱着刚出生的婴儿。",
+    "status": "ok"
+  },
+  {
+    "id": 173,
+    "audio": "/home/ubuntu/project/data/audio/test/173.wav",
+    "reference": "子弹的撞击形成了一个大洞。",
+    "prediction": "大洞被后面的水冲了一个。",
+    "status": "ok"
+  },
+  {
+    "id": 174,
+    "audio": "/home/ubuntu/project/data/audio/test/174.wav",
+    "reference": "她一定注意到了你食欲不振。",
+    "prediction": "她一定注意到了你食欲不振。",
+    "status": "ok"
+  },
+  {
+    "id": 175,
+    "audio": "/home/ubuntu/project/data/audio/test/175.wav",
+    "reference": "给我桌子。",
+    "prediction": "让我拿到桌子。",
+    "status": "ok"
+  },
+  {
+    "id": 176,
+    "audio": "/home/ubuntu/project/data/audio/test/176.wav",
+    "reference": "智慧是智者的财富。",
+    "prediction": "智慧是智慧者的财富。",
+    "status": "ok"
+  },
+  {
+    "id": 177,
+    "audio": "/home/ubuntu/project/data/audio/test/177.wav",
+    "reference": "老人什么也没说。",
+    "prediction": "老人什么也没说。",
+    "status": "ok"
+  },
+  {
+    "id": 178,
+    "audio": "/home/ubuntu/project/data/audio/test/178.wav",
+    "reference": "你去做吧。",
+    "prediction": "你做到了！",
+    "status": "ok"
+  },
+  {
+    "id": 179,
+    "audio": "/home/ubuntu/project/data/audio/test/179.wav",
+    "reference": "他被安葬在家乡克罗朋堡。",
+    "prediction": "他被安葬在家乡克罗伊登。",
+    "status": "ok"
+  },
+  {
+    "id": 180,
+    "audio": "/home/ubuntu/project/data/audio/test/180.wav",
+    "reference": "那只敏捷的狐狸扑向熟睡的猫。",
+    "prediction": "那只敏捷的狐狸跳上睡觉的猫。",
+    "status": "ok"
+  },
+  {
+    "id": 181,
+    "audio": "/home/ubuntu/project/data/audio/test/181.wav",
+    "reference": "这只燕子在没有网络连接的情况下发推特，有一大群粉丝。",
+    "prediction": "没有网络连接的情况下，这个燕子口吃，但是有众多的追随者。",
+    "status": "ok"
+  },
+  {
+    "id": 182,
+    "audio": "/home/ubuntu/project/data/audio/test/182.wav",
+    "reference": "画了一滴血。",
+    "prediction": "它像血滴一样。",
+    "status": "ok"
+  },
+  {
+    "id": 183,
+    "audio": "/home/ubuntu/project/data/audio/test/183.wav",
+    "reference": "Bill 认为管理层应该知道这件事。",
+    "prediction": "比尔认为，管理层应该知道这件事。",
+    "status": "ok"
+  },
+  {
+    "id": 184,
+    "audio": "/home/ubuntu/project/data/audio/test/184.wav",
+    "reference": "他是达沃斯世界经济论坛的成员。",
+    "prediction": "他是达沃斯世界经济论坛的成员。",
+    "status": "ok"
+  },
+  {
+    "id": 185,
+    "audio": "/home/ubuntu/project/data/audio/test/185.wav",
+    "reference": "我们点上灯笼，朝他家走去。",
+    "prediction": "我们打着灯笼走到他家。",
+    "status": "ok"
+  },
+  {
+    "id": 186,
+    "audio": "/home/ubuntu/project/data/audio/test/186.wav",
+    "reference": "你从哪儿来？",
+    "prediction": "你来自哪里？",
+    "status": "ok"
+  },
+  {
+    "id": 187,
+    "audio": "/home/ubuntu/project/data/audio/test/187.wav",
+    "reference": "人非圣贤，孰能无过。",
+    "prediction": "为我们的电影投赞成票。",
+    "status": "ok"
+  },
+  {
+    "id": 188,
+    "audio": "/home/ubuntu/project/data/audio/test/188.wav",
+    "reference": "双鸟在林不如一鸟在手",
+    "prediction": "初学者级别的是最不灵活的工具。",
+    "status": "ok"
+  },
+  {
+    "id": 189,
+    "audio": "/home/ubuntu/project/data/audio/test/189.wav",
+    "reference": "我想他们意识到此刻什么也做不了。",
+    "prediction": "我认为他们说，目前一切平安无事。",
+    "status": "ok"
+  },
+  {
+    "id": 190,
+    "audio": "/home/ubuntu/project/data/audio/test/190.wav",
+    "reference": "普拉纳出生于拉合尔（也就是今天的巴基斯坦）的一个富裕家庭。",
+    "prediction": "Qurainiq出生于如今位于巴基斯坦的拉合尔的一个富有家庭。",
+    "status": "ok"
+  },
+  {
+    "id": 191,
+    "audio": "/home/ubuntu/project/data/audio/test/191.wav",
+    "reference": "我们不想要他！",
+    "prediction": "我们不要他。",
+    "status": "ok"
+  },
+  {
+    "id": 192,
+    "audio": "/home/ubuntu/project/data/audio/test/192.wav",
+    "reference": "但他们不在那儿。",
+    "prediction": "但他们没有去。",
+    "status": "ok"
+  },
+  {
+    "id": 193,
+    "audio": "/home/ubuntu/project/data/audio/test/193.wav",
+    "reference": "但那只是因为我的眼睛累了。",
+    "prediction": "但是那仅仅是因为我很累。",
+    "status": "ok"
+  },
+  {
+    "id": 194,
+    "audio": "/home/ubuntu/project/data/audio/test/194.wav",
+    "reference": "“再见，”男孩说。",
+    "prediction": "再见，男孩说。",
+    "status": "ok"
+  },
+  {
+    "id": 195,
+    "audio": "/home/ubuntu/project/data/audio/test/195.wav",
+    "reference": "你认为语言和方言有什么区别?",
+    "prediction": "你认为语言和方言有什么区别？",
+    "status": "ok"
+  },
+  {
+    "id": 196,
+    "audio": "/home/ubuntu/project/data/audio/test/196.wav",
+    "reference": "如果不是为了那些孩子获奖，我早就赢得少年奥运会冠军了。",
+    "prediction": "要不是那些该死的孩子，我早就赢了。",
+    "status": "ok"
+  },
+  {
+    "id": 197,
+    "audio": "/home/ubuntu/project/data/audio/test/197.wav",
+    "reference": "不，但很高兴见到你。",
+    "prediction": "不，很高兴遇见你。",
+    "status": "ok"
+  },
+  {
+    "id": 198,
+    "audio": "/home/ubuntu/project/data/audio/test/198.wav",
+    "reference": "由于生产成本高，它没有被用于这个目的。",
+    "prediction": "由于生产成本高，没有用于这个目的。",
+    "status": "ok"
+  },
+  {
+    "id": 199,
+    "audio": "/home/ubuntu/project/data/audio/test/199.wav",
+    "reference": "菲利普随后告诉父母，他因“唱”国歌而被停赛。",
+    "prediction": "然后菲利普告诉他的父母他因唱国歌而被停学。",
+    "status": "ok"
+  },
+  {
+    "id": 200,
+    "audio": "/home/ubuntu/project/data/audio/test/200.wav",
+    "reference": "大海一直生活在这个壳里，因为这是它的命运。",
+    "prediction": "C 生活在贝壳里，因为那是它的命运。",
+    "status": "ok"
+  },
+  {
+    "id": 201,
+    "audio": "/home/ubuntu/project/data/audio/test/201.wav",
+    "reference": "主要是那些努力实现自己命运的人的心。",
+    "prediction": "主要是那些试图实现命运的人的心。",
+    "status": "ok"
+  },
+  {
+    "id": 202,
+    "audio": "/home/ubuntu/project/data/audio/test/202.wav",
+    "reference": "但他并没有感到悲伤，反而很高兴。",
+    "prediction": "我需要更多时间。",
+    "status": "ok"
+  },
+  {
+    "id": 203,
+    "audio": "/home/ubuntu/project/data/audio/test/203.wav",
+    "reference": "他在几天内被逮捕，接受审判并被判有罪。",
+    "prediction": "几天后，他被逮捕、审判并被判有罪。",
+    "status": "ok"
+  },
+  {
+    "id": 204,
+    "audio": "/home/ubuntu/project/data/audio/test/204.wav",
+    "reference": "每次搜索都从新手的运气开始。",
+    "prediction": "每个搜索都从初学者困境开始。",
+    "status": "ok"
+  },
+  {
+    "id": 205,
+    "audio": "/home/ubuntu/project/data/audio/test/205.wav",
+    "reference": "后来有人透露，这封信是“流放者”编造的恶作剧。",
+    "prediction": "后来发现这封信是流亡者恶作剧的。",
+    "status": "ok"
+  },
+  {
+    "id": 206,
+    "audio": "/home/ubuntu/project/data/audio/test/206.wav",
+    "reference": "炼金术士跟着男孩的马跑了将近半个小时。",
+    "prediction": "炼金术士跟着他，男孩的马跑了差不多半个小时。",
+    "status": "ok"
+  },
+  {
+    "id": 207,
+    "audio": "/home/ubuntu/project/data/audio/test/207.wav",
+    "reference": "其他人在哪儿?",
+    "prediction": "其他人在哪里？",
+    "status": "ok"
+  },
+  {
+    "id": 208,
+    "audio": "/home/ubuntu/project/data/audio/test/208.wav",
+    "reference": "在他的同事宣布他的发现之前，他提出了色散理论。",
+    "prediction": "他在同事发现并宣布这一成果之前提出了分散理论。",
+    "status": "ok"
+  },
+  {
+    "id": 209,
+    "audio": "/home/ubuntu/project/data/audio/test/209.wav",
+    "reference": "西尔维斯特需要沉思来理清思路。",
+    "prediction": "西尔维斯特需要冥想来清除他的思想。",
+    "status": "ok"
+  },
+  {
+    "id": 210,
+    "audio": "/home/ubuntu/project/data/audio/test/210.wav",
+    "reference": "奥利维亚，你看到我的钥匙了吗?",
+    "prediction": "奥利维亚，你看到我的钥匙了吗？",
+    "status": "ok"
+  },
+  {
+    "id": 211,
+    "audio": "/home/ubuntu/project/data/audio/test/211.wav",
+    "reference": "如果你非常了解自己的心灵，它永远不会那样对你。",
+    "prediction": "如果您了解自己的业务，就永远不会被它打败。",
+    "status": "ok"
+  },
+  {
+    "id": 212,
+    "audio": "/home/ubuntu/project/data/audio/test/212.wav",
+    "reference": "他跟父亲学吹口琴。",
+    "prediction": "他从父亲那里学到了弹吉他。",
+    "status": "ok"
+  },
+  {
+    "id": 213,
+    "audio": "/home/ubuntu/project/data/audio/test/213.wav",
+    "reference": "尽管一切都应该在政府控制之下，但监狱中还是有很多暴力事件。",
+    "prediction": "虽然一切应该处于国家控制之下，但监狱中却非常暴力。",
+    "status": "ok"
+  },
+  {
+    "id": 214,
+    "audio": "/home/ubuntu/project/data/audio/test/214.wav",
+    "reference": "那是副领班，索普解释道。",
+    "prediction": "这是某些形式的解释通货膨胀。",
+    "status": "ok"
+  },
+  {
+    "id": 215,
+    "audio": "/home/ubuntu/project/data/audio/test/215.wav",
+    "reference": "岛屿南部是鸟类爱好者的天堂。",
+    "prediction": "岛的南部是鸟类爱好者的天堂。",
+    "status": "ok"
+  },
+  {
+    "id": 216,
+    "audio": "/home/ubuntu/project/data/audio/test/216.wav",
+    "reference": "至少 41 名抗议者在随后的冲突中丧生。",
+    "prediction": "纽辛格事件中至少有41名抗议者被杀。",
+    "status": "ok"
+  },
+  {
+    "id": 217,
+    "audio": "/home/ubuntu/project/data/audio/test/217.wav",
+    "reference": "对失败的恐惧使我不敢尝试这项杰作。",
+    "prediction": "正是对失败的恐惧阻止我尝试初稿。",
+    "status": "ok"
+  },
+  {
+    "id": 218,
+    "audio": "/home/ubuntu/project/data/audio/test/218.wav",
+    "reference": "他刚收到一只新风筝作为生日礼物。",
+    "prediction": "Egan 继续进行摄影。",
+    "status": "ok"
+  },
+  {
+    "id": 219,
+    "audio": "/home/ubuntu/project/data/audio/test/219.wav",
+    "reference": "而她制作的简单贺卡只卖 5 美分。",
+    "prediction": "而她制作的普通卡片仅售五美分。",
+    "status": "ok"
+  },
+  {
+    "id": 220,
+    "audio": "/home/ubuntu/project/data/audio/test/220.wav",
+    "reference": "伤口愈合得比任何人预料的都快。",
+    "prediction": "伤口愈合得比任何人都预期的都要快。",
+    "status": "ok"
+  },
+  {
+    "id": 221,
+    "audio": "/home/ubuntu/project/data/audio/test/221.wav",
+    "reference": "我感觉如何？",
+    "prediction": "我感觉如何？",
+    "status": "ok"
+  },
+  {
+    "id": 222,
+    "audio": "/home/ubuntu/project/data/audio/test/222.wav",
+    "reference": "TO REMOVE",
+    "prediction": "你不能吃掉蛋糕，然后还拥有它。",
+    "status": "ok"
+  },
+  {
+    "id": 223,
+    "audio": "/home/ubuntu/project/data/audio/test/223.wav",
+    "reference": "绝望的时候，寻找帮助者，你会发现希望。",
+    "prediction": "在绝望中，他们互相支持。",
+    "status": "ok"
+  },
+  {
+    "id": 224,
+    "audio": "/home/ubuntu/project/data/audio/test/224.wav",
+    "reference": "你知道 Harry 找到新工作了吗?",
+    "prediction": "你知道哈里得到了一份新工作吗？",
+    "status": "ok"
+  },
+  {
+    "id": 225,
+    "audio": "/home/ubuntu/project/data/audio/test/225.wav",
+    "reference": "我希望你很好！",
+    "prediction": "我希望你好。",
+    "status": "ok"
+  },
+  {
+    "id": 226,
+    "audio": "/home/ubuntu/project/data/audio/test/226.wav",
+    "reference": "我以前从未见过她。",
+    "prediction": "我以前从没见过她。",
+    "status": "ok"
+  },
+  {
+    "id": 227,
+    "audio": "/home/ubuntu/project/data/audio/test/227.wav",
+    "reference": "该俱乐部是中国第一家民营职业篮球俱乐部。",
+    "prediction": "该俱乐部是中国第一家非政府所有的职业棒球俱乐部。",
+    "status": "ok"
+  },
+  {
+    "id": 228,
+    "audio": "/home/ubuntu/project/data/audio/test/228.wav",
+    "reference": "肥水不流外人田。",
+    "prediction": "把东西塞进口袋里。",
+    "status": "ok"
+  },
+  {
+    "id": 229,
+    "audio": "/home/ubuntu/project/data/audio/test/229.wav",
+    "reference": "沉默是金。",
+    "prediction": "沉默是金。",
+    "status": "ok"
+  },
+  {
+    "id": 230,
+    "audio": "/home/ubuntu/project/data/audio/test/230.wav",
+    "reference": "有人把他赶下了火车。",
+    "prediction": "有人把他从火车上扔出去了。",
+    "status": "ok"
+  },
+  {
+    "id": 231,
+    "audio": "/home/ubuntu/project/data/audio/test/231.wav",
+    "reference": "他有许多商务约会。",
+    "prediction": "他拥有许多商业任命。",
+    "status": "ok"
+  },
+  {
+    "id": 232,
+    "audio": "/home/ubuntu/project/data/audio/test/232.wav",
+    "reference": "量布裁衣。",
+    "prediction": "根据需要修剪您的代码。",
+    "status": "ok"
+  },
+  {
+    "id": 233,
+    "audio": "/home/ubuntu/project/data/audio/test/233.wav",
+    "reference": "略表谢意。",
+    "prediction": "这是一个小小的感激礼物。",
+    "status": "ok"
+  },
+  {
+    "id": 234,
+    "audio": "/home/ubuntu/project/data/audio/test/234.wav",
+    "reference": "女孩把容器掉在地上，水溢出来了。",
+    "prediction": "女孩放下容器，水溢了出来。",
+    "status": "ok"
+  },
+  {
+    "id": 235,
+    "audio": "/home/ubuntu/project/data/audio/test/235.wav",
+    "reference": "该镇以西班牙语木材的术语命名。",
+    "prediction": "该镇以西班牙语中的木材命名。",
+    "status": "ok"
+  },
+  {
+    "id": 236,
+    "audio": "/home/ubuntu/project/data/audio/test/236.wav",
+    "reference": "为了更好地理解物理，让我们先回顾一下支点在哪里。",
+    "prediction": "为了更好地理解，让我们首先回顾一下枢轴点的位置。",
+    "status": "ok"
+  },
+  {
+    "id": 237,
+    "audio": "/home/ubuntu/project/data/audio/test/237.wav",
+    "reference": "Marc，你能把苍蝇拍给我吗？",
+    "prediction": "马克，你能给我飞镖吗？",
+    "status": "ok"
+  },
+  {
+    "id": 238,
+    "audio": "/home/ubuntu/project/data/audio/test/238.wav",
+    "reference": "他和他的家人北上到北极圈，去芬兰见圣诞老人。",
+    "prediction": "他和他的家人北上到北极圈见圣诞老人。",
+    "status": "ok"
+  },
+  {
+    "id": 239,
+    "audio": "/home/ubuntu/project/data/audio/test/239.wav",
+    "reference": "空瓶子放在锡盘上。",
+    "prediction": "空烧杯放在锡盘上。",
+    "status": "ok"
+  },
+  {
+    "id": 240,
+    "audio": "/home/ubuntu/project/data/audio/test/240.wav",
+    "reference": "发射完美无缺；除了王东的实验，所有的系统都在“运行”。",
+    "prediction": "发射完美无瑕；除了范博士的实验，所有的系统都就绪。",
+    "status": "ok"
+  },
+  {
+    "id": 241,
+    "audio": "/home/ubuntu/project/data/audio/test/241.wav",
+    "reference": "作者反应的是博客和社交媒体现象。",
+    "prediction": "作者是博客作者和社交媒体名人。",
+    "status": "ok"
+  },
+  {
+    "id": 242,
+    "audio": "/home/ubuntu/project/data/audio/test/242.wav",
+    "reference": "也许因为那不是他真正的梦想。",
+    "prediction": "也许是因为那不是真的我。",
+    "status": "ok"
+  },
+  {
+    "id": 243,
+    "audio": "/home/ubuntu/project/data/audio/test/243.wav",
+    "reference": "真正的学校，是提供普通实用教育的中学。",
+    "prediction": "威尔士课程，提供普通学术教育的中学。",
+    "status": "ok"
+  },
+  {
+    "id": 244,
+    "audio": "/home/ubuntu/project/data/audio/test/244.wav",
+    "reference": "猫的胡须非常敏感。",
+    "prediction": "猫的胡须非常敏感。",
+    "status": "ok"
+  },
+  {
+    "id": 245,
+    "audio": "/home/ubuntu/project/data/audio/test/245.wav",
+    "reference": "当他拉开壁橱门时，壁橱门卡住了一点，露出了裸露的木地板，地板的一边被一堆旧鞋盒覆盖着。",
+    "prediction": "他拉开 closet 的门时，门卡了一下，然后打开，露出一个木制的空地板，一侧堆放着旧鞋盒。",
+    "status": "ok"
+  },
+  {
+    "id": 246,
+    "audio": "/home/ubuntu/project/data/audio/test/246.wav",
+    "reference": "在她死后的几个世纪里，威尔士人在战斗中呼喊着“为 Gwenllian 报仇”。",
+    "prediction": "在她死后几个世纪，威尔士人在战斗时高呼“为格温隆报仇”。",
+    "status": "ok"
+  },
+  {
+    "id": 247,
+    "audio": "/home/ubuntu/project/data/audio/test/247.wav",
+    "reference": "摔倒七次，站起来八次。",
+    "prediction": "所有七次都站着。",
+    "status": "ok"
+  },
+  {
+    "id": 248,
+    "audio": "/home/ubuntu/project/data/audio/test/248.wav",
+    "reference": "不明确",
+    "prediction": "地球上的万物，他都看过了。",
+    "status": "ok"
+  },
+  {
+    "id": 249,
+    "audio": "/home/ubuntu/project/data/audio/test/249.wav",
+    "reference": "我不会把那看得太重。",
+    "prediction": "我不会太当真的。",
+    "status": "ok"
+  },
+  {
+    "id": 250,
+    "audio": "/home/ubuntu/project/data/audio/test/250.wav",
+    "reference": "在我看来，词语是我们最取之不尽的魔法源泉。",
+    "prediction": "在我看，言语是最无尽的魔法来源。",
+    "status": "ok"
+  },
+  {
+    "id": 251,
+    "audio": "/home/ubuntu/project/data/audio/test/251.wav",
+    "reference": "它也用来模仿过时的电子设备发出的声音。",
+    "prediction": "它也用于模拟由过时的电子设备产生的声音。",
+    "status": "ok"
+  },
+  {
+    "id": 252,
+    "audio": "/home/ubuntu/project/data/audio/test/252.wav",
+    "reference": "这种解释不客观。",
+    "prediction": "这种解释不客观。",
+    "status": "ok"
+  },
+  {
+    "id": 253,
+    "audio": "/home/ubuntu/project/data/audio/test/253.wav",
+    "reference": "摩托车发出很大的噪音。",
+    "prediction": "摩托车发出很大的噪音。",
+    "status": "ok"
+  },
+  {
+    "id": 254,
+    "audio": "/home/ubuntu/project/data/audio/test/254.wav",
+    "reference": "你正是我要见的人。",
+    "prediction": "你只是那个想睡觉的人。",
+    "status": "ok"
+  },
+  {
+    "id": 255,
+    "audio": "/home/ubuntu/project/data/audio/test/255.wav",
+    "reference": "这个男孩宁愿相信他的朋友只是偶然和他分开了。",
+    "prediction": "男孩希望相信他的朋友只是不小心走丢了。",
+    "status": "ok"
+  },
+  {
+    "id": 256,
+    "audio": "/home/ubuntu/project/data/audio/test/256.wav",
+    "reference": "你听过韩国国歌吗？",
+    "prediction": "你听过韩国的国歌吗？",
+    "status": "ok"
+  },
+  {
+    "id": 257,
+    "audio": "/home/ubuntu/project/data/audio/test/257.wav",
+    "reference": "Lemon 说这些团队都没有盈利。",
+    "prediction": "Lemon说，没有一个团队有利可图。",
+    "status": "ok"
+  },
+  {
+    "id": 258,
+    "audio": "/home/ubuntu/project/data/audio/test/258.wav",
+    "reference": "所以我将是下一个要去的人。",
+    "prediction": "下周二见。",
+    "status": "ok"
+  },
+  {
+    "id": 259,
+    "audio": "/home/ubuntu/project/data/audio/test/259.wav",
+    "reference": "仆人把 Leonardo 送走了，客人们开始到达婚礼现场。",
+    "prediction": "仆人把莱昂纳多送走了，客人们开始来参加婚礼。",
+    "status": "ok"
+  },
+  {
+    "id": 260,
+    "audio": "/home/ubuntu/project/data/audio/test/260.wav",
+    "reference": "当我回到公共场所时，太阳已经落山了。",
+    "prediction": "当我回到旷野时，太阳正在落山。",
+    "status": "ok"
+  },
+  {
+    "id": 261,
+    "audio": "/home/ubuntu/project/data/audio/test/261.wav",
+    "reference": "一个头戴头盔的孩子骑着一辆自行车。",
+    "prediction": "一个孩子头戴头盔骑自行车。",
+    "status": "ok"
+  },
+  {
+    "id": 262,
+    "audio": "/home/ubuntu/project/data/audio/test/262.wav",
+    "reference": "我盯着鱼缸里的一条鱼。",
+    "prediction": "我和鱼对视着眼睛。",
+    "status": "ok"
+  },
+  {
+    "id": 263,
+    "audio": "/home/ubuntu/project/data/audio/test/263.wav",
+    "reference": "我需要一个奶嘴给我的宝宝用。",
+    "prediction": "我需要给我的宝宝买个安抚奶嘴。",
+    "status": "ok"
+  },
+  {
+    "id": 264,
+    "audio": "/home/ubuntu/project/data/audio/test/264.wav",
+    "reference": "看起来不太好。",
+    "prediction": "看起来不好。",
+    "status": "ok"
+  },
+  {
+    "id": 265,
+    "audio": "/home/ubuntu/project/data/audio/test/265.wav",
+    "reference": "愿你平安，承蒙主的恩典。",
+    "prediction": "但愿你平安，主会保佑你。",
+    "status": "ok"
+  },
+  {
+    "id": 266,
+    "audio": "/home/ubuntu/project/data/audio/test/266.wav",
+    "reference": "如果你必须等到战争结束，那就等着吧。",
+    "prediction": "如果您必须等到战争结束，请等待。",
+    "status": "ok"
+  },
+  {
+    "id": 267,
+    "audio": "/home/ubuntu/project/data/audio/test/267.wav",
+    "reference": "让我们按时间顺序来做这件事。",
+    "prediction": "让我们按时间顺序来做。",
+    "status": "ok"
+  },
+  {
+    "id": 268,
+    "audio": "/home/ubuntu/project/data/audio/test/268.wav",
+    "reference": "那有什么用呢？",
+    "prediction": "那有什么用呢？",
+    "status": "ok"
+  },
+  {
+    "id": 269,
+    "audio": "/home/ubuntu/project/data/audio/test/269.wav",
+    "reference": "但不会持续太久。",
+    "prediction": "但不是现在！",
+    "status": "ok"
+  },
+  {
+    "id": 270,
+    "audio": "/home/ubuntu/project/data/audio/test/270.wav",
+    "reference": "它一定是在我坐在那里的时候掉下来了。",
+    "prediction": "它肯定是掉下来了，我当时正坐在那儿。",
+    "status": "ok"
+  },
+  {
+    "id": 271,
+    "audio": "/home/ubuntu/project/data/audio/test/271.wav",
+    "reference": "1969 年，人类第一人首次踏足月球表面。",
+    "prediction": "1969年，第一个人踏上了月球表面。",
+    "status": "ok"
+  },
+  {
+    "id": 272,
+    "audio": "/home/ubuntu/project/data/audio/test/272.wav",
+    "reference": "他已经哭了五分钟了。",
+    "prediction": "他已经哭了五分钟了。",
+    "status": "ok"
+  },
+  {
+    "id": 273,
+    "audio": "/home/ubuntu/project/data/audio/test/273.wav",
+    "reference": "与任何人都交朋友的人是不会有真正知心的朋友的!",
+    "prediction": "每个人都的朋友也是没有人的朋友。",
+    "status": "ok"
+  },
+  {
+    "id": 274,
+    "audio": "/home/ubuntu/project/data/audio/test/274.wav",
+    "reference": "你翅膀还没硬。",
+    "prediction": "你还没有做好准备。",
+    "status": "ok"
+  },
+  {
+    "id": 275,
+    "audio": "/home/ubuntu/project/data/audio/test/275.wav",
+    "reference": "如鱼离水。",
+    "prediction": "像条鱼一样！",
+    "status": "ok"
+  },
+  {
+    "id": 276,
+    "audio": "/home/ubuntu/project/data/audio/test/276.wav",
+    "reference": "鱼与熊掌不可兼得。",
+    "prediction": "你不可能得到你的馅饼并吃掉它。",
+    "status": "ok"
+  },
+  {
+    "id": 277,
+    "audio": "/home/ubuntu/project/data/audio/test/277.wav",
+    "reference": "沙砾石猛烈地抛向四面八方。",
+    "prediction": "沙子和砾石被溅得到处都是。",
+    "status": "ok"
+  },
+  {
+    "id": 278,
+    "audio": "/home/ubuntu/project/data/audio/test/278.wav",
+    "reference": "他恍然大悟，叫道：“我明白了!”",
+    "prediction": "现实的面部表情，然后他喊道，“我看到了！”",
+    "status": "ok"
+  },
+  {
+    "id": 279,
+    "audio": "/home/ubuntu/project/data/audio/test/279.wav",
+    "reference": "在 X 轴和 Y 轴之间选择。",
+    "prediction": "在 x 轴和 y 轴之间选择。",
+    "status": "ok"
+  },
+  {
+    "id": 280,
+    "audio": "/home/ubuntu/project/data/audio/test/280.wav",
+    "reference": "炼金术士说：“我相信你会找到的。”",
+    "prediction": "“我会找到它的！”炼金术士说。",
+    "status": "ok"
+  },
+  {
+    "id": 281,
+    "audio": "/home/ubuntu/project/data/audio/test/281.wav",
+    "reference": "如果你有任何副作用，请咨询医生。",
+    "prediction": "如果出现任何副作用，请咨询您的医生。",
+    "status": "ok"
+  },
+  {
+    "id": 282,
+    "audio": "/home/ubuntu/project/data/audio/test/282.wav",
+    "reference": "地质学专家同意：昨天的海啸只是即将来临的大灾难的一个预兆。",
+    "prediction": "地质专家表示认同：是的，昨天的海啸只是即将发生的大灾难的预兆。",
+    "status": "ok"
+  },
+  {
+    "id": 283,
+    "audio": "/home/ubuntu/project/data/audio/test/283.wav",
+    "reference": "每年的这个时候南极洲都很冷。",
+    "prediction": "每年这个时候南极都很冷。",
+    "status": "ok"
+  },
+  {
+    "id": 284,
+    "audio": "/home/ubuntu/project/data/audio/test/284.wav",
+    "reference": "一个人站在一个小火炉前的一个台阶上。",
+    "prediction": "一名男子站在小火前的台阶上，单脚抬起。",
+    "status": "ok"
+  },
+  {
+    "id": 285,
+    "audio": "/home/ubuntu/project/data/audio/test/285.wav",
+    "reference": "密码是三、七、二、六。",
+    "prediction": "PIN 号码是三、七、二、六。",
+    "status": "ok"
+  },
+  {
+    "id": 286,
+    "audio": "/home/ubuntu/project/data/audio/test/286.wav",
+    "reference": "要成功地做到这一点，我不能害怕失败。",
+    "prediction": "要成功，我不能害怕失败。",
+    "status": "ok"
+  },
+  {
+    "id": 287,
+    "audio": "/home/ubuntu/project/data/audio/test/287.wav",
+    "reference": "这个想法对他而言太可怕了，以至于他忘记了炎热，继续向前走去。",
+    "prediction": "这个想法对他来说太可怕了，以至于他顾不上炎热，继续前进。",
+    "status": "ok"
+  },
+  {
+    "id": 288,
+    "audio": "/home/ubuntu/project/data/audio/test/288.wav",
+    "reference": "至少有六辆德温顿机车保留下来。",
+    "prediction": "至少保存了六台迪温顿机车。",
+    "status": "ok"
+  },
+  {
+    "id": 289,
+    "audio": "/home/ubuntu/project/data/audio/test/289.wav",
+    "reference": "然而，系统 B并不明确地依赖于“t”，所以它是非时变的。",
+    "prediction": "System Pnower 不会像 Switz Hydroway 那样消耗系统资源。",
+    "status": "ok"
+  },
+  {
+    "id": 290,
+    "audio": "/home/ubuntu/project/data/audio/test/290.wav",
+    "reference": "我不想为自己谋取任何东西。",
+    "prediction": "我不要 anything 为我自己。",
+    "status": "ok"
+  },
+  {
+    "id": 291,
+    "audio": "/home/ubuntu/project/data/audio/test/291.wav",
+    "reference": "日本是一个信息泛滥的社会。",
+    "prediction": "日本是一个洗信息的社会。",
+    "status": "ok"
+  },
+  {
+    "id": 292,
+    "audio": "/home/ubuntu/project/data/audio/test/292.wav",
+    "reference": "Beachley 讲述了七个网络纪实系列“海滩警察”。",
+    "prediction": "Beechley为Seven Network事实系列“海滩警察”配音。",
+    "status": "ok"
+  },
+  {
+    "id": 293,
+    "audio": "/home/ubuntu/project/data/audio/test/293.wav",
+    "reference": "William Howard 出生在佛蒙特州的海恩斯堡。",
+    "prediction": "William Howard出生于明尼苏达州的Hinsburg。",
+    "status": "ok"
+  },
+  {
+    "id": 294,
+    "audio": "/home/ubuntu/project/data/audio/test/294.wav",
+    "reference": "他们寻找坠落的物体，但什么也没找到。",
+    "prediction": "他们找了一顿丰盛的晚餐，但什么也没找到。",
+    "status": "ok"
+  },
+  {
+    "id": 295,
+    "audio": "/home/ubuntu/project/data/audio/test/295.wav",
+    "reference": "它又小又不发达。",
+    "prediction": "它很小且未开发。",
+    "status": "ok"
+  },
+  {
+    "id": 296,
+    "audio": "/home/ubuntu/project/data/audio/test/296.wav",
+    "reference": "Ibrahim Caramel 顽皮地把他的黄眼睛带进了游戏。",
+    "prediction": "伊布拉欣·卡迈尔的黄色眼睛实际上充满了火焰。",
+    "status": "ok"
+  },
+  {
+    "id": 297,
+    "audio": "/home/ubuntu/project/data/audio/test/297.wav",
+    "reference": "它似乎既古老又明智。",
+    "prediction": "看起来又老又聪明",
+    "status": "ok"
+  },
+  {
+    "id": 298,
+    "audio": "/home/ubuntu/project/data/audio/test/298.wav",
+    "reference": "我的一部分也在努力接受这样一个事实，那就是我再也不能经常旅行了。",
+    "prediction": "我也意识到自己需要面对这样一个事实：再也不能像现在这样经常旅行了。",
+    "status": "ok"
+  },
+  {
+    "id": 299,
+    "audio": "/home/ubuntu/project/data/audio/test/299.wav",
+    "reference": "你能想象有什么东西比一个塑料袋在微风中飞舞更美丽吗?",
+    "prediction": "您能想象比塑料袋呼啸而过、随风飘浮更美丽的东西吗？",
+    "status": "ok"
+  },
+  {
+    "id": 300,
+    "audio": "/home/ubuntu/project/data/audio/test/300.wav",
+    "reference": "首尔有两个主要的机场:仁川国际机场和金浦国际机场。",
+    "prediction": "首尔有两个主要机场：金浦国际机场和金浦国际机场。",
+    "status": "ok"
+  },
+  {
+    "id": 301,
+    "audio": "/home/ubuntu/project/data/audio/test/301.wav",
+    "reference": "我以为你会教我一些你知道的东西。",
+    "prediction": "我以为你要教我一些你知道的东西。",
+    "status": "ok"
+  },
+  {
+    "id": 302,
+    "audio": "/home/ubuntu/project/data/audio/test/302.wav",
+    "reference": "也许她甚至不记得他了。",
+    "prediction": "也许她根本就不记得他。",
+    "status": "ok"
+  },
+  {
+    "id": 303,
+    "audio": "/home/ubuntu/project/data/audio/test/303.wav",
+    "reference": "女人摇摇头。",
+    "prediction": "女人摇摇头。",
+    "status": "ok"
+  },
+  {
+    "id": 304,
+    "audio": "/home/ubuntu/project/data/audio/test/304.wav",
+    "reference": "一群人，其中有一个人拿着吉他，坐在篝火旁唱歌。",
+    "prediction": "一群人，其中一个人弹着吉他，坐在篝火旁唱歌。",
+    "status": "ok"
+  },
+  {
+    "id": 305,
+    "audio": "/home/ubuntu/project/data/audio/test/305.wav",
+    "reference": "她看起来好像要醒过来了。",
+    "prediction": "她想了一会儿，然后说道，她打算起诉你。",
+    "status": "ok"
+  },
+  {
+    "id": 306,
+    "audio": "/home/ubuntu/project/data/audio/test/306.wav",
+    "reference": "明天，卖掉你的骆驼，买一匹马。",
+    "prediction": "明天，卖掉你的骆驼，买匹马。",
+    "status": "ok"
+  },
+  {
+    "id": 307,
+    "audio": "/home/ubuntu/project/data/audio/test/307.wav",
+    "reference": "“让我们停止这一切，”另一个指挥官说。",
+    "prediction": "让我们停止这另一命令。",
+    "status": "ok"
+  },
+  {
+    "id": 308,
+    "audio": "/home/ubuntu/project/data/audio/test/308.wav",
+    "reference": "但是他占了上风。",
+    "prediction": "但是他赢了。",
+    "status": "ok"
+  },
+  {
+    "id": 309,
+    "audio": "/home/ubuntu/project/data/audio/test/309.wav",
+    "reference": "他通过把房子里的一个房间租给房客额外赚了钱",
+    "prediction": "他通过租出房子的一个房间来赚取额外的钱。",
+    "status": "ok"
+  },
+  {
+    "id": 310,
+    "audio": "/home/ubuntu/project/data/audio/test/310.wav",
+    "reference": "他一在人群中看到我，就叫我下来。",
+    "prediction": "他一看到我就叫我下来。",
+    "status": "ok"
+  },
+  {
+    "id": 311,
+    "audio": "/home/ubuntu/project/data/audio/test/311.wav",
+    "reference": "在此期间，三名家庭成员离开了该团体。",
+    "prediction": "在此期间，有三名家庭成员离开了集团。",
+    "status": "ok"
+  },
+  {
+    "id": 312,
+    "audio": "/home/ubuntu/project/data/audio/test/312.wav",
+    "reference": "要校准运动捕捉系统，请做一个丁字造型。",
+    "prediction": "为了校准运动捕捉系统，请做一个T形姿势。",
+    "status": "ok"
+  },
+  {
+    "id": 313,
+    "audio": "/home/ubuntu/project/data/audio/test/313.wav",
+    "reference": "集装箱的高度、长度和宽度是多少？",
+    "prediction": "容器的高度、长度和宽度是什么？",
+    "status": "ok"
+  },
+  {
+    "id": 314,
+    "audio": "/home/ubuntu/project/data/audio/test/314.wav",
+    "reference": "与连奏相反的短而明显尖锐的风格。",
+    "prediction": "一种短、清晰、尖锐的风格，与“拖沓”相反。",
+    "status": "ok"
+  },
+  {
+    "id": 315,
+    "audio": "/home/ubuntu/project/data/audio/test/315.wav",
+    "reference": "这迫使许多居民逃离城市。",
+    "prediction": "这迫使许多居民逃离城市。",
+    "status": "ok"
+  },
+  {
+    "id": 316,
+    "audio": "/home/ubuntu/project/data/audio/test/316.wav",
+    "reference": "当人们睡觉的时候，房子的上部窗户里有灯光。",
+    "prediction": "人们睡觉时，房子的上层窗户里还亮着灯。",
+    "status": "ok"
+  },
+  {
+    "id": 317,
+    "audio": "/home/ubuntu/project/data/audio/test/317.wav",
+    "reference": "我听到的是什么！",
+    "prediction": "这里有个什么东西。",
+    "status": "ok"
+  },
+  {
+    "id": 318,
+    "audio": "/home/ubuntu/project/data/audio/test/318.wav",
+    "reference": "Anna Austen 询问了“头韵”这个词的含义。",
+    "prediction": "Anna Olson询问单词“ alliteration”的接受度。",
+    "status": "ok"
+  },
+  {
+    "id": 319,
+    "audio": "/home/ubuntu/project/data/audio/test/319.wav",
+    "reference": "你认识硅谷的亿万富翁吗？",
+    "prediction": "你知道 Slickum Valley 堡垒在哪里吗？",
+    "status": "ok"
+  },
+  {
+    "id": 320,
+    "audio": "/home/ubuntu/project/data/audio/test/320.wav",
+    "reference": "他注意到它表面的不均匀冷却。",
+    "prediction": "他注意到它的表面正在以同样的速度冷却。",
+    "status": "ok"
+  },
+  {
+    "id": 321,
+    "audio": "/home/ubuntu/project/data/audio/test/321.wav",
+    "reference": "她坐不住了。",
+    "prediction": "她不能静坐。",
+    "status": "ok"
+  },
+  {
+    "id": 322,
+    "audio": "/home/ubuntu/project/data/audio/test/322.wav",
+    "reference": "它看起来如此安全和宁静。",
+    "prediction": "它看起来如此安全，如此平静。",
+    "status": "ok"
+  },
+  {
+    "id": 323,
+    "audio": "/home/ubuntu/project/data/audio/test/323.wav",
+    "reference": "我只读过鸟儿想告诉我的东西。",
+    "prediction": "我只读鸟儿想让我读的东西。",
+    "status": "ok"
+  },
+  {
+    "id": 324,
+    "audio": "/home/ubuntu/project/data/audio/test/324.wav",
+    "reference": "请谦虚点。",
+    "prediction": "请谦虚！",
+    "status": "ok"
+  },
+  {
+    "id": 325,
+    "audio": "/home/ubuntu/project/data/audio/test/325.wav",
+    "reference": "您组织中的其他人可能对他们的愿望有所了解吗？",
+    "prediction": "您组织中的其他人是否对他们的愿望有所了解？",
+    "status": "ok"
+  },
+  {
+    "id": 326,
+    "audio": "/home/ubuntu/project/data/audio/test/326.wav",
+    "reference": "建筑工人把砖放在木板上，这样它就会弯曲成形。",
+    "prediction": "建造者将砖块放在木板上，使其弯曲成形。",
+    "status": "ok"
+  },
+  {
+    "id": 327,
+    "audio": "/home/ubuntu/project/data/audio/test/327.wav",
+    "reference": "音量不会再增加了。",
+    "prediction": "体积会进一步增大。",
+    "status": "ok"
+  },
+  {
+    "id": 328,
+    "audio": "/home/ubuntu/project/data/audio/test/328.wav",
+    "reference": "我告诉过你的，你的梦想很难实现。",
+    "prediction": "我告诉你，那是个艰难的梦想。",
+    "status": "ok"
+  },
+  {
+    "id": 329,
+    "audio": "/home/ubuntu/project/data/audio/test/329.wav",
+    "reference": "\"我应该了解翡翠石碑吗？\"男孩问道。",
+    "prediction": "“我可以理解《皇帝的平板电脑》吗？”男孩问。",
+    "status": "ok"
+  },
+  {
+    "id": 330,
+    "audio": "/home/ubuntu/project/data/audio/test/330.wav",
+    "reference": "飞往澳大利亚的航班很长。",
+    "prediction": "飞往澳大利亚的航班很长。",
+    "status": "ok"
+  },
+  {
+    "id": 331,
+    "audio": "/home/ubuntu/project/data/audio/test/331.wav",
+    "reference": "我无法判断她的行为，但我相信她是对的。",
+    "prediction": "我无法评判她的行为，但我相信她是正确的。",
+    "status": "ok"
+  },
+  {
+    "id": 332,
+    "audio": "/home/ubuntu/project/data/audio/test/332.wav",
+    "reference": "这些从 Mauchline 到怀特岛。",
+    "prediction": "这些人从马孔来到雷伊。",
+    "status": "ok"
+  },
+  {
+    "id": 333,
+    "audio": "/home/ubuntu/project/data/audio/test/333.wav",
+    "reference": "它的座右铭，在标题下面的铭牌上，是美国最伟大的报纸之一。",
+    "prediction": "名称下方标有“美国伟大的报纸之一”座右铭。",
+    "status": "ok"
+  },
+  {
+    "id": 334,
+    "audio": "/home/ubuntu/project/data/audio/test/334.wav",
+    "reference": "篱笆另一边的草总是更绿。",
+    "prediction": "这山望着那山高。",
+    "status": "ok"
+  },
+  {
+    "id": 335,
+    "audio": "/home/ubuntu/project/data/audio/test/335.wav",
+    "reference": "你怎么了？",
+    "prediction": "你怎么了？",
+    "status": "ok"
+  },
+  {
+    "id": 336,
+    "audio": "/home/ubuntu/project/data/audio/test/336.wav",
+    "reference": "他听到一个低沉的光栅声，看到黑色的标记向前跳动了一英寸左右。",
+    "prediction": "他的额头和太阳穴上几乎有弹痕。",
+    "status": "ok"
+  },
+  {
+    "id": 337,
+    "audio": "/home/ubuntu/project/data/audio/test/337.wav",
+    "reference": "因为当时，他没有想到它可能是空心的。",
+    "prediction": "直到那时，他才想到，它可能是空的。",
+    "status": "ok"
+  },
+  {
+    "id": 338,
+    "audio": "/home/ubuntu/project/data/audio/test/338.wav",
+    "reference": "别担心，我是坐出租车安全到家的。",
+    "prediction": "别担心，我让你安全回家。",
+    "status": "ok"
+  },
+  {
+    "id": 339,
+    "audio": "/home/ubuntu/project/data/audio/test/339.wav",
+    "reference": "那完全是另一回事。",
+    "prediction": "那是另一回事。",
+    "status": "ok"
+  },
+  {
+    "id": 340,
+    "audio": "/home/ubuntu/project/data/audio/test/340.wav",
+    "reference": "是什么让你这么做的？",
+    "prediction": "你怎么能这样做？",
+    "status": "ok"
+  },
+  {
+    "id": 341,
+    "audio": "/home/ubuntu/project/data/audio/test/341.wav",
+    "reference": "Harry 大声呻吟着；我们失去了他。",
+    "prediction": "Harry 大声说道：“我们输了！”",
+    "status": "ok"
+  },
+  {
+    "id": 342,
+    "audio": "/home/ubuntu/project/data/audio/test/342.wav",
+    "reference": "即使有夜视镜，也看不到目标。",
+    "prediction": "即使使用夜视镜，也没有目标出现。",
+    "status": "ok"
+  },
+  {
+    "id": 343,
+    "audio": "/home/ubuntu/project/data/audio/test/343.wav",
+    "reference": "你的家人对此有什么看法？",
+    "prediction": "你的家人对它有什么看法？",
+    "status": "ok"
+  },
+  {
+    "id": 344,
+    "audio": "/home/ubuntu/project/data/audio/test/344.wav",
+    "reference": "我会增加一个单独的小节来处理这个方面。",
+    "prediction": "我会添加一个单独的子部分来处理这方面。",
+    "status": "ok"
+  },
+  {
+    "id": 345,
+    "audio": "/home/ubuntu/project/data/audio/test/345.wav",
+    "reference": "干线在木制栈桥上继续运行。",
+    "prediction": "干线的运营继续在木制铁轨上进行。",
+    "status": "ok"
+  },
+  {
+    "id": 346,
+    "audio": "/home/ubuntu/project/data/audio/test/346.wav",
+    "reference": "其他 14 个校区是两年制校区，统称为大学学院。",
+    "prediction": "其他14个校区是两年制校区，统称为大学学院。",
+    "status": "ok"
+  },
+  {
+    "id": 347,
+    "audio": "/home/ubuntu/project/data/audio/test/347.wav",
+    "reference": "他想，可惜他很快就会忘记我的名字。",
+    "prediction": "太糟糕了，他很快就会忘记我的名字。",
+    "status": "ok"
+  },
+  {
+    "id": 348,
+    "audio": "/home/ubuntu/project/data/audio/test/348.wav",
+    "reference": "画廊里的一幅画展示了劳作的奴隶如何竖立汤普森上将的雕像。",
+    "prediction": "画廊中的一幅图片展示了如何在汤普森上将雕像上安装雨篷。",
+    "status": "ok"
+  },
+  {
+    "id": 349,
+    "audio": "/home/ubuntu/project/data/audio/test/349.wav",
+    "reference": "帝国饮食",
+    "prediction": "帝国议会",
+    "status": "ok"
+  },
+  {
+    "id": 350,
+    "audio": "/home/ubuntu/project/data/audio/test/350.wav",
+    "reference": "比特币挖掘可以通过绘图卡或专用硬件来完成。",
+    "prediction": "比特币挖矿可以通过图形卡或专用硬件来完成。",
+    "status": "ok"
+  },
+  {
+    "id": 351,
+    "audio": "/home/ubuntu/project/data/audio/test/351.wav",
+    "reference": "我告诉了他，他取代了我的位置。",
+    "prediction": "然后我告诉他，他接替了我的位置。",
+    "status": "ok"
+  },
+  {
+    "id": 352,
+    "audio": "/home/ubuntu/project/data/audio/test/352.wav",
+    "reference": "我想我会给孩子们一个惊喜。",
+    "prediction": "我以为孩子们可以吃点甜食。",
+    "status": "ok"
+  },
+  {
+    "id": 353,
+    "audio": "/home/ubuntu/project/data/audio/test/353.wav",
+    "reference": "捏住你的鼻子，防止气味破坏你的运动功能。",
+    "prediction": "屏住呼吸，以免散发的气味使您无法移动。",
+    "status": "ok"
+  },
+  {
+    "id": 354,
+    "audio": "/home/ubuntu/project/data/audio/test/354.wav",
+    "reference": "这听起来像是他们的问题。",
+    "prediction": "这似乎是个问题。",
+    "status": "ok"
+  },
+  {
+    "id": 355,
+    "audio": "/home/ubuntu/project/data/audio/test/355.wav",
+    "reference": "你怎么能这么说？",
+    "prediction": "你怎么这么说？",
+    "status": "ok"
+  },
+  {
+    "id": 356,
+    "audio": "/home/ubuntu/project/data/audio/test/356.wav",
+    "reference": "在英格兰仅有的两局中，他击出两记三柱，因为边锋被全面击败。",
+    "prediction": "他声称在英格兰仅两个回合中就击中了两个六分。",
+    "status": "ok"
+  },
+  {
+    "id": 357,
+    "audio": "/home/ubuntu/project/data/audio/test/357.wav",
+    "reference": "在从政之前，Williams 是一名非常成功的律师和商人。",
+    "prediction": "在开始政治生涯之前，Williams 是一名非常成功的律师和商人。",
+    "status": "ok"
+  },
+  {
+    "id": 358,
+    "audio": "/home/ubuntu/project/data/audio/test/358.wav",
+    "reference": "我在那里的时候，有些人走了，有些人来了。",
+    "prediction": "有些人离开了，而另一些人来了。",
+    "status": "ok"
+  },
+  {
+    "id": 359,
+    "audio": "/home/ubuntu/project/data/audio/test/359.wav",
+    "reference": "Tobias 试图在他的语气中注入轻蔑。",
+    "prediction": "托比亚斯试图在语气中掩饰蔑视。",
+    "status": "ok"
+  },
+  {
+    "id": 360,
+    "audio": "/home/ubuntu/project/data/audio/test/360.wav",
+    "reference": "这个星期六我必须工作。",
+    "prediction": "我星期六得工作。",
+    "status": "ok"
+  },
+  {
+    "id": 361,
+    "audio": "/home/ubuntu/project/data/audio/test/361.wav",
+    "reference": "伟大的统治者们发现吱吱作响的壁炉令他们心烦意乱。",
+    "prediction": "不幸的是，地板上的滑垫正在发出刺耳的声音。",
+    "status": "ok"
+  },
+  {
+    "id": 362,
+    "audio": "/home/ubuntu/project/data/audio/test/362.wav",
+    "reference": "当蒙眼的灰尘已经稍稍落了下来稍停时，那个男孩看到什么东西而发抖。",
+    "prediction": "当Billings倒下时，他卖了一张床；男孩看到的情况让他感到震惊。",
+    "status": "ok"
+  },
+  {
+    "id": 363,
+    "audio": "/home/ubuntu/project/data/audio/test/363.wav",
+    "reference": "生命的早期发展很快。",
+    "prediction": "生活早期阶段的时间过得飞快。",
+    "status": "ok"
+  },
+  {
+    "id": 364,
+    "audio": "/home/ubuntu/project/data/audio/test/364.wav",
+    "reference": "当夜班人员逮捕他时，他透露了自己的新血统。",
+    "prediction": "当午夜班抓住他时，他揭示了他的新出身。",
+    "status": "ok"
+  },
+  {
+    "id": 365,
+    "audio": "/home/ubuntu/project/data/audio/test/365.wav",
+    "reference": "这是瑞典关押着最臭名昭著、最危险的囚犯的三所监狱之一。",
+    "prediction": "它是瑞典三家收容最臭名昭著和危险囚犯的监狱之一。",
+    "status": "ok"
+  },
+  {
+    "id": 366,
+    "audio": "/home/ubuntu/project/data/audio/test/366.wav",
+    "reference": "这些额外的卡片被随机地插入包中。",
+    "prediction": "这些额外的卡片被随机插入到盒子中。",
+    "status": "ok"
+  },
+  {
+    "id": 367,
+    "audio": "/home/ubuntu/project/data/audio/test/367.wav",
+    "reference": "最初，海洛因被认为是“不会上瘾的吗啡替代品”",
+    "prediction": "最初，海洛因被认为是吗啡的非成瘾性替代品。",
+    "status": "ok"
+  },
+  {
+    "id": 368,
+    "audio": "/home/ubuntu/project/data/audio/test/368.wav",
+    "reference": "那些不从历史吸取经验教训的人注定要重蹈覆辙。",
+    "prediction": "那些没有学习历史的人注定要重蹈覆辙。",
+    "status": "ok"
+  },
+  {
+    "id": 369,
+    "audio": "/home/ubuntu/project/data/audio/test/369.wav",
+    "reference": "我不停地盯着它。",
+    "prediction": "我不能停止欣赏它。",
+    "status": "ok"
+  },
+  {
+    "id": 370,
+    "audio": "/home/ubuntu/project/data/audio/test/370.wav",
+    "reference": "如果我们真的想解决它，它是会解决的。",
+    "prediction": "如果我们真的想解决它，它就会解决了。",
+    "status": "ok"
+  },
+  {
+    "id": 371,
+    "audio": "/home/ubuntu/project/data/audio/test/371.wav",
+    "reference": "无花果树的果实是苹果形的。",
+    "prediction": "无花果是梨形的。",
+    "status": "ok"
+  },
+  {
+    "id": 372,
+    "audio": "/home/ubuntu/project/data/audio/test/372.wav",
+    "reference": "公平交易不是抢劫。",
+    "prediction": "公平交易不是抢劫。",
+    "status": "ok"
+  },
+  {
+    "id": 373,
+    "audio": "/home/ubuntu/project/data/audio/test/373.wav",
+    "reference": "你今天吃的东西，明天就能走路说话。",
+    "prediction": "今天吃什么，明天就长什么样子。",
+    "status": "ok"
+  },
+  {
+    "id": 374,
+    "audio": "/home/ubuntu/project/data/audio/test/374.wav",
+    "reference": "你为什么不说些什么？",
+    "prediction": "你为什么不说话？",
+    "status": "ok"
+  },
+  {
+    "id": 375,
+    "audio": "/home/ubuntu/project/data/audio/test/375.wav",
+    "reference": "你见过奥马尔吗？",
+    "prediction": "你见过奥马尔吗？",
+    "status": "ok"
+  },
+  {
+    "id": 376,
+    "audio": "/home/ubuntu/project/data/audio/test/376.wav",
+    "reference": "我可以连续几天谈论世界这一地区出产的美味葡萄酒。",
+    "prediction": "我可以继续讲述这个地区生产的美味葡萄酒。",
+    "status": "ok"
+  },
+  {
+    "id": 377,
+    "audio": "/home/ubuntu/project/data/audio/test/377.wav",
+    "reference": "该法案并没有禁止花钱请代理人出庭。",
+    "prediction": "该法案不排除向出席法庭的代表支付费用。",
+    "status": "ok"
+  },
+  {
+    "id": 378,
+    "audio": "/home/ubuntu/project/data/audio/test/378.wav",
+    "reference": "Lombardi 出生在 Frugarolo，它是皮埃蒙特的一个小镇。",
+    "prediction": "Lombardi出生于皮埃蒙特的Friggino小镇。",
+    "status": "ok"
+  },
+  {
+    "id": 379,
+    "audio": "/home/ubuntu/project/data/audio/test/379.wav",
+    "reference": "我们可以走了吗？",
+    "prediction": "你能给我举个例子吗？",
+    "status": "ok"
+  },
+  {
+    "id": 380,
+    "audio": "/home/ubuntu/project/data/audio/test/380.wav",
+    "reference": "Turpin 接替了 Indira Samarasekera，后者见证了该大学的强劲发展。",
+    "prediction": "Turpin 接任了 Indira Samarasekera 的职务，她在任期间，大学经历了快速的发展。",
+    "status": "ok"
+  },
+  {
+    "id": 381,
+    "audio": "/home/ubuntu/project/data/audio/test/381.wav",
+    "reference": "我在这里，在我的羊群和我的财宝之间，男孩想。",
+    "prediction": "“我正站在我的羊群和我的面包之间”，男孩想。",
+    "status": "ok"
+  },
+  {
+    "id": 382,
+    "audio": "/home/ubuntu/project/data/audio/test/382.wav",
+    "reference": "为什么那架飞机一直飞过？",
+    "prediction": "那架飞机为什么一直飞过不去？",
+    "status": "ok"
+  },
+  {
+    "id": 383,
+    "audio": "/home/ubuntu/project/data/audio/test/383.wav",
+    "reference": "我以前用 VirtualBox 做过这个，效果很好。",
+    "prediction": "我以前用 VirtualBox 做过，结果很好。",
+    "status": "ok"
+  },
+  {
+    "id": 384,
+    "audio": "/home/ubuntu/project/data/audio/test/384.wav",
+    "reference": "你晚餐吃了什么？",
+    "prediction": "他晚饭吃了什么？",
+    "status": "ok"
+  },
+  {
+    "id": 385,
+    "audio": "/home/ubuntu/project/data/audio/test/385.wav",
+    "reference": "然后它回到教堂，在圣坛上升并消失。",
+    "prediction": "然后他回到教堂，爬上祭坛消失了。",
+    "status": "ok"
+  },
+  {
+    "id": 386,
+    "audio": "/home/ubuntu/project/data/audio/test/386.wav",
+    "reference": "你不能失去你从未拥有的东西。",
+    "prediction": "你无法失去你从未拥有过的东西。",
+    "status": "ok"
+  },
+  {
+    "id": 387,
+    "audio": "/home/ubuntu/project/data/audio/test/387.wav",
+    "reference": "那是他们想要的东西。",
+    "prediction": "那是他们想要的东西。",
+    "status": "ok"
+  },
+  {
+    "id": 388,
+    "audio": "/home/ubuntu/project/data/audio/test/388.wav",
+    "reference": "抱最大的希望，做最坏的打算。",
+    "prediction": "抱最好的希望，做最坏的准备。",
+    "status": "ok"
+  },
+  {
+    "id": 389,
+    "audio": "/home/ubuntu/project/data/audio/test/389.wav",
+    "reference": "最初，减肥完全是通过饮食来实现的。",
+    "prediction": "最初，体重通过饮食严格控制。",
+    "status": "ok"
+  },
+  {
+    "id": 390,
+    "audio": "/home/ubuntu/project/data/audio/test/390.wav",
+    "reference": "明天会下雨吗？",
+    "prediction": "明天会下雨吗？",
+    "status": "ok"
+  },
+  {
+    "id": 391,
+    "audio": "/home/ubuntu/project/data/audio/test/391.wav",
+    "reference": "比弗河短暂地流入该镇的中东部。",
+    "prediction": "比弗河很快进入小镇的东北部。",
+    "status": "ok"
+  },
+  {
+    "id": 392,
+    "audio": "/home/ubuntu/project/data/audio/test/392.wav",
+    "reference": "这座桥被那里的联军非正式地称为“黑水桥”。",
+    "prediction": "这座桥被联军称为“黑水桥”。",
+    "status": "ok"
+  },
+  {
+    "id": 393,
+    "audio": "/home/ubuntu/project/data/audio/test/393.wav",
+    "reference": "“这是这项工作的第一阶段，”他说。",
+    "prediction": "“这是工作的第一阶段，”他说。",
+    "status": "ok"
+  },
+  {
+    "id": 394,
+    "audio": "/home/ubuntu/project/data/audio/test/394.wav",
+    "reference": "两条大狗正在沙地里奔跑。",
+    "prediction": "两只大狗在沙子里跑。",
+    "status": "ok"
+  },
+  {
+    "id": 395,
+    "audio": "/home/ubuntu/project/data/audio/test/395.wav",
+    "reference": "演员真实的面部表情让陪审团信服。",
+    "prediction": "演员逼真的面部表情说服了陪审团。",
+    "status": "ok"
+  },
+  {
+    "id": 396,
+    "audio": "/home/ubuntu/project/data/audio/test/396.wav",
+    "reference": "这是 Neal Morse 写的所有歌曲，注明的除外。",
+    "prediction": "除非另有说明，否则所有歌曲均由Neal Morse创作。",
+    "status": "ok"
+  },
+  {
+    "id": 397,
+    "audio": "/home/ubuntu/project/data/audio/test/397.wav",
+    "reference": "Kirsten 耸了耸肩。",
+    "prediction": "Kirsten 耸了耸肩。",
+    "status": "ok"
+  },
+  {
+    "id": 398,
+    "audio": "/home/ubuntu/project/data/audio/test/398.wav",
+    "reference": "保守党在各省的席位减少至 7 席，肯尼迪仍然是反对党成员。",
+    "prediction": "保守党在省级失去了7个席位，肯尼迪仍然是反对党成员。",
+    "status": "ok"
+  },
+  {
+    "id": 399,
+    "audio": "/home/ubuntu/project/data/audio/test/399.wav",
+    "reference": "她蹲下来系鞋带，发现了一棵四叶草。",
+    "prediction": "她蹲下来系鞋带，看到一个无家可归的人。",
+    "status": "ok"
+  },
+  {
+    "id": 400,
+    "audio": "/home/ubuntu/project/data/audio/test/400.wav",
+    "reference": "这座城市以其中一个殖民者——Phanagoras 命名。",
+    "prediction": "这座城市以其中一座殖民地费纳格勒斯的名字命名。",
+    "status": "ok"
+  },
+  {
+    "id": 401,
+    "audio": "/home/ubuntu/project/data/audio/test/401.wav",
+    "reference": "从第一个分数猜测结果。",
+    "prediction": "根据第一个原因，推测结果。",
+    "status": "ok"
+  },
+  {
+    "id": 402,
+    "audio": "/home/ubuntu/project/data/audio/test/402.wav",
+    "reference": "我可以用现金支付吗？",
+    "prediction": "我可以付现金吗？",
+    "status": "ok"
+  },
+  {
+    "id": 403,
+    "audio": "/home/ubuntu/project/data/audio/test/403.wav",
+    "reference": "如果你告诉我你为什么来这里，我会给你看我一直在做的项目。",
+    "prediction": "如果你告诉我你为什么在这里，我会展示我正在做的项目。",
+    "status": "ok"
+  },
+  {
+    "id": 404,
+    "audio": "/home/ubuntu/project/data/audio/test/404.wav",
+    "reference": "我很害怕，但还是不失时机地出去，穿过桥来到这些沙坑。",
+    "prediction": "我是个学生，但没有浪费时间走在去慈善商店的路上。",
+    "status": "ok"
+  },
+  {
+    "id": 405,
+    "audio": "/home/ubuntu/project/data/audio/test/405.wav",
+    "reference": "由于它的路径，科学家理论上认为科胡特克彗星是奥尔特云物体。",
+    "prediction": "由于其路径，科学家理论上认为Coteac是奥尔特云天体。",
+    "status": "ok"
+  },
+  {
+    "id": 406,
+    "audio": "/home/ubuntu/project/data/audio/test/406.wav",
+    "reference": "不要把明天需要的东西用在今天。",
+    "prediction": "今天不行动，明天再打算。",
+    "status": "ok"
+  },
+  {
+    "id": 407,
+    "audio": "/home/ubuntu/project/data/audio/test/407.wav",
+    "reference": "一点点就能治好最顽固的感冒。",
+    "prediction": "闻起来能治好最顽固的感冒。",
+    "status": "ok"
+  },
+  {
+    "id": 408,
+    "audio": "/home/ubuntu/project/data/audio/test/408.wav",
+    "reference": "贯穿整个课程的写作是一项全校性的举措。",
+    "prediction": "全盘教学写作是一个学校层面的举措。",
+    "status": "ok"
+  },
+  {
+    "id": 409,
+    "audio": "/home/ubuntu/project/data/audio/test/409.wav",
+    "reference": "江山易改，本性难移。",
+    "prediction": "豹子不会改变它的斑点。",
+    "status": "ok"
+  },
+  {
+    "id": 410,
+    "audio": "/home/ubuntu/project/data/audio/test/410.wav",
+    "reference": "她骑车回家，一路上面带微笑，知道自己赢了。",
+    "prediction": "她一路微笑着跑回家，知道自己赢了。",
+    "status": "ok"
+  },
+  {
+    "id": 411,
+    "audio": "/home/ubuntu/project/data/audio/test/411.wav",
+    "reference": "他的手擦伤了，他筋疲力尽，但他倾听自己的心声。",
+    "prediction": "他的手又红又肿，但他还是听从了心脏的跳动。",
+    "status": "ok"
+  },
+  {
+    "id": 412,
+    "audio": "/home/ubuntu/project/data/audio/test/412.wav",
+    "reference": "这是一个旅游目的地，允许钓鱼、露营和进行其他活动。",
+    "prediction": "这是旅游胜地，允许钓鱼、露营和其他活动。",
+    "status": "ok"
+  },
+  {
+    "id": 413,
+    "audio": "/home/ubuntu/project/data/audio/test/413.wav",
+    "reference": "对此我很抱歉。",
+    "prediction": "我为此感到难过。",
+    "status": "ok"
+  },
+  {
+    "id": 414,
+    "audio": "/home/ubuntu/project/data/audio/test/414.wav",
+    "reference": "桌子上装饰着奢华的装饰品。",
+    "prediction": "桌子装饰华丽。",
+    "status": "ok"
+  },
+  {
+    "id": 415,
+    "audio": "/home/ubuntu/project/data/audio/test/415.wav",
+    "reference": "男孩看着周围的椰枣树。",
+    "prediction": "男孩在他们跳舞时看着周围。",
+    "status": "ok"
+  },
+  {
+    "id": 416,
+    "audio": "/home/ubuntu/project/data/audio/test/416.wav",
+    "reference": "“永远不要出现在一根绿枝上”不要在这个世界上混下去。",
+    "prediction": "一根小树枝也不掉到世界上。",
+    "status": "ok"
+  },
+  {
+    "id": 417,
+    "audio": "/home/ubuntu/project/data/audio/test/417.wav",
+    "reference": "他们的存在是必要的，因为该地区发生了强烈的内乱。",
+    "prediction": "该地区存在强烈的公民不信任情绪，因此他们的出现是必要的。",
+    "status": "ok"
+  },
+  {
+    "id": 418,
+    "audio": "/home/ubuntu/project/data/audio/test/418.wav",
+    "reference": "报纸上的文章使每个人都为接受这个理念做好了准备。",
+    "prediction": "报纸文章使所有人都做好了思想准备。",
+    "status": "ok"
+  },
+  {
+    "id": 419,
+    "audio": "/home/ubuntu/project/data/audio/test/419.wav",
+    "reference": "Attock 校园在短时间内获得了值得称赞的声誉。",
+    "prediction": "阿多卡校园在短时间内赢得了良好的声誉。",
+    "status": "ok"
+  },
+  {
+    "id": 420,
+    "audio": "/home/ubuntu/project/data/audio/test/420.wav",
+    "reference": "Braddock 高地是米德尔顿学区的一部分。",
+    "prediction": "Braddock Heights是米德尔顿学区的一部分。",
+    "status": "ok"
+  },
+  {
+    "id": 421,
+    "audio": "/home/ubuntu/project/data/audio/test/421.wav",
+    "reference": "不在队伍里的人，预备役，民兵，没关系，再见",
+    "prediction": "没有包括在行中的男人，他们代表了“民兵，别在意。”",
+    "status": "ok"
+  },
+  {
+    "id": 422,
+    "audio": "/home/ubuntu/project/data/audio/test/422.wav",
+    "reference": "赛季结束后，他成为了自由球员。",
+    "prediction": "赛季结束后，他成为自由球员。",
+    "status": "ok"
+  },
+  {
+    "id": 423,
+    "audio": "/home/ubuntu/project/data/audio/test/423.wav",
+    "reference": "他被 Nicaea 杀死了。",
+    "prediction": "他被尼凯亚杀死。",
+    "status": "ok"
+  },
+  {
+    "id": 424,
+    "audio": "/home/ubuntu/project/data/audio/test/424.wav",
+    "reference": "阳光照射在树篱的两边。",
+    "prediction": "阳光照亮了篱笆的两边。",
+    "status": "ok"
+  },
+  {
+    "id": 425,
+    "audio": "/home/ubuntu/project/data/audio/test/425.wav",
+    "reference": "很难将一些必要的和平凡的事情与我感兴趣的事情相提并论。",
+    "prediction": "很难将必要的事情与令人兴奋的事情进行比较。",
+    "status": "ok"
+  },
+  {
+    "id": 426,
+    "audio": "/home/ubuntu/project/data/audio/test/426.wav",
+    "reference": "莱格兰家族的淀粉生产也很兴旺。",
+    "prediction": "Lagrene家族还拥有一家繁荣的淀粉制造厂。",
+    "status": "ok"
+  },
+  {
+    "id": 427,
+    "audio": "/home/ubuntu/project/data/audio/test/427.wav",
+    "reference": "你在哪里找到那个苹果的？",
+    "prediction": "你觉得苹果怎么样？",
+    "status": "ok"
+  },
+  {
+    "id": 428,
+    "audio": "/home/ubuntu/project/data/audio/test/428.wav",
+    "reference": "他们现在在哪里？",
+    "prediction": "他们现在在哪里？",
+    "status": "ok"
+  },
+  {
+    "id": 429,
+    "audio": "/home/ubuntu/project/data/audio/test/429.wav",
+    "reference": "又一口锅！试试茶壶。",
+    "prediction": "再试一次：用茶壶。",
+    "status": "ok"
+  },
+  {
+    "id": 430,
+    "audio": "/home/ubuntu/project/data/audio/test/430.wav",
+    "reference": "Miller 后来写道，该战略在理论上是完美的。",
+    "prediction": "Miller后来写道，该策略在理论上是完美的。",
+    "status": "ok"
+  },
+  {
+    "id": 431,
+    "audio": "/home/ubuntu/project/data/audio/test/431.wav",
+    "reference": "那只该死的老鼠能感觉到我的愤怒。",
+    "prediction": "那只该死的老鼠知道我很生气！",
+    "status": "ok"
+  },
+  {
+    "id": 432,
+    "audio": "/home/ubuntu/project/data/audio/test/432.wav",
+    "reference": "你知道，很明显，礼物是免费的。",
+    "prediction": "你知道礼物的定义吗？礼物就是免费的。",
+    "status": "ok"
+  },
+  {
+    "id": 433,
+    "audio": "/home/ubuntu/project/data/audio/test/433.wav",
+    "reference": "穿过埃芬厄姆，就是费耶特大街和柳树街。",
+    "prediction": "穿过埃夫林汉姆，经过法吉特大道和柳树街。",
+    "status": "ok"
+  },
+  {
+    "id": 434,
+    "audio": "/home/ubuntu/project/data/audio/test/434.wav",
+    "reference": "这位艺术家弄错了秘鲁和厄瓜多尔的边界。",
+    "prediction": "这位艺术家在秘鲁和厄瓜多尔之间画错了边界。",
+    "status": "ok"
+  },
+  {
+    "id": 435,
+    "audio": "/home/ubuntu/project/data/audio/test/435.wav",
+    "reference": "它沿着湖泊、池塘、溪流和沼泽的边缘生长。",
+    "prediction": "它生长在湖泊、池塘、溪流和沼泽的边缘。",
+    "status": "ok"
+  },
+  {
+    "id": 436,
+    "audio": "/home/ubuntu/project/data/audio/test/436.wav",
+    "reference": "令她惊讶的是，她发现一辆超市手推车沉在海底。",
+    "prediction": "令她惊讶的是，她发现超级市场购物车沉到了海底。",
+    "status": "ok"
+  },
+  {
+    "id": 437,
+    "audio": "/home/ubuntu/project/data/audio/test/437.wav",
+    "reference": "至少可以说，这个消息令人不寒而栗。",
+    "prediction": "这个名字听起来很可怕。",
+    "status": "ok"
+  },
+  {
+    "id": 438,
+    "audio": "/home/ubuntu/project/data/audio/test/438.wav",
+    "reference": "我有凯尔特血统。",
+    "prediction": "我有凯尔特血统。",
+    "status": "ok"
+  },
+  {
+    "id": 439,
+    "audio": "/home/ubuntu/project/data/audio/test/439.wav",
+    "reference": "那是真的，男孩想。",
+    "prediction": "“不是的。”男孩想。",
+    "status": "ok"
+  },
+  {
+    "id": 440,
+    "audio": "/home/ubuntu/project/data/audio/test/440.wav",
+    "reference": "他们几乎看不见那个男孩。",
+    "prediction": "那个男孩几乎什么也看不见。",
+    "status": "ok"
+  },
+  {
+    "id": 441,
+    "audio": "/home/ubuntu/project/data/audio/test/441.wav",
+    "reference": "太妃糖覆盖了所有的表面，非常粘，令人讨厌。",
+    "prediction": "如果在所有表面上自由滑动，它将是滑溜且粘稠的。",
+    "status": "ok"
+  },
+  {
+    "id": 442,
+    "audio": "/home/ubuntu/project/data/audio/test/442.wav",
+    "reference": "我昨天喝醉了，以为我造了一台超级电脑。",
+    "prediction": "我昨天喝醉了，以为自己是个大人物。",
+    "status": "ok"
+  },
+  {
+    "id": 443,
+    "audio": "/home/ubuntu/project/data/audio/test/443.wav",
+    "reference": "为什么泄水沟盖是圆的？",
+    "prediction": "为什么盖子是圆的？",
+    "status": "ok"
+  },
+  {
+    "id": 444,
+    "audio": "/home/ubuntu/project/data/audio/test/444.wav",
+    "reference": "问卷太简单了。",
+    "prediction": "该调查问卷太简单了。",
+    "status": "ok"
+  },
+  {
+    "id": 445,
+    "audio": "/home/ubuntu/project/data/audio/test/445.wav",
+    "reference": "怎么了？",
+    "prediction": "怎么了？",
+    "status": "ok"
+  },
+  {
+    "id": 446,
+    "audio": "/home/ubuntu/project/data/audio/test/446.wav",
+    "reference": "一会儿。",
+    "prediction": "很快。",
+    "status": "ok"
+  },
+  {
+    "id": 447,
+    "audio": "/home/ubuntu/project/data/audio/test/447.wav",
+    "reference": "尤其是 Liddell Hart 写了许多关于这个主题的书，部分地宣传了 Fuller 的理论。",
+    "prediction": "尤其是Liddell Hart写了许多关于该主题的书籍，部分传播了Fuller的理论。",
+    "status": "ok"
+  },
+  {
+    "id": 448,
+    "audio": "/home/ubuntu/project/data/audio/test/448.wav",
+    "reference": "你最好去找你的朋友。",
+    "prediction": "你最好让你的朋友。",
+    "status": "ok"
+  },
+  {
+    "id": 449,
+    "audio": "/home/ubuntu/project/data/audio/test/449.wav",
+    "reference": "我听说霍比特人居住的地方夏尔实际上是在新西兰拍摄的。",
+    "prediction": "我听到有声音说霍比人实际上是在新西兰被拍摄的。",
+    "status": "ok"
+  },
+  {
+    "id": 450,
+    "audio": "/home/ubuntu/project/data/audio/test/450.wav",
+    "reference": "我希望我能回到医院。",
+    "prediction": "我希望我可以回到医院。",
+    "status": "ok"
+  },
+  {
+    "id": 451,
+    "audio": "/home/ubuntu/project/data/audio/test/451.wav",
+    "reference": "不要按红色按钮！",
+    "prediction": "不要按下红色按钮。",
+    "status": "ok"
+  },
+  {
+    "id": 452,
+    "audio": "/home/ubuntu/project/data/audio/test/452.wav",
+    "reference": "灯饰创造了一种舒适的气氛。",
+    "prediction": "照明营造出一种舒适 atmosphere。",
+    "status": "ok"
+  },
+  {
+    "id": 453,
+    "audio": "/home/ubuntu/project/data/audio/test/453.wav",
+    "reference": "约翰望着橱窗外的房子，很高兴他的抵押贷款得到了批准，但又担心要还的贷款。",
+    "prediction": "约翰从样板房的窗户看出去，对获得按揭批准感到高兴，但又担心每天的付款。",
+    "status": "ok"
+  },
+  {
+    "id": 454,
+    "audio": "/home/ubuntu/project/data/audio/test/454.wav",
+    "reference": "她指出，卢旺达“不是在寻求报复”。",
+    "prediction": "她知道卢旺达不是在寻求报复。",
+    "status": "ok"
+  },
+  {
+    "id": 455,
+    "audio": "/home/ubuntu/project/data/audio/test/455.wav",
+    "reference": "如果有什么事情会出错，那一定会。",
+    "prediction": "如果有什么事可以出差错，那一定会出差错。",
+    "status": "ok"
+  },
+  {
+    "id": 456,
+    "audio": "/home/ubuntu/project/data/audio/test/456.wav",
+    "reference": "我有一个发现了二十美元的孩子的食谱。",
+    "prediction": "我发现我的饮食结构跟小孩一样，都是二十块钱。",
+    "status": "ok"
+  },
+  {
+    "id": 457,
+    "audio": "/home/ubuntu/project/data/audio/test/457.wav",
+    "reference": "一个穿着黄色衬衫的老人站在门口。",
+    "prediction": "一个穿着黄色衬衫的老人站在门口。",
+    "status": "ok"
+  },
+  {
+    "id": 458,
+    "audio": "/home/ubuntu/project/data/audio/test/459.wav",
+    "reference": "凯茜从她的银行账户中取出 210 英镑，",
+    "prediction": "Katie 从银行账户中取出了 210 英镑。",
+    "status": "ok"
+  },
+  {
+    "id": 459,
+    "audio": "/home/ubuntu/project/data/audio/test/460.wav",
+    "reference": "趁晴晒草，抓紧时机。",
+    "prediction": "在阳光明媚时晒干hay。",
+    "status": "ok"
+  },
+  {
+    "id": 460,
+    "audio": "/home/ubuntu/project/data/audio/test/461.wav",
+    "reference": "绝症须用绝药医(在非常时刻必须采取非常手段) 。",
+    "prediction": "治标才能救急。",
+    "status": "ok"
+  },
+  {
+    "id": 461,
+    "audio": "/home/ubuntu/project/data/audio/test/462.wav",
+    "reference": "Henderson 接受了。",
+    "prediction": "亨德森正在接受治疗。",
+    "status": "ok"
+  },
+  {
+    "id": 462,
+    "audio": "/home/ubuntu/project/data/audio/test/463.wav",
+    "reference": "但是我们会推迟的。",
+    "prediction": "但是我们只是假装。",
+    "status": "ok"
+  },
+  {
+    "id": 463,
+    "audio": "/home/ubuntu/project/data/audio/test/464.wav",
+    "reference": "女王会听到你的。",
+    "prediction": "女王会听你的。",
+    "status": "ok"
+  },
+  {
+    "id": 464,
+    "audio": "/home/ubuntu/project/data/audio/test/465.wav",
+    "reference": "我们组演奏吉他，而其他人随机敲击共振物体。",
+    "prediction": "我们的乐队弹吉他，而其他人则随意敲击共振物体。",
+    "status": "ok"
+  },
+  {
+    "id": 465,
+    "audio": "/home/ubuntu/project/data/audio/test/466.wav",
+    "reference": "不闻不问，何所失",
+    "prediction": "没有损失，因为没有要求！",
+    "status": "ok"
+  },
+  {
+    "id": 466,
+    "audio": "/home/ubuntu/project/data/audio/test/467.wav",
+    "reference": "如果 WiFi 是免费的，那就太理想了。",
+    "prediction": "如果无线网络是免费的，那就更好了。",
+    "status": "ok"
+  },
+  {
+    "id": 467,
+    "audio": "/home/ubuntu/project/data/audio/test/468.wav",
+    "reference": "要喝点什么吗?",
+    "prediction": "我可以请你喝一杯吗？",
+    "status": "ok"
+  },
+  {
+    "id": 468,
+    "audio": "/home/ubuntu/project/data/audio/test/469.wav",
+    "reference": "开门进屋脱口而出直截了当地说。",
+    "prediction": "就像直接跳进有门的房子，直言不讳地说出一些东西。",
+    "status": "ok"
+  },
+  {
+    "id": 469,
+    "audio": "/home/ubuntu/project/data/audio/test/470.wav",
+    "reference": "我希望我的孩子长得像你。",
+    "prediction": "我想让我的宝宝看起来像你。",
+    "status": "ok"
+  },
+  {
+    "id": 470,
+    "audio": "/home/ubuntu/project/data/audio/test/471.wav",
+    "reference": "然后两个人又去喝了些茶。",
+    "prediction": "然后，他们俩又继续喝茶了。",
+    "status": "ok"
+  },
+  {
+    "id": 471,
+    "audio": "/home/ubuntu/project/data/audio/test/472.wav",
+    "reference": "一些科学家认为这种振荡信号的起源是中子星。",
+    "prediction": "一些科学家相信这个振荡信号起源于中子星。",
+    "status": "ok"
+  },
+  {
+    "id": 472,
+    "audio": "/home/ubuntu/project/data/audio/test/473.wav",
+    "reference": "我如何关闭这个窗口？",
+    "prediction": "我如何关闭此窗口？",
+    "status": "ok"
+  },
+  {
+    "id": 473,
+    "audio": "/home/ubuntu/project/data/audio/test/474.wav",
+    "reference": "他死于一种神秘的疾病，或者，根据一些消息来源，死于蛇咬伤。",
+    "prediction": "他死于湿疹、耳炎或根据某些资料，死于蛇咬伤。",
+    "status": "ok"
+  },
+  {
+    "id": 474,
+    "audio": "/home/ubuntu/project/data/audio/test/475.wav",
+    "reference": "我已经描述了埋在地下的那个巨大物体的外观。",
+    "prediction": "我已经描述过嵌在地下的庞然大物的外观。",
+    "status": "ok"
+  },
+  {
+    "id": 475,
+    "audio": "/home/ubuntu/project/data/audio/test/476.wav",
+    "reference": "该大学属于智利传统大学校长理事会。",
+    "prediction": "该大学是传统智利大学校董会的成员。",
+    "status": "ok"
+  },
+  {
+    "id": 476,
+    "audio": "/home/ubuntu/project/data/audio/test/477.wav",
+    "reference": "第二天，矿井打开，工作开始了。",
+    "prediction": "第二天，矿山开放，工作开始。",
+    "status": "ok"
+  },
+  {
+    "id": 477,
+    "audio": "/home/ubuntu/project/data/audio/test/478.wav",
+    "reference": "其中一个，Ashur-nadin-apli，将继承他的王位。",
+    "prediction": "其中一人，Arshak Ndetin，将继承他的王位。",
+    "status": "ok"
+  },
+  {
+    "id": 478,
+    "audio": "/home/ubuntu/project/data/audio/test/479.wav",
+    "reference": "通常，镇上的成员用彩色的装饰品和其他东西来装饰街道。",
+    "prediction": "通常，城镇成员会装饰色彩斑斓的装饰品及其他物品，来装饰城镇街道。",
+    "status": "ok"
+  },
+  {
+    "id": 479,
+    "audio": "/home/ubuntu/project/data/audio/test/480.wav",
+    "reference": "男孩骄傲地仰起头。",
+    "prediction": "这个男孩自豪地后退了一步。",
+    "status": "ok"
+  },
+  {
+    "id": 480,
+    "audio": "/home/ubuntu/project/data/audio/test/481.wav",
+    "reference": "他突然想起，在 Tarifa，有一个老女人解梦。",
+    "prediction": "他突然想起，在塔拉法尔有一个老妇人可以解释他的梦。",
+    "status": "ok"
+  },
+  {
+    "id": 481,
+    "audio": "/home/ubuntu/project/data/audio/test/482.wav",
+    "reference": "没有人注意他。",
+    "prediction": "没有人注意他。",
+    "status": "ok"
+  },
+  {
+    "id": 482,
+    "audio": "/home/ubuntu/project/data/audio/test/483.wav",
+    "reference": "我离开了我的父亲、母亲和城堡。",
+    "prediction": "我离开了我的父亲、母亲和镇上的警察。",
+    "status": "ok"
+  },
+  {
+    "id": 483,
+    "audio": "/home/ubuntu/project/data/audio/test/484.wav",
+    "reference": "Stout 的政治生涯始于他当选奥塔哥省议会议员。",
+    "prediction": "Stawell 的政治生涯始于当选奥塔哥省政府。",
+    "status": "ok"
+  },
+  {
+    "id": 484,
+    "audio": "/home/ubuntu/project/data/audio/test/485.wav",
+    "reference": "这个男孩当然不会给面包师带来那种焦虑。",
+    "prediction": "这个男孩当然可以防止引起面包师的这种焦虑。",
+    "status": "ok"
+  },
+  {
+    "id": 485,
+    "audio": "/home/ubuntu/project/data/audio/test/486.wav",
+    "reference": "假宝石闪闪发光，但价格低廉。",
+    "prediction": "假宝石闪闪发光，但成本却很小。",
+    "status": "ok"
+  },
+  {
+    "id": 486,
+    "audio": "/home/ubuntu/project/data/audio/test/487.wav",
+    "reference": "世界上最大的问题之一是人口的增长。",
+    "prediction": "世界最大的问题之一是人口的增长。",
+    "status": "ok"
+  },
+  {
+    "id": 487,
+    "audio": "/home/ubuntu/project/data/audio/test/488.wav",
+    "reference": "你是谁？",
+    "prediction": "你是谁？",
+    "status": "ok"
+  },
+  {
+    "id": 488,
+    "audio": "/home/ubuntu/project/data/audio/test/489.wav",
+    "reference": "开庭日期尚未确定。",
+    "prediction": "尚未确定开庭日期。",
+    "status": "ok"
+  },
+  {
+    "id": 489,
+    "audio": "/home/ubuntu/project/data/audio/test/490.wav",
+    "reference": "他说的话让男孩想起了老国王。",
+    "prediction": "他说的话使男孩想起了老国王。",
+    "status": "ok"
+  },
+  {
+    "id": 490,
+    "audio": "/home/ubuntu/project/data/audio/test/491.wav",
+    "reference": "在这一点上我需要参考下我的笔记。",
+    "prediction": "我现在需要参考我的笔记。",
+    "status": "ok"
+  },
+  {
+    "id": 491,
+    "audio": "/home/ubuntu/project/data/audio/test/492.wav",
+    "reference": "男孩笑了——出于幸福。",
+    "prediction": "男孩开心地笑了。",
+    "status": "ok"
+  },
+  {
+    "id": 492,
+    "audio": "/home/ubuntu/project/data/audio/test/493.wav",
+    "reference": "遥控锁住我的车。",
+    "prediction": "我们计划参加。",
+    "status": "ok"
+  },
+  {
+    "id": 493,
+    "audio": "/home/ubuntu/project/data/audio/test/494.wav",
+    "reference": "嘿，你说呢？",
+    "prediction": "嗨，你在说什么？",
+    "status": "ok"
+  },
+  {
+    "id": 494,
+    "audio": "/home/ubuntu/project/data/audio/test/495.wav",
+    "reference": "他后来怎么样了？",
+    "prediction": "他后来怎么样了？",
+    "status": "ok"
+  },
+  {
+    "id": 495,
+    "audio": "/home/ubuntu/project/data/audio/test/496.wav",
+    "reference": "比较校验和以验证其完整性。",
+    "prediction": "比较校验和以验证其完整性。",
+    "status": "ok"
+  },
+  {
+    "id": 496,
+    "audio": "/home/ubuntu/project/data/audio/test/497.wav",
+    "reference": "“你为什么想见我？”男孩问道。",
+    "prediction": "他小声问：“你为什么想见我？”",
+    "status": "ok"
+  },
+  {
+    "id": 497,
+    "audio": "/home/ubuntu/project/data/audio/test/498.wav",
+    "reference": "这两者不是很纠结吗？",
+    "prediction": "这两个不是相互交织吗？",
+    "status": "ok"
+  },
+  {
+    "id": 498,
+    "audio": "/home/ubuntu/project/data/audio/test/499.wav",
+    "reference": "东西方之间的贸易利益也有所下降。",
+    "prediction": "此外，东西方之间的贸易利益也减少了。",
+    "status": "ok"
+  },
+  {
+    "id": 499,
+    "audio": "/home/ubuntu/project/data/audio/test/500.wav",
+    "reference": "许多人认为这是基层变得日益和解的标志。",
+    "prediction": "许多人将其视为 grassroots 级别和解增强的标志。",
+    "status": "ok"
+  },
+  {
+    "id": 500,
+    "audio": "/home/ubuntu/project/data/audio/test/501.wav",
+    "reference": "他花了一段时间才到达办公室。",
+    "prediction": "他花了些时间才到达办公室。",
+    "status": "ok"
+  },
+  {
+    "id": 501,
+    "audio": "/home/ubuntu/project/data/audio/test/502.wav",
+    "reference": "在我的“过把瘾”和“放松”播放列表中添加 autry inman。",
+    "prediction": "将otwainman添加到我的播放列表中（逍遥自在，放松一下）。",
+    "status": "ok"
+  },
+  {
+    "id": 502,
+    "audio": "/home/ubuntu/project/data/audio/test/503.wav",
+    "reference": "所以现在，正如我所说的，谈话悬而未决。",
+    "prediction": "所以现在，正如我所说，谈话变得尴尬了。",
+    "status": "ok"
+  },
+  {
+    "id": 503,
+    "audio": "/home/ubuntu/project/data/audio/test/504.wav",
+    "reference": "蛋白质在人体内有许多功能。",
+    "prediction": "蛋白质在人体中具有许多功能。",
+    "status": "ok"
+  },
+  {
+    "id": 504,
+    "audio": "/home/ubuntu/project/data/audio/test/505.wav",
+    "reference": "这首歌是由 Rich Cronin、 Dow Brain 和 Brad Young 创作的。",
+    "prediction": "这首歌是Rick Krone，Tom Brine和Frankie Jumm创作的。",
+    "status": "ok"
+  },
+  {
+    "id": 505,
+    "audio": "/home/ubuntu/project/data/audio/test/506.wav",
+    "reference": "该列表中被忽略的五个峰值用星号表示。",
+    "prediction": "列表中未列入的五个峰用星号表示。",
+    "status": "ok"
+  },
+  {
+    "id": 506,
+    "audio": "/home/ubuntu/project/data/audio/test/507.wav",
+    "reference": "我在思考它内容的可能性。",
+    "prediction": "我对其中的可能性陷入了沉思。",
+    "status": "ok"
+  },
+  {
+    "id": 507,
+    "audio": "/home/ubuntu/project/data/audio/test/508.wav",
+    "reference": "当你在派对上，有人说“香蕉面包”时，狙击手可能就在你身边。",
+    "prediction": "当你在聚会上听到有人说“香蕉面包”的时候，代表附近可能有一个狙击手。",
+    "status": "ok"
+  },
+  {
+    "id": 508,
+    "audio": "/home/ubuntu/project/data/audio/test/509.wav",
+    "reference": "存在通信错误时，大数据包也是有问题的。",
+    "prediction": "在计算机科学领域中，也存在“大包”。",
+    "status": "ok"
+  },
+  {
+    "id": 509,
+    "audio": "/home/ubuntu/project/data/audio/test/510.wav",
+    "reference": "她去了 Jared 先生的家。",
+    "prediction": "他朝杰勒德先生的房子走去。",
+    "status": "ok"
+  },
+  {
+    "id": 510,
+    "audio": "/home/ubuntu/project/data/audio/test/511.wav",
+    "reference": "这是淡紫色和旧花边。",
+    "prediction": "慢慢来，小伙子。",
+    "status": "ok"
+  },
+  {
+    "id": 511,
+    "audio": "/home/ubuntu/project/data/audio/test/512.wav",
+    "reference": "他们的庇护申请被受理了，因为他们是政治迫害的受害者。",
+    "prediction": "他们申请政治庇护，但被拒绝了。",
+    "status": "ok"
+  },
+  {
+    "id": 512,
+    "audio": "/home/ubuntu/project/data/audio/test/513.wav",
+    "reference": "在迪斯科舞厅，DJ 播放着经过改进的室内音乐和迷幻舞曲。",
+    "prediction": "在迪斯科舞厅里，DJ 播放了 progressive house 音乐和 trance 音乐。",
+    "status": "ok"
+  },
+  {
+    "id": 513,
+    "audio": "/home/ubuntu/project/data/audio/test/514.wav",
+    "reference": "有办法。",
+    "prediction": "有路可走。",
+    "status": "ok"
+  },
+  {
+    "id": 514,
+    "audio": "/home/ubuntu/project/data/audio/test/515.wav",
+    "reference": "地图有英语、法语、德语、日语和西班牙语版本。",
+    "prediction": "地图有英语、法语、德语、日语和西班牙语版本。",
+    "status": "ok"
+  },
+  {
+    "id": 515,
+    "audio": "/home/ubuntu/project/data/audio/test/516.wav",
+    "reference": "费尔柴尔德飞机公司也在其马里兰州黑格斯敦总部评估了原型机。",
+    "prediction": "费舍尔飞机还在马里兰州的伊士哈姆总部对原型机进行了评估。",
+    "status": "ok"
+  },
+  {
+    "id": 516,
+    "audio": "/home/ubuntu/project/data/audio/test/517.wav",
+    "reference": "老人迅速翻阅了一下这本书，开始阅读他读到的一页。",
+    "prediction": "老人浏览了一下这本书，开始读其中一页。",
+    "status": "ok"
+  },
+  {
+    "id": 517,
+    "audio": "/home/ubuntu/project/data/audio/test/518.wav",
+    "reference": "也许这里没有人知道炼金术士是什么样的人！",
+    "prediction": "也许这里没有人知道炼金术师是谁。",
+    "status": "ok"
+  },
+  {
+    "id": 518,
+    "audio": "/home/ubuntu/project/data/audio/test/519.wav",
+    "reference": "强调",
+    "prediction": "强调。",
+    "status": "ok"
+  },
+  {
+    "id": 519,
+    "audio": "/home/ubuntu/project/data/audio/test/520.wav",
+    "reference": "对不起，海滩的这一部分区域不允许裸体。",
+    "prediction": "打扰一下，现在不允许使用新手机。",
+    "status": "ok"
+  },
+  {
+    "id": 520,
+    "audio": "/home/ubuntu/project/data/audio/test/521.wav",
+    "reference": "他决定走尽可能长的路回到朋友的马厩。",
+    "prediction": "我们决定租下离朋友最近的那个房间。",
+    "status": "ok"
+  },
+  {
+    "id": 521,
+    "audio": "/home/ubuntu/project/data/audio/test/522.wav",
+    "reference": "不，我们不层叠我们的名片。",
+    "prediction": "不，我们不给商务卡上漆。",
+    "status": "ok"
+  },
+  {
+    "id": 522,
+    "audio": "/home/ubuntu/project/data/audio/test/523.wav",
+    "reference": "伐木工人跳上了树。",
+    "prediction": "伐木工人跳上树。",
+    "status": "ok"
+  },
+  {
+    "id": 523,
+    "audio": "/home/ubuntu/project/data/audio/test/524.wav",
+    "reference": "他们说格鲁吉亚方言。",
+    "prediction": "他们说格鲁吉亚语。",
+    "status": "ok"
+  },
+  {
+    "id": 524,
+    "audio": "/home/ubuntu/project/data/audio/test/525.wav",
+    "reference": "不一会儿，他喉咙里发出微弱的声音。",
+    "prediction": "很快，他喉咙里发出微弱的声音。",
+    "status": "ok"
+  },
+  {
+    "id": 525,
+    "audio": "/home/ubuntu/project/data/audio/test/526.wav",
+    "reference": "那里有三百口井，五万棵枣树，还有数不清的彩色帐篷。",
+    "prediction": "在它们中间有三百头牛、五十头猪和各种颜色的五十顶帐篷。",
+    "status": "ok"
+  },
+  {
+    "id": 526,
+    "audio": "/home/ubuntu/project/data/audio/test/527.wav",
+    "reference": "在其南端是凯恩斯城。",
+    "prediction": "它的南端是卡恩市。",
+    "status": "ok"
+  },
+  {
+    "id": 527,
+    "audio": "/home/ubuntu/project/data/audio/test/528.wav",
+    "reference": "我们如何才能获得每个人的先验知识？",
+    "prediction": "我们如何获得每个个体的先验知识？",
+    "status": "ok"
+  },
+  {
+    "id": 528,
+    "audio": "/home/ubuntu/project/data/audio/test/529.wav",
+    "reference": "如果我告诉你，你就不会看到金字塔了。",
+    "prediction": "如果我告诉你，你就不会看到金字塔。",
+    "status": "ok"
+  },
+  {
+    "id": 529,
+    "audio": "/home/ubuntu/project/data/audio/test/530.wav",
+    "reference": "当 Alvin 还是个小男孩的时候，他喜欢看 Bud Spencer 和 Terence Hill。",
+    "prediction": "当艾伦还是个孩子的时候，他喜欢看 Bud Spencer 和 Terence Hill 的表演。",
+    "status": "ok"
+  },
+  {
+    "id": 530,
+    "audio": "/home/ubuntu/project/data/audio/test/531.wav",
+    "reference": "这是一个小男孩和他的爸爸在玩棋盘游戏。",
+    "prediction": "这是一个小男孩和他的父亲在下棋。",
+    "status": "ok"
+  },
+  {
+    "id": 531,
+    "audio": "/home/ubuntu/project/data/audio/test/532.wav",
+    "reference": "占有对我来说不算什么。",
+    "prediction": "拥有对我来说毫无意义。",
+    "status": "ok"
+  },
+  {
+    "id": 532,
+    "audio": "/home/ubuntu/project/data/audio/test/533.wav",
+    "reference": "升起旗帜。",
+    "prediction": "挂起旗帜。",
+    "status": "ok"
+  },
+  {
+    "id": 533,
+    "audio": "/home/ubuntu/project/data/audio/test/534.wav",
+    "reference": "当然，我肯定我很舒服！",
+    "prediction": "当然，我感到很不舒服。",
+    "status": "ok"
+  },
+  {
+    "id": 534,
+    "audio": "/home/ubuntu/project/data/audio/test/535.wav",
+    "reference": "嘿，看，一只飞猪！",
+    "prediction": "看，一只会飞的猪！",
+    "status": "ok"
+  },
+  {
+    "id": 535,
+    "audio": "/home/ubuntu/project/data/audio/test/536.wav",
+    "reference": "他在酒后驾车。",
+    "prediction": "他受酒类影响驾驶。",
+    "status": "ok"
+  },
+  {
+    "id": 536,
+    "audio": "/home/ubuntu/project/data/audio/test/537.wav",
+    "reference": "金枪鱼很贵。",
+    "prediction": "金枪鱼很贵。",
+    "status": "ok"
+  },
+  {
+    "id": 537,
+    "audio": "/home/ubuntu/project/data/audio/test/538.wav",
+    "reference": "你这么认为吗？",
+    "prediction": "你这么认为吗？",
+    "status": "ok"
+  },
+  {
+    "id": 538,
+    "audio": "/home/ubuntu/project/data/audio/test/539.wav",
+    "reference": "他是什么样的人？",
+    "prediction": "他是什么样的男人？",
+    "status": "ok"
+  },
+  {
+    "id": 539,
+    "audio": "/home/ubuntu/project/data/audio/test/540.wav",
+    "reference": "我没有胡说八道。",
+    "prediction": "我不打算开车。",
+    "status": "ok"
+  },
+  {
+    "id": 540,
+    "audio": "/home/ubuntu/project/data/audio/test/541.wav",
+    "reference": "战后几年，他回到了家乡慕尼黑。",
+    "prediction": "Bulls 球队的勇士们发现他又回到了家乡孟尼。",
+    "status": "ok"
+  },
+  {
+    "id": 541,
+    "audio": "/home/ubuntu/project/data/audio/test/542.wav",
+    "reference": "我把它忘在楼下了。",
+    "prediction": "我把它忘在楼下。",
+    "status": "ok"
+  },
+  {
+    "id": 542,
+    "audio": "/home/ubuntu/project/data/audio/test/543.wav",
+    "reference": "伤亡人员的生存仍然是我们的头等大事！",
+    "prediction": "伤员的生存是首要任务。",
+    "status": "ok"
+  },
+  {
+    "id": 543,
+    "audio": "/home/ubuntu/project/data/audio/test/544.wav",
+    "reference": "王子获救后，他出示了斯德哥尔摩综合症的证据。",
+    "prediction": "王子获救后，他表现出斯德哥尔摩综合征的迹象。",
+    "status": "ok"
+  },
+  {
+    "id": 544,
+    "audio": "/home/ubuntu/project/data/audio/test/545.wav",
+    "reference": "月圆的一天，男孩告诉了英国人他的生活故事。",
+    "prediction": "满月时，男孩给英国人讲述了他的人生故事。",
+    "status": "ok"
+  },
+  {
+    "id": 545,
+    "audio": "/home/ubuntu/project/data/audio/test/546.wav",
+    "reference": "都是内布拉斯加州本地的。",
+    "prediction": "所有人都是内布拉斯加州本地人。",
+    "status": "ok"
+  },
+  {
+    "id": 546,
+    "audio": "/home/ubuntu/project/data/audio/test/547.wav",
+    "reference": "这个典故不是幻觉。",
+    "prediction": "联盟不是幻觉。",
+    "status": "ok"
+  },
+  {
+    "id": 547,
+    "audio": "/home/ubuntu/project/data/audio/test/548.wav",
+    "reference": "由于气候发生变化，越来越多的人在国内流离失所。",
+    "prediction": "由于气候变化，越来越多的人被迫在国内流离失所。",
+    "status": "ok"
+  },
+  {
+    "id": 548,
+    "audio": "/home/ubuntu/project/data/audio/test/549.wav",
+    "reference": "我会每天在这里等你。",
+    "prediction": "他们每天都会在这里等你。",
+    "status": "ok"
+  },
+  {
+    "id": 549,
+    "audio": "/home/ubuntu/project/data/audio/test/550.wav",
+    "reference": "它好像在抖动，但实际上这是望远镜在振动。",
+    "prediction": "他以为望远镜在晃动，但可能是望远镜在晃动。",
+    "status": "ok"
+  },
+  {
+    "id": 550,
+    "audio": "/home/ubuntu/project/data/audio/test/551.wav",
+    "reference": "没有人打算建一堵墙。",
+    "prediction": "没人打算建造一堵墙。",
+    "status": "ok"
+  },
+  {
+    "id": 551,
+    "audio": "/home/ubuntu/project/data/audio/test/552.wav",
+    "reference": "在抑制性突触中， 已经证明桥蛋白对于甘氨酸受体 集群是必要的。",
+    "prediction": "已经证明Gefitinib对于抑制性突触中的胶质细胞聚集体必需。",
+    "status": "ok"
+  },
+  {
+    "id": 552,
+    "audio": "/home/ubuntu/project/data/audio/test/553.wav",
+    "reference": "当云很薄时，光束可能会穿透云层。",
+    "prediction": "当人群稀少时，苍蝇可能会飞入人群。",
+    "status": "ok"
+  },
+  {
+    "id": 553,
+    "audio": "/home/ubuntu/project/data/audio/test/554.wav",
+    "reference": "让我看看！",
+    "prediction": "让我看看。",
+    "status": "ok"
+  },
+  {
+    "id": 554,
+    "audio": "/home/ubuntu/project/data/audio/test/555.wav",
+    "reference": "拥有胜过心想。",
+    "prediction": "拥有比幻想更好。",
+    "status": "ok"
+  },
+  {
+    "id": 555,
+    "audio": "/home/ubuntu/project/data/audio/test/556.wav",
+    "reference": "谢谢你来看我。",
+    "prediction": "很高兴能遇见你。",
+    "status": "ok"
+  },
+  {
+    "id": 556,
+    "audio": "/home/ubuntu/project/data/audio/test/557.wav",
+    "reference": "然而，该飞行员没有被网络选中。",
+    "prediction": "然而，该节目未被网络选中。",
+    "status": "ok"
+  },
+  {
+    "id": 557,
+    "audio": "/home/ubuntu/project/data/audio/test/558.wav",
+    "reference": "在某些情况下，这些符号是“双关语”。",
+    "prediction": "有时符号是双关语。",
+    "status": "ok"
+  },
+  {
+    "id": 558,
+    "audio": "/home/ubuntu/project/data/audio/test/559.wav",
+    "reference": "你不能仅靠面包生活。",
+    "prediction": "仅靠面包生活是不行的。",
+    "status": "ok"
+  },
+  {
+    "id": 559,
+    "audio": "/home/ubuntu/project/data/audio/test/560.wav",
+    "reference": "你还是你，你就是你自己。",
+    "prediction": "你是你，你是谁。",
+    "status": "ok"
+  },
+  {
+    "id": 560,
+    "audio": "/home/ubuntu/project/data/audio/test/561.wav",
+    "reference": "一有钱就想花。",
+    "prediction": "纸币只是一张纸。",
+    "status": "ok"
+  },
+  {
+    "id": 561,
+    "audio": "/home/ubuntu/project/data/audio/test/562.wav",
+    "reference": "然而，几个月后，这个港口被取消了。",
+    "prediction": "但是，几个月后，此战争被取消。",
+    "status": "ok"
+  },
+  {
+    "id": 562,
+    "audio": "/home/ubuntu/project/data/audio/test/563.wav",
+    "reference": "那时，“Petite Ceinture”铁路已经成为一种流行的交通方式。",
+    "prediction": "那时，轻便马车已成为受欢迎的交通工具。",
+    "status": "ok"
+  },
+  {
+    "id": 563,
+    "audio": "/home/ubuntu/project/data/audio/test/564.wav",
+    "reference": "我们想要在这些画面中添加一些情节。",
+    "prediction": "在这张照片中，我们需要一些动作。",
+    "status": "ok"
+  },
+  {
+    "id": 564,
+    "audio": "/home/ubuntu/project/data/audio/test/565.wav",
+    "reference": "我迫不及待地想看到它被打开。",
+    "prediction": "我迫不及待地想打开它。",
+    "status": "ok"
+  },
+  {
+    "id": 565,
+    "audio": "/home/ubuntu/project/data/audio/test/566.wav",
+    "reference": "一个人在这个模糊的动作镜头中打保龄球。",
+    "prediction": "一个人在吹气，动作镜头。",
+    "status": "ok"
+  },
+  {
+    "id": 566,
+    "audio": "/home/ubuntu/project/data/audio/test/567.wav",
+    "reference": "在当选前，她批评巴拉克·奥巴马是“说大话的精英”。",
+    "prediction": "唱片选择代表了艺术家在过去的十二个月中的作品。",
+    "status": "ok"
+  },
+  {
+    "id": 567,
+    "audio": "/home/ubuntu/project/data/audio/test/568.wav",
+    "reference": "他再一次经历了欲语而无言...",
+    "prediction": "他再一次体验到了无语的尴尬。",
+    "status": "ok"
+  },
+  {
+    "id": 568,
+    "audio": "/home/ubuntu/project/data/audio/test/569.wav",
+    "reference": "第二天，他不见了。",
+    "prediction": "第二天，他无影无踪了。",
+    "status": "ok"
+  },
+  {
+    "id": 569,
+    "audio": "/home/ubuntu/project/data/audio/test/570.wav",
+    "reference": "我本想和 Angela 说句话。",
+    "prediction": "我的意思是与 Angela 谈话。",
+    "status": "ok"
+  },
+  {
+    "id": 570,
+    "audio": "/home/ubuntu/project/data/audio/test/571.wav",
+    "reference": "当他爬到黑暗的楼上时，楼梯在他的重压下嘎吱作响。",
+    "prediction": "当他爬上黑暗的上层地板时，楼梯在他脚下打颤。",
+    "status": "ok"
+  },
+  {
+    "id": 571,
+    "audio": "/home/ubuntu/project/data/audio/test/572.wav",
+    "reference": "甜美的回家路，绕道不觉远。",
+    "prediction": "绕长路回家是最甜的。",
+    "status": "ok"
+  },
+  {
+    "id": 572,
+    "audio": "/home/ubuntu/project/data/audio/test/573.wav",
+    "reference": "竞争者不喜欢公司的商业惯例，但消费者喜欢较低的价格。",
+    "prediction": "竞争对手不喜欢公司的商业做法，但消费者喜欢较低的价格。",
+    "status": "ok"
+  },
+  {
+    "id": 573,
+    "audio": "/home/ubuntu/project/data/audio/test/574.wav",
+    "reference": "他的妻子 Sukhi Turner 夫人是但尼丁的前市长。",
+    "prediction": "他的妻子Dannette“ Sugar” Turner是达林顿市的前市长。",
+    "status": "ok"
+  },
+  {
+    "id": 574,
+    "audio": "/home/ubuntu/project/data/audio/test/575.wav",
+    "reference": "琐碎的事情往往会引起激烈的争论。",
+    "prediction": "微不足道的事情往往带来伟大的胜利。",
+    "status": "ok"
+  },
+  {
+    "id": 575,
+    "audio": "/home/ubuntu/project/data/audio/test/576.wav",
+    "reference": "这所大学的教学单位最初被称为“系”。",
+    "prediction": "这所大学的教学单位最初称为“系”。",
+    "status": "ok"
+  },
+  {
+    "id": 576,
+    "audio": "/home/ubuntu/project/data/audio/test/577.wav",
+    "reference": "无债一身轻",
+    "prediction": "心存侥幸。",
+    "status": "ok"
+  },
+  {
+    "id": 577,
+    "audio": "/home/ubuntu/project/data/audio/test/578.wav",
+    "reference": "自从我读了这篇文章，我就一直不能做我的工作。",
+    "prediction": "自从我读了那篇作品，我就一直无法开展工作。",
+    "status": "ok"
+  },
+  {
+    "id": 578,
+    "audio": "/home/ubuntu/project/data/audio/test/579.wav",
+    "reference": "你知道“商业”这个词和“广告”的含义是一样的吗？",
+    "prediction": "你知道“商业”这个词有时也指“广告”吗？",
+    "status": "ok"
+  },
+  {
+    "id": 579,
+    "audio": "/home/ubuntu/project/data/audio/test/580.wav",
+    "reference": "这一切意味着什么？",
+    "prediction": "“什么鬼地方？”",
+    "status": "ok"
+  },
+  {
+    "id": 580,
+    "audio": "/home/ubuntu/project/data/audio/test/581.wav",
+    "reference": "他为球队做出了贡献，并帮助法国赢得了当年的大满贯。",
+    "prediction": "他为团队做出了贡献，并帮助法国赢得了那年的大满贯冠军。",
+    "status": "ok"
+  },
+  {
+    "id": 581,
+    "audio": "/home/ubuntu/project/data/audio/test/582.wav",
+    "reference": "著名的演员包括 Laura Harris、Enuka Okuma 和 Ryan Reynolds。",
+    "prediction": "著名的演员包括洛拉•哈雷斯、伊努卡•奥库马和瑞安•伦纳德。",
+    "status": "ok"
+  },
+  {
+    "id": 582,
+    "audio": "/home/ubuntu/project/data/audio/test/583.wav",
+    "reference": "猫的皮毛有很多名称。",
+    "prediction": "小牛的皮有多种名称。",
+    "status": "ok"
+  },
+  {
+    "id": 583,
+    "audio": "/home/ubuntu/project/data/audio/test/584.wav",
+    "reference": "它是圣安德鲁教区的一部分。",
+    "prediction": "它是圣安德鲁教区的一部分。",
+    "status": "ok"
+  },
+  {
+    "id": 584,
+    "audio": "/home/ubuntu/project/data/audio/test/585.wav",
+    "reference": "他和夜晚的第一颗星星一起出现了。",
+    "prediction": "他出现在傍晚的第一缕阳光中。",
+    "status": "ok"
+  },
+  {
+    "id": 585,
+    "audio": "/home/ubuntu/project/data/audio/test/586.wav",
+    "reference": "但是这个男孩的视线一直没有离开他的新朋友。",
+    "prediction": "男孩从没将目光从他的新朋友身上移开。",
+    "status": "ok"
+  },
+  {
+    "id": 586,
+    "audio": "/home/ubuntu/project/data/audio/test/587.wav",
+    "reference": "好吧，我能猜到结果如何。",
+    "prediction": "我能说的是，结果就是。",
+    "status": "ok"
+  },
+  {
+    "id": 587,
+    "audio": "/home/ubuntu/project/data/audio/test/588.wav",
+    "reference": "我沉迷于回收利用。",
+    "prediction": "我热衷于回收。",
+    "status": "ok"
+  },
+  {
+    "id": 588,
+    "audio": "/home/ubuntu/project/data/audio/test/589.wav",
+    "reference": "不，我没见过它。",
+    "prediction": "不，我没有看过。",
+    "status": "ok"
+  },
+  {
+    "id": 589,
+    "audio": "/home/ubuntu/project/data/audio/test/590.wav",
+    "reference": "有三句现存的警句被认为是 Erinna 写的。",
+    "prediction": "Arina创作了三首现存的挽歌。",
+    "status": "ok"
+  },
+  {
+    "id": 590,
+    "audio": "/home/ubuntu/project/data/audio/test/591.wav",
+    "reference": "它们是以原来的形式给予。",
+    "prediction": "它们按原始形式给出。",
+    "status": "ok"
+  },
+  {
+    "id": 591,
+    "audio": "/home/ubuntu/project/data/audio/test/592.wav",
+    "reference": "他们在酒吧遇到了一群人。",
+    "prediction": "他们和酒吧里的一群人见面了。",
+    "status": "ok"
+  },
+  {
+    "id": 592,
+    "audio": "/home/ubuntu/project/data/audio/test/593.wav",
+    "reference": "哦，我不知道。",
+    "prediction": "哦，我不知道。",
+    "status": "ok"
+  },
+  {
+    "id": 593,
+    "audio": "/home/ubuntu/project/data/audio/test/594.wav",
+    "reference": "嘿，别去那里！",
+    "prediction": "嘿，别去。",
+    "status": "ok"
+  },
+  {
+    "id": 594,
+    "audio": "/home/ubuntu/project/data/audio/test/595.wav",
+    "reference": "你还好吗？",
+    "prediction": "你没事吧？",
+    "status": "ok"
+  },
+  {
+    "id": 595,
+    "audio": "/home/ubuntu/project/data/audio/test/596.wav",
+    "reference": "“那么，你为什么让我做这件事？”男孩问道。",
+    "prediction": "“好吧，那你为什么要让我这么做？”男孩问。",
+    "status": "ok"
+  },
+  {
+    "id": 596,
+    "audio": "/home/ubuntu/project/data/audio/test/597.wav",
+    "reference": "这太过分了。",
+    "prediction": "这太多了。",
+    "status": "ok"
+  },
+  {
+    "id": 597,
+    "audio": "/home/ubuntu/project/data/audio/test/598.wav",
+    "reference": "他已经好几年没吃过一顿像样的饭了。",
+    "prediction": "他多年没有得到一顿好饭。",
+    "status": "ok"
+  },
+  {
+    "id": 598,
+    "audio": "/home/ubuntu/project/data/audio/test/599.wav",
+    "reference": "内华达州住棚节首日的天气怎么样",
+    "prediction": "苏科特四天后的内华达州天气如何？",
+    "status": "ok"
+  },
+  {
+    "id": 599,
+    "audio": "/home/ubuntu/project/data/audio/test/600.wav",
+    "reference": "将表单粘到深蓝色背景上。",
+    "prediction": "将剪贴图粘贴到深蓝色的背景上。",
+    "status": "ok"
+  },
+  {
+    "id": 600,
+    "audio": "/home/ubuntu/project/data/audio/test/601.wav",
+    "reference": "他曾就读于南加州大学，并获得声乐表演学士学位。",
+    "prediction": "他毕业于南加州大学，获得声乐表演学士学位。",
+    "status": "ok"
+  },
+  {
+    "id": 601,
+    "audio": "/home/ubuntu/project/data/audio/test/602.wav",
+    "reference": "机器学习可以用来预测和减轻自然灾害。",
+    "prediction": "机器学习可以用于预测和减轻自然灾害。",
+    "status": "ok"
+  },
+  {
+    "id": 602,
+    "audio": "/home/ubuntu/project/data/audio/test/603.wav",
+    "reference": "我希望我可以抽支烟",
+    "prediction": "我真希望有烟可以抽！",
+    "status": "ok"
+  },
+  {
+    "id": 603,
+    "audio": "/home/ubuntu/project/data/audio/test/604.wav",
+    "reference": "Bate 的一些部队一度溃逃。",
+    "prediction": "有一次，一些贝塞斯部队冲了过来。",
+    "status": "ok"
+  },
+  {
+    "id": 604,
+    "audio": "/home/ubuntu/project/data/audio/test/605.wav",
+    "reference": "阁楼很暗，散发着旧灰尘的味道。",
+    "prediction": "屋顶阁楼阴暗，闻到陈年灰尘味。",
+    "status": "ok"
+  },
+  {
+    "id": 605,
+    "audio": "/home/ubuntu/project/data/audio/test/606.wav",
+    "reference": "每个组织都需要一个顾问、一个章程和一个教育认可委员会。",
+    "prediction": "每个组织都需要宪法和教育局的认可。",
+    "status": "ok"
+  },
+  {
+    "id": 606,
+    "audio": "/home/ubuntu/project/data/audio/test/607.wav",
+    "reference": "Aristander 的作品可能是 Aristandrian 学派的产物。",
+    "prediction": "Aristander的著作可能是Aristandrian学校的产品。",
+    "status": "ok"
+  },
+  {
+    "id": 607,
+    "audio": "/home/ubuntu/project/data/audio/test/608.wav",
+    "reference": "Havelok 入侵英格兰，在战斗中推翻了 Godrich，并以 Goldborow 的名义获得王位。",
+    "prediction": "Havelok入侵英格兰，击败了Godrich，以Goldborough的名字夺取王位。",
+    "status": "ok"
+  },
+  {
+    "id": 608,
+    "audio": "/home/ubuntu/project/data/audio/test/609.wav",
+    "reference": "在潜艇上不能当纱门使用。",
+    "prediction": "潜艇上的屏幕门是没用的。",
+    "status": "ok"
+  },
+  {
+    "id": 609,
+    "audio": "/home/ubuntu/project/data/audio/test/610.wav",
+    "reference": "基于现在的预兆。",
+    "prediction": "根据现在的预兆。",
+    "status": "ok"
+  },
+  {
+    "id": 610,
+    "audio": "/home/ubuntu/project/data/audio/test/611.wav",
+    "reference": "当我试图独享一份并不打算分享的零食时，我从来没有像现在这样意识到房间的音响效果。",
+    "prediction": "我从来没有像现在这样意识到周围环境，当我试图享受一片宁静时。",
+    "status": "ok"
+  },
+  {
+    "id": 611,
+    "audio": "/home/ubuntu/project/data/audio/test/612.wav",
+    "reference": "他华丽的词赋是死记硬背的。",
+    "prediction": "他的修辞是通过口头传来的。",
+    "status": "ok"
+  },
+  {
+    "id": 612,
+    "audio": "/home/ubuntu/project/data/audio/test/613.wav",
+    "reference": "我太高兴了！",
+    "prediction": "我非常高兴。",
+    "status": "ok"
+  },
+  {
+    "id": 613,
+    "audio": "/home/ubuntu/project/data/audio/test/614.wav",
+    "reference": "果然如此。",
+    "prediction": "就是这样。",
+    "status": "ok"
+  },
+  {
+    "id": 614,
+    "audio": "/home/ubuntu/project/data/audio/test/615.wav",
+    "reference": "我只有在它经过的时候抬起头来，我才看见它。",
+    "prediction": "如果我抬头看，应该可以看见。",
+    "status": "ok"
+  },
+  {
+    "id": 615,
+    "audio": "/home/ubuntu/project/data/audio/test/616.wav",
+    "reference": "在这里，他结识了（对他）有帮助的人士，包括 Bob Hope、Betty Grable 和 Rita Hayworth。",
+    "prediction": "在这里，他结识了 useful contacts，包括 Olhoe Putti Grable 和 Rita Hayworth。",
+    "status": "ok"
+  },
+  {
+    "id": 616,
+    "audio": "/home/ubuntu/project/data/audio/test/617.wav",
+    "reference": "此外，亚美尼亚的西里西亚王国成了蒙古的附庸国。",
+    "prediction": "此外，塞琉西亚亚美尼亚王国成为蒙古的附庸国。",
+    "status": "ok"
+  },
+  {
+    "id": 617,
+    "audio": "/home/ubuntu/project/data/audio/test/618.wav",
+    "reference": "我曾经看过《忍者神龟》。",
+    "prediction": "我过去常常看忍者神龟。",
+    "status": "ok"
+  },
+  {
+    "id": 618,
+    "audio": "/home/ubuntu/project/data/audio/test/619.wav",
+    "reference": "拉动挂钩来切换点唱机。",
+    "prediction": "拉开挂钩以启动自动售货机。",
+    "status": "ok"
+  },
+  {
+    "id": 619,
+    "audio": "/home/ubuntu/project/data/audio/test/620.wav",
+    "reference": "抱怨不会使面包变大。",
+    "prediction": "抱怨不能改变现状。",
+    "status": "ok"
+  },
+  {
+    "id": 620,
+    "audio": "/home/ubuntu/project/data/audio/test/621.wav",
+    "reference": "西部片都有酒吧里争吵的情节。",
+    "prediction": "没有沙龙斗殴的西部电影。",
+    "status": "ok"
+  },
+  {
+    "id": 621,
+    "audio": "/home/ubuntu/project/data/audio/test/622.wav",
+    "reference": "他的手臂似乎在和洞里的东西搏斗。",
+    "prediction": "他的胳膊似乎与洞里的东西进行了搏斗。",
+    "status": "ok"
+  },
+  {
+    "id": 622,
+    "audio": "/home/ubuntu/project/data/audio/test/623.wav",
+    "reference": "这种方法经常使用其他媒体，打破公认的惯例和做法。",
+    "prediction": "这种方法经常使用其他媒体，并打破了惯例和惯例。",
+    "status": "ok"
+  },
+  {
+    "id": 623,
+    "audio": "/home/ubuntu/project/data/audio/test/624.wav",
+    "reference": "所以男孩很失望；他决定不再相信梦想。",
+    "prediction": "这个男孩很失望，他决定再也不会相信梦想了。",
+    "status": "ok"
+  },
+  {
+    "id": 624,
+    "audio": "/home/ubuntu/project/data/audio/test/625.wav",
+    "reference": "尽管有诱人的可能性，但劳斯规避风险，从不放弃。",
+    "prediction": "尽管存在令人难以置信的可能性，Lawes还是“谨慎下注”，从未放手。",
+    "status": "ok"
+  },
+  {
+    "id": 625,
+    "audio": "/home/ubuntu/project/data/audio/test/626.wav",
+    "reference": "但是你知道我并不打算去麦加。",
+    "prediction": "但是，你知道，我不会去麦加。",
+    "status": "ok"
+  },
+  {
+    "id": 626,
+    "audio": "/home/ubuntu/project/data/audio/test/627.wav",
+    "reference": "但是惯例也告诉我们应该相信沙漠的讯息。",
+    "prediction": "但这一传统也说，我们应该相信沙漠的信息。",
+    "status": "ok"
+  },
+  {
+    "id": 627,
+    "audio": "/home/ubuntu/project/data/audio/test/628.wav",
+    "reference": "他继续使用塞内卡相机进行所有其他工作。",
+    "prediction": "他继续在所有其他工作中使用Seneca View相机。",
+    "status": "ok"
+  },
+  {
+    "id": 628,
+    "audio": "/home/ubuntu/project/data/audio/test/629.wav",
+    "reference": "在低声耳语中",
+    "prediction": "压低声音或耳语。",
+    "status": "ok"
+  },
+  {
+    "id": 629,
+    "audio": "/home/ubuntu/project/data/audio/test/630.wav",
+    "reference": "无薪员工在大楼外举行抗议。",
+    "prediction": "未付工资的员工在大楼外示威。",
+    "status": "ok"
+  },
+  {
+    "id": 630,
+    "audio": "/home/ubuntu/project/data/audio/test/631.wav",
+    "reference": "在节日活动中，男人穿着圣诞老人的服饰进行社交活动。",
+    "prediction": "圣诞老人服装的男人在假日活动中社交。",
+    "status": "ok"
+  },
+  {
+    "id": 631,
+    "audio": "/home/ubuntu/project/data/audio/test/632.wav",
+    "reference": "继续寻找宝藏意味着他不得不抛弃法蒂玛。",
+    "prediction": "为了继续寻找宝藏，他不得不放弃法蒂玛。",
+    "status": "ok"
+  },
+  {
+    "id": 632,
+    "audio": "/home/ubuntu/project/data/audio/test/633.wav",
+    "reference": "人们在街上传递水球",
+    "prediction": "人们在街上经过水气球。",
+    "status": "ok"
+  },
+  {
+    "id": 633,
+    "audio": "/home/ubuntu/project/data/audio/test/634.wav",
+    "reference": "砰的一声关上门会使人神经紧张。",
+    "prediction": "门突然关上，让所有人如坐针毡。",
+    "status": "ok"
+  },
+  {
+    "id": 634,
+    "audio": "/home/ubuntu/project/data/audio/test/635.wav",
+    "reference": "一举两得。",
+    "prediction": "一石二鸟。",
+    "status": "ok"
+  },
+  {
+    "id": 635,
+    "audio": "/home/ubuntu/project/data/audio/test/636.wav",
+    "reference": "Jefferson 随后担任该组织的主席。",
+    "prediction": "杰斐逊后来担任该组织的主席。",
+    "status": "ok"
+  },
+  {
+    "id": 636,
+    "audio": "/home/ubuntu/project/data/audio/test/637.wav",
+    "reference": "万事万物确实都有它自己的命运，然而命运总有一天会实现。",
+    "prediction": "确实，一切都有其命运，但总有一天命运会实现。",
+    "status": "ok"
+  },
+  {
+    "id": 637,
+    "audio": "/home/ubuntu/project/data/audio/test/638.wav",
+    "reference": "六个年轻人站起来，摸着他们的领带。",
+    "prediction": "六个年轻人站起来，感觉领带很紧。",
+    "status": "ok"
+  },
+  {
+    "id": 638,
+    "audio": "/home/ubuntu/project/data/audio/test/639.wav",
+    "reference": "当他们收拾行李时，海啸警报再次在荒凉的海岸上响起。",
+    "prediction": "当他们收拾行李时，凄凉的海岸上传来了海啸的警报声。",
+    "status": "ok"
+  },
+  {
+    "id": 639,
+    "audio": "/home/ubuntu/project/data/audio/test/640.wav",
+    "reference": "还可以提供各种类型的列车厕所设施。",
+    "prediction": "还可以提供各种类型的机载训练厕所设施。",
+    "status": "ok"
+  },
+  {
+    "id": 640,
+    "audio": "/home/ubuntu/project/data/audio/test/641.wav",
+    "reference": "我要向你母亲告发你。",
+    "prediction": "我要告诉你们我所知道的。",
+    "status": "ok"
+  },
+  {
+    "id": 641,
+    "audio": "/home/ubuntu/project/data/audio/test/642.wav",
+    "reference": "作为单独的申请人，该车站很可能获得建筑许可证。",
+    "prediction": "作为唯一的申请人，该站很可能会获得建设许可。",
+    "status": "ok"
+  },
+  {
+    "id": 642,
+    "audio": "/home/ubuntu/project/data/audio/test/643.wav",
+    "reference": "它也可以在互联网上用来更正拼写错误。",
+    "prediction": "它也用于网络以纠正拼写。",
+    "status": "ok"
+  },
+  {
+    "id": 643,
+    "audio": "/home/ubuntu/project/data/audio/test/644.wav",
+    "reference": "他是德黑兰大学第一工程系的系主任。",
+    "prediction": "他是德黑兰大学第一工程系主任。",
+    "status": "ok"
+  },
+  {
+    "id": 644,
+    "audio": "/home/ubuntu/project/data/audio/test/645.wav",
+    "reference": "“和歌”诗人 Ariwara no Narihira 是他的一个孙子。",
+    "prediction": "和歌诗人 Ariwara no Narihira 是他的孙子之一。",
+    "status": "ok"
+  },
+  {
+    "id": 645,
+    "audio": "/home/ubuntu/project/data/audio/test/646.wav",
+    "reference": "我没想过这个。",
+    "prediction": "我从未考虑过那一点。",
+    "status": "ok"
+  },
+  {
+    "id": 646,
+    "audio": "/home/ubuntu/project/data/audio/test/647.wav",
+    "reference": "我猜这是你做的？",
+    "prediction": "我认为这是你的功劳。",
+    "status": "ok"
+  },
+  {
+    "id": 647,
+    "audio": "/home/ubuntu/project/data/audio/test/648.wav",
+    "reference": "小学毕业后，学生们参加一场名为“会考”的测试。",
+    "prediction": "小学毕业后，学生参加一场称为“Matura”的考试。",
+    "status": "ok"
+  },
+  {
+    "id": 648,
+    "audio": "/home/ubuntu/project/data/audio/test/649.wav",
+    "reference": "这是唯一的答案。",
+    "prediction": "这是唯一的答案。",
+    "status": "ok"
+  },
+  {
+    "id": 649,
+    "audio": "/home/ubuntu/project/data/audio/test/650.wav",
+    "reference": "说脏话时你笑了。",
+    "prediction": "笑看乌云密布。",
+    "status": "ok"
+  },
+  {
+    "id": 650,
+    "audio": "/home/ubuntu/project/data/audio/test/651.wav",
+    "reference": "他们堆积在一起，一英里半以外都可以看到。",
+    "prediction": "他们形成了从一英里半远的地方就可以看到的堆。",
+    "status": "ok"
+  },
+  {
+    "id": 651,
+    "audio": "/home/ubuntu/project/data/audio/test/652.wav",
+    "reference": "为了消除这个问题，他在晚年写了一份新的医学论文。",
+    "prediction": "为了消除他的程序，他年老时写了一篇新的医学论文。",
+    "status": "ok"
+  },
+  {
+    "id": 652,
+    "audio": "/home/ubuntu/project/data/audio/test/653.wav",
+    "reference": "你会怎么做？",
+    "prediction": "我会做什么？",
+    "status": "ok"
+  },
+  {
+    "id": 653,
+    "audio": "/home/ubuntu/project/data/audio/test/654.wav",
+    "reference": "把这幅画钉在墙上。",
+    "prediction": "把这张照片贴在墙上。",
+    "status": "ok"
+  },
+  {
+    "id": 654,
+    "audio": "/home/ubuntu/project/data/audio/test/655.wav",
+    "reference": "在这十年里，沿着海滨建起了咖啡馆和旅游住宿房。",
+    "prediction": "在这十年中，沿着海滩建立了咖啡馆和旅游住宿。",
+    "status": "ok"
+  },
+  {
+    "id": 655,
+    "audio": "/home/ubuntu/project/data/audio/test/656.wav",
+    "reference": "它有半卷的尾巴、锋利的针状牙齿和长长的鼻子。",
+    "prediction": "它有一个半灵巧的尾巴，没有 sharp 牙齿和一个长鼻子。",
+    "status": "ok"
+  },
+  {
+    "id": 656,
+    "audio": "/home/ubuntu/project/data/audio/test/657.wav",
+    "reference": "她在音乐学校学会了如何弹钢琴。",
+    "prediction": "她曾在音乐学校学习如何弹钢琴。",
+    "status": "ok"
+  },
+  {
+    "id": 657,
+    "audio": "/home/ubuntu/project/data/audio/test/658.wav",
+    "reference": "夕阳西下，男孩心头一紧，嗅到了危险的气息。",
+    "prediction": "当太阳落山时，男孩的心听起来像是危险的信号。",
+    "status": "ok"
+  },
+  {
+    "id": 658,
+    "audio": "/home/ubuntu/project/data/audio/test/659.wav",
+    "reference": "美国媒体对这一事件的反应不一。",
+    "prediction": "这一事件受到美国媒体的好评和批评的交织反应。",
+    "status": "ok"
+  },
+  {
+    "id": 659,
+    "audio": "/home/ubuntu/project/data/audio/test/660.wav",
+    "reference": "Akban 学校为 Akban 资深教师的学生组织国际研讨会。",
+    "prediction": "阿克班学校为阿克班退伍军人教员的学生组织国际研讨会。",
+    "status": "ok"
+  },
+  {
+    "id": 660,
+    "audio": "/home/ubuntu/project/data/audio/test/661.wav",
+    "reference": "很少有人意识到巨大的空缺。",
+    "prediction": "很少有人意识到空缺的巨大。",
+    "status": "ok"
+  },
+  {
+    "id": 661,
+    "audio": "/home/ubuntu/project/data/audio/test/662.wav",
+    "reference": "番茄意大利调味饭。",
+    "prediction": "番茄烩饭。",
+    "status": "ok"
+  },
+  {
+    "id": 662,
+    "audio": "/home/ubuntu/project/data/audio/test/663.wav",
+    "reference": "我的比利时之旅是一场灾难。",
+    "prediction": "我赴布鲁塞尔之旅是一场灾难。",
+    "status": "ok"
+  },
+  {
+    "id": 663,
+    "audio": "/home/ubuntu/project/data/audio/test/664.wav",
+    "reference": "他长什么样？",
+    "prediction": "他看起来怎么样？",
+    "status": "ok"
+  },
+  {
+    "id": 664,
+    "audio": "/home/ubuntu/project/data/audio/test/665.wav",
+    "reference": "第二次冲突。",
+    "prediction": "第二次冲突",
+    "status": "ok"
+  },
+  {
+    "id": 665,
+    "audio": "/home/ubuntu/project/data/audio/test/666.wav",
+    "reference": "你要去哪里？",
+    "prediction": "你要去哪里？",
+    "status": "ok"
+  },
+  {
+    "id": 666,
+    "audio": "/home/ubuntu/project/data/audio/test/667.wav",
+    "reference": "她喜欢你。",
+    "prediction": "她喜欢你。",
+    "status": "ok"
+  },
+  {
+    "id": 667,
+    "audio": "/home/ubuntu/project/data/audio/test/668.wav",
+    "reference": "然而，这一评估遭到了反驳。",
+    "prediction": "但是这种评估遭到了反驳。",
+    "status": "ok"
+  },
+  {
+    "id": 668,
+    "audio": "/home/ubuntu/project/data/audio/test/669.wav",
+    "reference": "这个新成立的省份将没有政党。",
+    "prediction": "新省将不允许有政党。",
+    "status": "ok"
+  },
+  {
+    "id": 669,
+    "audio": "/home/ubuntu/project/data/audio/test/670.wav",
+    "reference": "仿佛世界因为男孩的灵魂而陷入了沉静。",
+    "prediction": "好像因为这个男孩的灵魂已经沉默了世界一样。",
+    "status": "ok"
+  },
+  {
+    "id": 670,
+    "audio": "/home/ubuntu/project/data/audio/test/671.wav",
+    "reference": "Muhammad Imarah 将 Abduh 的文集汇编成五卷出版。",
+    "prediction": "Abdul收集的诗歌已经由Muhammad Imran编纂成五卷出版。",
+    "status": "ok"
+  },
+  {
+    "id": 671,
+    "audio": "/home/ubuntu/project/data/audio/test/672.wav",
+    "reference": "明天早上你想怎么处理它们？",
+    "prediction": "明天早上你想喝什么？",
+    "status": "ok"
+  },
+  {
+    "id": 672,
+    "audio": "/home/ubuntu/project/data/audio/test/673.wav",
+    "reference": "孩子和傻瓜说真话",
+    "prediction": "儿童和傻瓜讲真话。",
+    "status": "ok"
+  },
+  {
+    "id": 673,
+    "audio": "/home/ubuntu/project/data/audio/test/674.wav",
+    "reference": "此外，还提出了将橙色线延伸至 Bowie 的计划。",
+    "prediction": "还提出了将橙线延长到鲍伊的计划。",
+    "status": "ok"
+  },
+  {
+    "id": 674,
+    "audio": "/home/ubuntu/project/data/audio/test/675.wav",
+    "reference": "物联网的失控又一次给我们带来了分布式拒绝服务攻击。",
+    "prediction": "物联网上的不受控设备再次使我们遭受分布式拒绝服务攻击。",
+    "status": "ok"
+  },
+  {
+    "id": 675,
+    "audio": "/home/ubuntu/project/data/audio/test/676.wav",
+    "reference": "兔子会跳出来，只要你不去想它。",
+    "prediction": "当事情变得不顺利时，汽车会停止运转。",
+    "status": "ok"
+  },
+  {
+    "id": 676,
+    "audio": "/home/ubuntu/project/data/audio/test/677.wav",
+    "reference": "不，他很忠诚。",
+    "prediction": "不，他是忠诚的。",
+    "status": "ok"
+  },
+  {
+    "id": 677,
+    "audio": "/home/ubuntu/project/data/audio/test/678.wav",
+    "reference": "比林格可能会及时到达。",
+    "prediction": "Belinda 可能会及时到达。",
+    "status": "ok"
+  },
+  {
+    "id": 678,
+    "audio": "/home/ubuntu/project/data/audio/test/679.wav",
+    "reference": "昨天，他去性病诊所检查疱疹。",
+    "prediction": "昨天他去STD诊所做疱疹检查。",
+    "status": "ok"
+  },
+  {
+    "id": 679,
+    "audio": "/home/ubuntu/project/data/audio/test/680.wav",
+    "reference": "在西班牙和葡萄牙所给予的名称",
+    "prediction": "在西班牙和葡萄牙使用的名字。",
+    "status": "ok"
+  },
+  {
+    "id": 680,
+    "audio": "/home/ubuntu/project/data/audio/test/681.wav",
+    "reference": "上帝是我的牧师。",
+    "prediction": "主是我的牧者。",
+    "status": "ok"
+  },
+  {
+    "id": 681,
+    "audio": "/home/ubuntu/project/data/audio/test/682.wav",
+    "reference": "只有当我离它如此之近时，我才发现它的奇异之处是如此明显。",
+    "prediction": "直到我走近它，它的奇怪才一目了然。",
+    "status": "ok"
+  },
+  {
+    "id": 682,
+    "audio": "/home/ubuntu/project/data/audio/test/683.wav",
+    "reference": "一个穿着黑色衣服的僧侣来到了门口。",
+    "prediction": "一个身穿黑衣的僧人来到了大门口。",
+    "status": "ok"
+  },
+  {
+    "id": 683,
+    "audio": "/home/ubuntu/project/data/audio/test/684.wav",
+    "reference": "自信似乎从这个家伙的每个毛孔都渗出来了。",
+    "prediction": "自信似乎从这位同伴的每一个毛孔中散发出来。",
+    "status": "ok"
+  },
+  {
+    "id": 684,
+    "audio": "/home/ubuntu/project/data/audio/test/685.wav",
+    "reference": "就像你爷爷教你的那样。",
+    "prediction": "就像你爷爷教你的那样！",
+    "status": "ok"
+  },
+  {
+    "id": 685,
+    "audio": "/home/ubuntu/project/data/audio/test/686.wav",
+    "reference": "非常可疑的是，关于大脑的信息竟然都来自于大脑",
+    "prediction": "从没有大脑的地方获得大脑信息是非常可疑的。",
+    "status": "ok"
+  },
+  {
+    "id": 686,
+    "audio": "/home/ubuntu/project/data/audio/test/687.wav",
+    "reference": "基于多人模式和在线游戏的目标计划也被取消。",
+    "prediction": "还计划进行基于对象的网络游戏和在线游戏。",
+    "status": "ok"
+  },
+  {
+    "id": 687,
+    "audio": "/home/ubuntu/project/data/audio/test/688.wav",
+    "reference": "还有一个衍生漫画系列，《蝙蝠侠出击》！",
+    "prediction": "还有一个衍生漫画系列《蝙蝠侠出击》。",
+    "status": "ok"
+  },
+  {
+    "id": 688,
+    "audio": "/home/ubuntu/project/data/audio/test/689.wav",
+    "reference": "Opdyke West 镇由 Levelland 独立学区提供服务。",
+    "prediction": "奥克代奇堡镇由爱乐维独立学区提供服务。",
+    "status": "ok"
+  },
+  {
+    "id": 689,
+    "audio": "/home/ubuntu/project/data/audio/test/690.wav",
+    "reference": "你只有十分钟时间。",
+    "prediction": "你只有十分钟。",
+    "status": "ok"
+  },
+  {
+    "id": 690,
+    "audio": "/home/ubuntu/project/data/audio/test/691.wav",
+    "reference": "一个人可以想象这两个人，满身沙子，在灿烂的阳光下沿着小街奔跑。",
+    "prediction": "可以想象，这对夫妇覆盖着沙子，在明亮的阳光下沿着这条小街跑。",
+    "status": "ok"
+  },
+  {
+    "id": 691,
+    "audio": "/home/ubuntu/project/data/audio/test/692.wav",
+    "reference": "你要离开多久？",
+    "prediction": "你要离开多长时间？",
+    "status": "ok"
+  },
+  {
+    "id": 692,
+    "audio": "/home/ubuntu/project/data/audio/test/693.wav",
+    "reference": "在此期间，Gregor 在主要的哲学、政治学和安全杂志上发表了文章。",
+    "prediction": "在此期间，Gajer在主要的哲学、政治科学和安全期刊上发表文章。",
+    "status": "ok"
+  },
+  {
+    "id": 693,
+    "audio": "/home/ubuntu/project/data/audio/test/694.wav",
+    "reference": "一只狗在水中涉水，而另一只狗在陆地上。",
+    "prediction": "一只狗在水中等待，另一只狗在陆地上。",
+    "status": "ok"
+  },
+  {
+    "id": 694,
+    "audio": "/home/ubuntu/project/data/audio/test/695.wav",
+    "reference": "他们会得寸进尺。",
+    "prediction": "给他们一英寸，他们就会要一英尺。",
+    "status": "ok"
+  },
+  {
+    "id": 695,
+    "audio": "/home/ubuntu/project/data/audio/test/696.wav",
+    "reference": "敷衍了事道个歉总比没有好。",
+    "prediction": "拙劣的借口也比没有借口更好。",
+    "status": "ok"
+  },
+  {
+    "id": 696,
+    "audio": "/home/ubuntu/project/data/audio/test/697.wav",
+    "reference": "一天晚上，这个英国人无法入睡。",
+    "prediction": "英国人一夜未眠。",
+    "status": "ok"
+  },
+  {
+    "id": 697,
+    "audio": "/home/ubuntu/project/data/audio/test/698.wav",
+    "reference": "在圆桌会议上，对这个地方没有争议。",
+    "prediction": "在圆桌会议上，不存在争论席位的问题。",
+    "status": "ok"
+  },
+  {
+    "id": 698,
+    "audio": "/home/ubuntu/project/data/audio/test/699.wav",
+    "reference": "最相关的书籍摘要中提供了这些知识。",
+    "prediction": "这些知识以大多数相关书籍的概要形式提供。",
+    "status": "ok"
+  },
+  {
+    "id": 699,
+    "audio": "/home/ubuntu/project/data/audio/test/700.wav",
+    "reference": "一两个人回来了。",
+    "prediction": "一两个人正在回来。",
+    "status": "ok"
+  },
+  {
+    "id": 700,
+    "audio": "/home/ubuntu/project/data/audio/test/701.wav",
+    "reference": "一群人把手提箱装进汽车。",
+    "prediction": "一群人把行李箱装上车。",
+    "status": "ok"
+  },
+  {
+    "id": 701,
+    "audio": "/home/ubuntu/project/data/audio/test/702.wav",
+    "reference": "你能帮我的只有一个方法。",
+    "prediction": "您只能通过一种方式帮助我。",
+    "status": "ok"
+  },
+  {
+    "id": 702,
+    "audio": "/home/ubuntu/project/data/audio/test/703.wav",
+    "reference": "智者可能会改变他的观点，但傻瓜，从来没有。",
+    "prediction": "智者可能会改变他的意见，但傻子永远不会。",
+    "status": "ok"
+  },
+  {
+    "id": 703,
+    "audio": "/home/ubuntu/project/data/audio/test/704.wav",
+    "reference": "当她试图从银行账户上取钱时，自动取款机提示她的卡无效。",
+    "prediction": "当她试图从银行账户取钱时，ATM声称她的卡无效。",
+    "status": "ok"
+  },
+  {
+    "id": 704,
+    "audio": "/home/ubuntu/project/data/audio/test/705.wav",
+    "reference": "这幅漫画发表在《幽默》杂志上。",
+    "prediction": "漫画在Humor杂志上发表。",
+    "status": "ok"
+  },
+  {
+    "id": 705,
+    "audio": "/home/ubuntu/project/data/audio/test/706.wav",
+    "reference": "这是我提到的 12 个项目。",
+    "prediction": "这是我要找的十二个项目。",
+    "status": "ok"
+  },
+  {
+    "id": 706,
+    "audio": "/home/ubuntu/project/data/audio/test/707.wav",
+    "reference": "这可能是首批拍摄的飞船发射之一。",
+    "prediction": "以阿勒卡迪亚的名义，我不会屈服于任何东西。",
+    "status": "ok"
+  },
+  {
+    "id": 707,
+    "audio": "/home/ubuntu/project/data/audio/test/708.wav",
+    "reference": "该怎么办？",
+    "prediction": "该怎么办？",
+    "status": "ok"
+  },
+  {
+    "id": 708,
+    "audio": "/home/ubuntu/project/data/audio/test/709.wav",
+    "reference": "Aristotle 写了关于自然界四大元素的观点。",
+    "prediction": "亚里士多德撰写了有关自然界中四个原因的思想。",
+    "status": "ok"
+  },
+  {
+    "id": 709,
+    "audio": "/home/ubuntu/project/data/audio/test/710.wav",
+    "reference": "一个男人看着一个女人正在焊接一块金属",
+    "prediction": "一个女人正在焊接一块金属，一个男人在一旁看着。",
+    "status": "ok"
+  },
+  {
+    "id": 710,
+    "audio": "/home/ubuntu/project/data/audio/test/711.wav",
+    "reference": "他们去 Henderson 家吃早餐了。",
+    "prediction": "他们不得不离开去 Anderson 家吃早餐。",
+    "status": "ok"
+  },
+  {
+    "id": 711,
+    "audio": "/home/ubuntu/project/data/audio/test/712.wav",
+    "reference": "他就读于卡内基梅隆大学。",
+    "prediction": "他就读于卡内基梅隆大学。",
+    "status": "ok"
+  },
+  {
+    "id": 712,
+    "audio": "/home/ubuntu/project/data/audio/test/713.wav",
+    "reference": "这个农场对游客开放。",
+    "prediction": "农场对游客开放。",
+    "status": "ok"
+  },
+  {
+    "id": 713,
+    "audio": "/home/ubuntu/project/data/audio/test/714.wav",
+    "reference": "对杀害警察的杀手不留情！",
+    "prediction": "对警察杀手毫不留情。",
+    "status": "ok"
+  },
+  {
+    "id": 714,
+    "audio": "/home/ubuntu/project/data/audio/test/715.wav",
+    "reference": "所有的羚羊都喜欢接近沙漠的环境，并且可以在没有水的情况下长期生存。",
+    "prediction": "所有的欧雷克物种都偏爱接近沙漠的环境，而且可以在没有水的情况下长时间生存。",
+    "status": "ok"
+  },
+  {
+    "id": 715,
+    "audio": "/home/ubuntu/project/data/audio/test/716.wav",
+    "reference": "Jenny 提醒我们政治仍然是新闻。",
+    "prediction": "珍妮提醒我们，政治仍然是新闻。",
+    "status": "ok"
+  },
+  {
+    "id": 716,
+    "audio": "/home/ubuntu/project/data/audio/test/717.wav",
+    "reference": "Jade 的无绳电钻出了毛病。",
+    "prediction": "Z的协方差已经无效。",
+    "status": "ok"
+  },
+  {
+    "id": 717,
+    "audio": "/home/ubuntu/project/data/audio/test/718.wav",
+    "reference": "它还考虑了审计后的异议。",
+    "prediction": "它还考虑了道德异议。",
+    "status": "ok"
+  },
+  {
+    "id": 718,
+    "audio": "/home/ubuntu/project/data/audio/test/719.wav",
+    "reference": "在最初几年，这种划分有时被称为速联分配。",
+    "prediction": "在早期，该部门有时被称为Speedlink Distribution。",
+    "status": "ok"
+  },
+  {
+    "id": 719,
+    "audio": "/home/ubuntu/project/data/audio/test/720.wav",
+    "reference": "一个穿着红色衬衫的女孩正在攀岩。",
+    "prediction": "一个穿着红色衬衫的女孩在进行岩爬。",
+    "status": "ok"
+  },
+  {
+    "id": 720,
+    "audio": "/home/ubuntu/project/data/audio/test/721.wav",
+    "reference": "该公司在韩国昌原有一个生产工厂。",
+    "prediction": "该公司在韩国城有一家工厂。",
+    "status": "ok"
+  },
+  {
+    "id": 721,
+    "audio": "/home/ubuntu/project/data/audio/test/722.wav",
+    "reference": "人们正在走过一个圣诞主题商场",
+    "prediction": "人们在圣诞主题市场中行走。",
+    "status": "ok"
+  },
+  {
+    "id": 722,
+    "audio": "/home/ubuntu/project/data/audio/test/723.wav",
+    "reference": "三月十三日是指不吉利的日子。",
+    "prediction": "3月13日被认为是不吉利的日子。",
+    "status": "ok"
+  },
+  {
+    "id": 723,
+    "audio": "/home/ubuntu/project/data/audio/test/724.wav",
+    "reference": "朋友对你皱眉,胜过傻瓜对你微笑。",
+    "prediction": "朋友的皱眉胜过傻笑。",
+    "status": "ok"
+  },
+  {
+    "id": 724,
+    "audio": "/home/ubuntu/project/data/audio/test/725.wav",
+    "reference": "然而，他真正的父亲来了，揭露了全部真相。",
+    "prediction": "但是，他的真正父亲到达并揭示了全部真相。",
+    "status": "ok"
+  },
+  {
+    "id": 725,
+    "audio": "/home/ubuntu/project/data/audio/test/726.wav",
+    "reference": "“什么是炼金术士？”他终于问道。",
+    "prediction": "他最终问及：“什么是炼金术士？”",
+    "status": "ok"
+  },
+  {
+    "id": 726,
+    "audio": "/home/ubuntu/project/data/audio/test/727.wav",
+    "reference": "“诅咒我遇见那个老人的那一刻，”他想。",
+    "prediction": "他想，该死，我怎么会遇到那个老人。",
+    "status": "ok"
+  },
+  {
+    "id": 727,
+    "audio": "/home/ubuntu/project/data/audio/test/728.wav",
+    "reference": "他们在霍华德家发现了各种各样的毒品：可卡因、冰毒、海洛因……",
+    "prediction": "他们在霍华德的房子中发现了各种毒品，包括可卡因、海洛因。",
+    "status": "ok"
+  },
+  {
+    "id": 728,
+    "audio": "/home/ubuntu/project/data/audio/test/729.wav",
+    "reference": "也许这些沙漠之鸟可以向他解释没有所有权的爱的含义。",
+    "prediction": "也许这些沙漠鸟可以向他解释爱的真谛而不拥有它。",
+    "status": "ok"
+  },
+  {
+    "id": 729,
+    "audio": "/home/ubuntu/project/data/audio/test/730.wav",
+    "reference": "三个人正在组成一个宿舍",
+    "prediction": "三个人正在组织一个宿舍。",
+    "status": "ok"
+  },
+  {
+    "id": 730,
+    "audio": "/home/ubuntu/project/data/audio/test/731.wav",
+    "reference": "我有一个母亲和两个年幼的妹妹要照顾。",
+    "prediction": "我需要照顾母亲和两个妹妹。",
+    "status": "ok"
+  },
+  {
+    "id": 731,
+    "audio": "/home/ubuntu/project/data/audio/test/732.wav",
+    "reference": "同样，这不是源于 Karl May 的作品。",
+    "prediction": "“ Agenda”并非起源于Karl May的著作。",
+    "status": "ok"
+  },
+  {
+    "id": 732,
+    "audio": "/home/ubuntu/project/data/audio/test/733.wav",
+    "reference": "我想快点回到我的羊身边。",
+    "prediction": "我想快点回到我的羊群。",
+    "status": "ok"
+  },
+  {
+    "id": 733,
+    "audio": "/home/ubuntu/project/data/audio/test/734.wav",
+    "reference": "同意我们的隐私政策，即表示您同意我们将您的数据保存 21 天以检测。",
+    "prediction": "通过接受我们的隐私政策，您同意我们保存您的数据以在21天内检测欺诈行为。",
+    "status": "ok"
+  },
+  {
+    "id": 734,
+    "audio": "/home/ubuntu/project/data/audio/test/735.wav",
+    "reference": "他们站在那里看着月亮。",
+    "prediction": "他们站在月球上看。",
+    "status": "ok"
+  },
+  {
+    "id": 735,
+    "audio": "/home/ubuntu/project/data/audio/test/736.wav",
+    "reference": "Steve Carlton 和 Randy Johnson 是这一组中唯一的左撇子投手。",
+    "prediction": "Steve Carlton 和 Randy Johnson 是 Owens 这组中仅有的两个左撇子投手。",
+    "status": "ok"
+  },
+  {
+    "id": 736,
+    "audio": "/home/ubuntu/project/data/audio/test/737.wav",
+    "reference": "打开空调会导致油耗增加。",
+    "prediction": "打开空调会增加燃料消耗。",
+    "status": "ok"
+  },
+  {
+    "id": 737,
+    "audio": "/home/ubuntu/project/data/audio/test/738.wav",
+    "reference": "现在是什么？",
+    "prediction": "现在是什么？",
+    "status": "ok"
+  },
+  {
+    "id": 738,
+    "audio": "/home/ubuntu/project/data/audio/test/739.wav",
+    "reference": "出于某种原因，我们被阻止进入。",
+    "prediction": "由于某种原因，我们被阻止进入。",
+    "status": "ok"
+  },
+  {
+    "id": 739,
+    "audio": "/home/ubuntu/project/data/audio/test/740.wav",
+    "reference": "那是一派胡言。",
+    "prediction": "那是一大群鸥鸟！",
+    "status": "ok"
+  },
+  {
+    "id": 740,
+    "audio": "/home/ubuntu/project/data/audio/test/741.wav",
+    "reference": "所有的水果和蔬菜都应该在食用前清洗干净。",
+    "prediction": "所有水果和蔬菜在食用前都应冲洗。",
+    "status": "ok"
+  },
+  {
+    "id": 741,
+    "audio": "/home/ubuntu/project/data/audio/test/742.wav",
+    "reference": "白咖啡传统上不包含咖啡拉花艺术。",
+    "prediction": "传统的来说，一杯澳式浓缩咖啡不会包含拿铁艺术。",
+    "status": "ok"
+  },
+  {
+    "id": 742,
+    "audio": "/home/ubuntu/project/data/audio/test/743.wav",
+    "reference": "这是我朋友的漂亮房子。",
+    "prediction": "他是我朋友，非常出色。",
+    "status": "ok"
+  },
+  {
+    "id": 743,
+    "audio": "/home/ubuntu/project/data/audio/test/744.wav",
+    "reference": "这是一个又深又暗又荒凉的地方。",
+    "prediction": "这是一个黑暗、荒凉而深邃的地方。",
+    "status": "ok"
+  },
+  {
+    "id": 744,
+    "audio": "/home/ubuntu/project/data/audio/test/745.wav",
+    "reference": "Well 然后站起来。",
+    "prediction": "那好吧，站起来。",
+    "status": "ok"
+  },
+  {
+    "id": 745,
+    "audio": "/home/ubuntu/project/data/audio/test/746.wav",
+    "reference": "这是否意味着我不能再打羽毛球了？",
+    "prediction": "这是否意味着他不能再打羽毛球了？",
+    "status": "ok"
+  },
+  {
+    "id": 746,
+    "audio": "/home/ubuntu/project/data/audio/test/747.wav",
+    "reference": "Gunther 属于一个军人家庭。",
+    "prediction": "Gunther来自一个军事家庭。",
+    "status": "ok"
+  },
+  {
+    "id": 747,
+    "audio": "/home/ubuntu/project/data/audio/test/748.wav",
+    "reference": "Wiconisco 镇位于多芬县的北部。",
+    "prediction": "Wiscasset Township 位于奥森县的北部。",
+    "status": "ok"
+  },
+  {
+    "id": 748,
+    "audio": "/home/ubuntu/project/data/audio/test/749.wav",
+    "reference": "他们突然陷入疯狂。",
+    "prediction": "他们让自己疯狂起来。",
+    "status": "ok"
+  },
+  {
+    "id": 749,
+    "audio": "/home/ubuntu/project/data/audio/test/750.wav",
+    "reference": "他种什么了？",
+    "prediction": "他种什么？",
+    "status": "ok"
+  },
+  {
+    "id": 750,
+    "audio": "/home/ubuntu/project/data/audio/test/751.wav",
+    "reference": "这个男孩遇到了炼金术士。",
+    "prediction": "男孩没有回答。",
+    "status": "ok"
+  },
+  {
+    "id": 751,
+    "audio": "/home/ubuntu/project/data/audio/test/752.wav",
+    "reference": "不，我姑姑从来不希望她这么做。",
+    "prediction": "Norma Jean不想让她这么做。",
+    "status": "ok"
+  },
+  {
+    "id": 752,
+    "audio": "/home/ubuntu/project/data/audio/test/753.wav",
+    "reference": "这不是一块石头，而是一个艺术概念。",
+    "prediction": "这不是岩石；这是一个艺术概念。",
+    "status": "ok"
+  },
+  {
+    "id": 753,
+    "audio": "/home/ubuntu/project/data/audio/test/754.wav",
+    "reference": "攻城战能攻破坚固的防御工事。",
+    "prediction": "围攻会瓦解牢固的防御。",
+    "status": "ok"
+  },
+  {
+    "id": 754,
+    "audio": "/home/ubuntu/project/data/audio/test/755.wav",
+    "reference": "GBA平台游戏咻咻火箭发布",
+    "prediction": "Game Boy 进入 Chichi-Rocket 的高级版本！",
+    "status": "ok"
+  },
+  {
+    "id": 755,
+    "audio": "/home/ubuntu/project/data/audio/test/756.wav",
+    "reference": "他们经常以热带海洋的水生植物为食。",
+    "prediction": "他们经常在热带海面上啃食水生植物。",
+    "status": "ok"
+  },
+  {
+    "id": 756,
+    "audio": "/home/ubuntu/project/data/audio/test/757.wav",
+    "reference": "你在客人名单上吗？",
+    "prediction": "你被列入客人名单了吗？",
+    "status": "ok"
+  },
+  {
+    "id": 757,
+    "audio": "/home/ubuntu/project/data/audio/test/758.wav",
+    "reference": "当他们看着海浪互相撞击时，Alice 想家了。",
+    "prediction": "当他们看着波浪相互碰撞时，爱丽丝想到了他。",
+    "status": "ok"
+  },
+  {
+    "id": 758,
+    "audio": "/home/ubuntu/project/data/audio/test/759.wav",
+    "reference": "我们能做什么？",
+    "prediction": "我们能做什么？",
+    "status": "ok"
+  },
+  {
+    "id": 759,
+    "audio": "/home/ubuntu/project/data/audio/test/760.wav",
+    "reference": "黑蹄在狩猎女巫中被指控，但并未受到伤害",
+    "prediction": "布莱克霍夫在女巫审判中被指控，但未受伤。",
+    "status": "ok"
+  },
+  {
+    "id": 760,
+    "audio": "/home/ubuntu/project/data/audio/test/761.wav",
+    "reference": "事故发生时，机体已经陈旧。",
+    "prediction": "事故发生时，那根绳子是绷紧的。",
+    "status": "ok"
+  },
+  {
+    "id": 761,
+    "audio": "/home/ubuntu/project/data/audio/test/762.wav",
+    "reference": "工作中发生了事故，一场骆驼踩踏事故几乎杀死看门人。",
+    "prediction": "有个人在玩的时候骑骆驼，差点被活埋。",
+    "status": "ok"
+  },
+  {
+    "id": 762,
+    "audio": "/home/ubuntu/project/data/audio/test/763.wav",
+    "reference": "你还记得什么吗？",
+    "prediction": "您能想起任何事情吗？",
+    "status": "ok"
+  },
+  {
+    "id": 763,
+    "audio": "/home/ubuntu/project/data/audio/test/764.wav",
+    "reference": "我们计划现在模糊不清。",
+    "prediction": "我们的计划很不确定。",
+    "status": "ok"
+  },
+  {
+    "id": 764,
+    "audio": "/home/ubuntu/project/data/audio/test/765.wav",
+    "reference": "你是怎么发现的？",
+    "prediction": "他现在在哪儿？",
+    "status": "ok"
+  },
+  {
+    "id": 765,
+    "audio": "/home/ubuntu/project/data/audio/test/766.wav",
+    "reference": "然后他慢慢地察觉到了。",
+    "prediction": "然后他非常缓慢地意识到了。",
+    "status": "ok"
+  },
+  {
+    "id": 766,
+    "audio": "/home/ubuntu/project/data/audio/test/767.wav",
+    "reference": "捕获一只熊需要很好的陷阱。",
+    "prediction": "捕获一只熊需要一个好陷阱。",
+    "status": "ok"
+  },
+  {
+    "id": 767,
+    "audio": "/home/ubuntu/project/data/audio/test/768.wav",
+    "reference": "最重要的是，一堆火被点燃了。",
+    "prediction": "再加上，火势一夜未减。",
+    "status": "ok"
+  },
+  {
+    "id": 768,
+    "audio": "/home/ubuntu/project/data/audio/test/769.wav",
+    "reference": "但是，随着时间的推移，Tangier 变了。",
+    "prediction": "但随着时间的推移，Chanda 有了变化。",
+    "status": "ok"
+  },
+  {
+    "id": 769,
+    "audio": "/home/ubuntu/project/data/audio/test/770.wav",
+    "reference": "汽车在拐角处疾驰时，轮胎发出刺耳的声音。",
+    "prediction": "轮胎在汽车驶过弯道时发出刺耳的声音。",
+    "status": "ok"
+  },
+  {
+    "id": 770,
+    "audio": "/home/ubuntu/project/data/audio/test/771.wav",
+    "reference": "这些结合了极简主义和元戏剧风格。",
+    "prediction": "它们融合了极简主义和后戏剧风格。",
+    "status": "ok"
+  },
+  {
+    "id": 771,
+    "audio": "/home/ubuntu/project/data/audio/test/772.wav",
+    "reference": "Lena 是在和我调情还是在恭维我？",
+    "prediction": "Lena 是在跟我约会，还是只是跟我客套一下？",
+    "status": "ok"
+  },
+  {
+    "id": 772,
+    "audio": "/home/ubuntu/project/data/audio/test/773.wav",
+    "reference": "该盆地人口稀少，易受长期深洪的影响。",
+    "prediction": "该盆地的排水系统是可信赖的，尽管长时间的深水淹没使该地区稀有人口。",
+    "status": "ok"
+  },
+  {
+    "id": 773,
+    "audio": "/home/ubuntu/project/data/audio/test/774.wav",
+    "reference": "涂层可以以液体、气体或固体的形式涂覆。",
+    "prediction": "涂层可以作为液体、气体或固体应用。",
+    "status": "ok"
+  },
+  {
+    "id": 774,
+    "audio": "/home/ubuntu/project/data/audio/test/775.wav",
+    "reference": "那天，当男孩离开她时很伤心。",
+    "prediction": "男孩很悲伤，因为他离开了她。",
+    "status": "ok"
+  },
+  {
+    "id": 775,
+    "audio": "/home/ubuntu/project/data/audio/test/776.wav",
+    "reference": "她穿上拖鞋，爬楼梯，然后上床睡觉。",
+    "prediction": "她穿上拖鞋，爬上楼梯，然后上床睡觉。",
+    "status": "ok"
+  },
+  {
+    "id": 776,
+    "audio": "/home/ubuntu/project/data/audio/test/777.wav",
+    "reference": "他讲述了他所看到的东西。",
+    "prediction": "然后他讲述了自己所看到的一切。",
+    "status": "ok"
+  },
+  {
+    "id": 777,
+    "audio": "/home/ubuntu/project/data/audio/test/778.wav",
+    "reference": "这些人中很多人失业了。",
+    "prediction": "很多人失业了。",
+    "status": "ok"
+  },
+  {
+    "id": 778,
+    "audio": "/home/ubuntu/project/data/audio/test/779.wav",
+    "reference": "转子以令人难以置信的速度旋转。",
+    "prediction": "转子以惊人的速度旋转。",
+    "status": "ok"
+  },
+  {
+    "id": 779,
+    "audio": "/home/ubuntu/project/data/audio/test/780.wav",
+    "reference": "你想知道什么？",
+    "prediction": "你想知道什么？",
+    "status": "ok"
+  },
+  {
+    "id": 780,
+    "audio": "/home/ubuntu/project/data/audio/test/781.wav",
+    "reference": "总统必须以简单多数的普选产生。",
+    "prediction": "总统必须获得普选的简单多数票。",
+    "status": "ok"
+  },
+  {
+    "id": 781,
+    "audio": "/home/ubuntu/project/data/audio/test/782.wav",
+    "reference": "我饿死了。我们去薯条店买些鱼和薯条好吗？",
+    "prediction": "我饿了，我们可以去那家中国商店买鱼和薯条吗？",
+    "status": "ok"
+  },
+  {
+    "id": 782,
+    "audio": "/home/ubuntu/project/data/audio/test/783.wav",
+    "reference": "潜水员在湖里发现了一具尸体。",
+    "prediction": "潜水员在湖中发现一具尸体。",
+    "status": "ok"
+  },
+  {
+    "id": 783,
+    "audio": "/home/ubuntu/project/data/audio/test/784.wav",
+    "reference": "但是炼金术士继续向地平线望去。",
+    "prediction": "但是炼金术师继续望着地平线。",
+    "status": "ok"
+  },
+  {
+    "id": 784,
+    "audio": "/home/ubuntu/project/data/audio/test/785.wav",
+    "reference": "他起得很早，想找到它。",
+    "prediction": "他很早上床，想着找到它的主意。",
+    "status": "ok"
+  },
+  {
+    "id": 785,
+    "audio": "/home/ubuntu/project/data/audio/test/786.wav",
+    "reference": "这座雕像今天在奥林匹亚考古博物馆展出。",
+    "prediction": "该雕像今天陈列在奥林匹亚考古博物馆。",
+    "status": "ok"
+  },
+  {
+    "id": 786,
+    "audio": "/home/ubuntu/project/data/audio/test/787.wav",
+    "reference": "它没有带来沙漠的气息，也没有摩尔人入侵的威胁。",
+    "prediction": "它没有带来沙漠的味道，也没有带来摩尔人入侵的威胁。",
+    "status": "ok"
+  },
+  {
+    "id": 787,
+    "audio": "/home/ubuntu/project/data/audio/test/788.wav",
+    "reference": "还有很多值得深入思考的地方。",
+    "prediction": "Dedes Smach，希腊的。",
+    "status": "ok"
+  },
+  {
+    "id": 788,
+    "audio": "/home/ubuntu/project/data/audio/test/789.wav",
+    "reference": "你这瘀伤多久了？",
+    "prediction": "这个瘀伤是什么时候有的？",
+    "status": "ok"
+  },
+  {
+    "id": 789,
+    "audio": "/home/ubuntu/project/data/audio/test/790.wav",
+    "reference": "故意破坏也能传递有趣的信息！",
+    "prediction": "无法将 vandalism 翻译为简体中文：可能是输入错误。",
+    "status": "ok"
+  },
+  {
+    "id": 790,
+    "audio": "/home/ubuntu/project/data/audio/test/791.wav",
+    "reference": "镇上有许多基督教教派。",
+    "prediction": "许多基督教教派都存在于该地区。",
+    "status": "ok"
+  },
+  {
+    "id": 791,
+    "audio": "/home/ubuntu/project/data/audio/test/792.wav",
+    "reference": "炼金术士转向那个男孩。",
+    "prediction": "炼金术士转过身对男孩说。",
+    "status": "ok"
+  },
+  {
+    "id": 792,
+    "audio": "/home/ubuntu/project/data/audio/test/793.wav",
+    "reference": "他已经看到许多人来来去去，沙漠依然如故。",
+    "prediction": "他已经看到许多人来来往往，沙漠仍一如既往。",
+    "status": "ok"
+  },
+  {
+    "id": 793,
+    "audio": "/home/ubuntu/project/data/audio/test/794.wav",
+    "reference": "Wood 很小就开始写作。",
+    "prediction": "你愿意在你的网站上写一篇评论吗？",
+    "status": "ok"
+  },
+  {
+    "id": 794,
+    "audio": "/home/ubuntu/project/data/audio/test/795.wav",
+    "reference": "这部剧围绕着两种反复冲突的不同生活方式展开。",
+    "prediction": "该剧围绕两种不同的生活方式展开，这两种生活方式反复发生冲突。",
+    "status": "ok"
+  },
+  {
+    "id": 795,
+    "audio": "/home/ubuntu/project/data/audio/test/796.wav",
+    "reference": "“我很惊讶，”男孩说。",
+    "prediction": "“我很惊讶，”男孩说。",
+    "status": "ok"
+  },
+  {
+    "id": 796,
+    "audio": "/home/ubuntu/project/data/audio/test/797.wav",
+    "reference": "那么，现在怎么办？",
+    "prediction": "那现在呢？",
+    "status": "ok"
+  },
+  {
+    "id": 797,
+    "audio": "/home/ubuntu/project/data/audio/test/798.wav",
+    "reference": "在 Carroll，高等教育并不顺利。",
+    "prediction": "在 Carroll 的领导下，高等教育的发展并不尽如人意。",
+    "status": "ok"
+  },
+  {
+    "id": 798,
+    "audio": "/home/ubuntu/project/data/audio/test/799.wav",
+    "reference": "Albert，你参观过那个著名的蝙蝠洞吗？",
+    "prediction": "你去过著名的蝙蝠洞吗？",
+    "status": "ok"
+  },
+  {
+    "id": 799,
+    "audio": "/home/ubuntu/project/data/audio/test/800.wav",
+    "reference": "先到先得。",
+    "prediction": "先到先得。",
+    "status": "ok"
+  },
+  {
+    "id": 800,
+    "audio": "/home/ubuntu/project/data/audio/test/801.wav",
+    "reference": "她协助创建了 “都会”。",
+    "prediction": "她协助创建了Metrowerks。",
+    "status": "ok"
+  },
+  {
+    "id": 801,
+    "audio": "/home/ubuntu/project/data/audio/test/802.wav",
+    "reference": "你想要月亮？",
+    "prediction": "你想要什么？",
+    "status": "ok"
+  },
+  {
+    "id": 802,
+    "audio": "/home/ubuntu/project/data/audio/test/803.wav",
+    "reference": "这将保护楼上的房间免受水的破坏。",
+    "prediction": "这将保护楼上的房间免受水损。",
+    "status": "ok"
+  },
+  {
+    "id": 803,
+    "audio": "/home/ubuntu/project/data/audio/test/804.wav",
+    "reference": "这群人离开了购物中心，没有人互相交谈。",
+    "prediction": "这群人离开了商场，彼此沉默不语。",
+    "status": "ok"
+  },
+  {
+    "id": 804,
+    "audio": "/home/ubuntu/project/data/audio/test/805.wav",
+    "reference": "气体飘带向我们飘来。",
+    "prediction": "燃气流朝我们这边移来。",
+    "status": "ok"
+  },
+  {
+    "id": 805,
+    "audio": "/home/ubuntu/project/data/audio/test/806.wav",
+    "reference": "Charlotte 把钥匙放在哪里了？",
+    "prediction": "喂，你这混蛋，滚开。",
+    "status": "ok"
+  },
+  {
+    "id": 806,
+    "audio": "/home/ubuntu/project/data/audio/test/807.wav",
+    "reference": "“这是给你的，”他说着，把其中的一部分拿给了僧侣。",
+    "prediction": "“这是给你的，”他说，把钱的一份递给那个人。",
+    "status": "ok"
+  },
+  {
+    "id": 807,
+    "audio": "/home/ubuntu/project/data/audio/test/808.wav",
+    "reference": "沿着那条路是去粮农的路。",
+    "prediction": "沿着这条路走，直到看到谷物农夫。",
+    "status": "ok"
+  },
+  {
+    "id": 808,
+    "audio": "/home/ubuntu/project/data/audio/test/809.wav",
+    "reference": "那些人是活力充沛的桑巴舞者！",
+    "prediction": "那些人是超棒的桑巴舞者。",
+    "status": "ok"
+  },
+  {
+    "id": 809,
+    "audio": "/home/ubuntu/project/data/audio/test/810.wav",
+    "reference": "许多望远镜都对准了它。",
+    "prediction": "许多望远镜都对准了它。",
+    "status": "ok"
+  },
+  {
+    "id": 810,
+    "audio": "/home/ubuntu/project/data/audio/test/811.wav",
+    "reference": "大西洋彼岸，在一场关于版税的激烈争论中，五角星乐队 退出了他们的唱片公司。",
+    "prediction": "随后，Pentangle与其唱片公司Transatlantic在版税问题上发生了激烈的争执，最终退出了Transatlantic。",
+    "status": "ok"
+  },
+  {
+    "id": 811,
+    "audio": "/home/ubuntu/project/data/audio/test/812.wav",
+    "reference": "学院决定放弃增加停车位的计划。",
+    "prediction": "学院决定增加他们的停车位。",
+    "status": "ok"
+  },
+  {
+    "id": 812,
+    "audio": "/home/ubuntu/project/data/audio/test/813.wav",
+    "reference": "主席在大学的董事会中也有一个席位。",
+    "prediction": "主席还担任大学管理委员会的职位。",
+    "status": "ok"
+  },
+  {
+    "id": 813,
+    "audio": "/home/ubuntu/project/data/audio/test/814.wav",
+    "reference": "当 “剑齿虎” 背叛并攻击团队时，“北极星”受了重伤。",
+    "prediction": "当Sabretooth背叛并攻击团队时，Polaris受了重伤。",
+    "status": "ok"
+  },
+  {
+    "id": 814,
+    "audio": "/home/ubuntu/project/data/audio/test/815.wav",
+    "reference": "船长抱怨运河边上庞大的建筑挡住了视线。",
+    "prediction": "加菲尔德的政府是根据宪法的条款组织起来的。",
+    "status": "ok"
+  },
+  {
+    "id": 815,
+    "audio": "/home/ubuntu/project/data/audio/test/816.wav",
+    "reference": "你能把这些文件归档吗？",
+    "prediction": "请找出这些文件。",
+    "status": "ok"
+  },
+  {
+    "id": 816,
+    "audio": "/home/ubuntu/project/data/audio/test/817.wav",
+    "reference": "瓢虫是一种红黑相间的飞行昆虫",
+    "prediction": "ladybird是一种红色和黑色的飞虫。",
+    "status": "ok"
+  },
+  {
+    "id": 817,
+    "audio": "/home/ubuntu/project/data/audio/test/818.wav",
+    "reference": "它位于乌普萨拉。",
+    "prediction": "它位于Mooresville。",
+    "status": "ok"
+  },
+  {
+    "id": 818,
+    "audio": "/home/ubuntu/project/data/audio/test/819.wav",
+    "reference": "一个穿着白色衬衫的小孩用剪刀剪纸，一个穿着蓝色毛衣的大人在一旁看着",
+    "prediction": "一个穿着白衬衫的孩子正在用剪刀剪纸，而一个穿着蓝色毛衣的成年人正在看着。",
+    "status": "ok"
+  },
+  {
+    "id": 819,
+    "audio": "/home/ubuntu/project/data/audio/test/820.wav",
+    "reference": "体积用字母“V”表示。",
+    "prediction": "体积由字母“ V”表示。",
+    "status": "ok"
+  },
+  {
+    "id": 820,
+    "audio": "/home/ubuntu/project/data/audio/test/821.wav",
+    "reference": "多年默默无闻，然后加入了俱乐部。",
+    "prediction": "俱乐部随后陷入了多年的黑暗。",
+    "status": "ok"
+  },
+  {
+    "id": 821,
+    "audio": "/home/ubuntu/project/data/audio/test/822.wav",
+    "reference": "这是我所希望的。",
+    "prediction": "这就是我所希望的",
+    "status": "ok"
+  },
+  {
+    "id": 822,
+    "audio": "/home/ubuntu/project/data/audio/test/823.wav",
+    "reference": "多美好的一天啊！",
+    "prediction": "多么可爱的孩子啊！",
+    "status": "ok"
+  },
+  {
+    "id": 823,
+    "audio": "/home/ubuntu/project/data/audio/test/824.wav",
+    "reference": "这是一件值得学习的好事情。",
+    "prediction": "这是件好事。",
+    "status": "ok"
+  },
+  {
+    "id": 824,
+    "audio": "/home/ubuntu/project/data/audio/test/825.wav",
+    "reference": "然而，财务主管反对说金额太多了。",
+    "prediction": "但财政官反对说数目太多。",
+    "status": "ok"
+  },
+  {
+    "id": 825,
+    "audio": "/home/ubuntu/project/data/audio/test/826.wav",
+    "reference": "一男一女在婚礼上结婚。",
+    "prediction": "一对男女在婚礼上结婚。",
+    "status": "ok"
+  },
+  {
+    "id": 826,
+    "audio": "/home/ubuntu/project/data/audio/test/827.wav",
+    "reference": "该艺术团上演了谢菲尔德一年一度的圣诞哑剧之一。",
+    "prediction": "利塞安表演了谢菲尔德一年一度的圣诞哑剧之一。",
+    "status": "ok"
+  },
+  {
+    "id": 827,
+    "audio": "/home/ubuntu/project/data/audio/test/828.wav",
+    "reference": "Eve 和 Ronald 有秘密恋情。",
+    "prediction": "伊芙与罗纳德有过秘密恋情。",
+    "status": "ok"
+  },
+  {
+    "id": 828,
+    "audio": "/home/ubuntu/project/data/audio/test/829.wav",
+    "reference": "“因素，”哈特说。",
+    "prediction": "因子分解。",
+    "status": "ok"
+  },
+  {
+    "id": 829,
+    "audio": "/home/ubuntu/project/data/audio/test/830.wav",
+    "reference": "他在思考着预兆，有人出现了。",
+    "prediction": "他正在考虑预兆，这时有人出现了。",
+    "status": "ok"
+  },
+  {
+    "id": 830,
+    "audio": "/home/ubuntu/project/data/audio/test/831.wav",
+    "reference": "那天晚上，又有一股气体从遥远的星球喷射出来。",
+    "prediction": "那天晚上，来自遥远星球的气体又喷发了。",
+    "status": "ok"
+  },
+  {
+    "id": 831,
+    "audio": "/home/ubuntu/project/data/audio/test/832.wav",
+    "reference": "纽拉基塔的初中是 Lotoalofa 小学。",
+    "prediction": "Lelakitas初级中学是Lotoli Primary School。",
+    "status": "ok"
+  },
+  {
+    "id": 832,
+    "audio": "/home/ubuntu/project/data/audio/test/833.wav",
+    "reference": "Borromeo 主教也把他收藏的油画和素描捐给了图书馆。",
+    "prediction": "红衣主教博诺米诺将他的选举权授予了圣多明我修道院。",
+    "status": "ok"
+  },
+  {
+    "id": 833,
+    "audio": "/home/ubuntu/project/data/audio/test/834.wav",
+    "reference": "他们认为我在和他们一起工作。",
+    "prediction": "您认为我工作认真吗？",
+    "status": "ok"
+  },
+  {
+    "id": 834,
+    "audio": "/home/ubuntu/project/data/audio/test/835.wav",
+    "reference": "她想，早餐通常比这更早。",
+    "prediction": "她想，早餐通常都比较早就吃了。",
+    "status": "ok"
+  },
+  {
+    "id": 835,
+    "audio": "/home/ubuntu/project/data/audio/test/836.wav",
+    "reference": "其中有 Gush Etzion 的士兵和犹太人区的守卫者。",
+    "prediction": "其中包括来自 Gush Etzion 的士兵和犹太人区的防御者。",
+    "status": "ok"
+  },
+  {
+    "id": 836,
+    "audio": "/home/ubuntu/project/data/audio/test/837.wav",
+    "reference": "这种事以前发生过很多次。",
+    "prediction": "这种情况以前发生过很多次。",
+    "status": "ok"
+  },
+  {
+    "id": 837,
+    "audio": "/home/ubuntu/project/data/audio/test/838.wav",
+    "reference": "有没有伴奏",
+    "prediction": "哪种伴奏？",
+    "status": "ok"
+  },
+  {
+    "id": 838,
+    "audio": "/home/ubuntu/project/data/audio/test/839.wav",
+    "reference": "你漏掉了第五个。",
+    "prediction": "你忘了数字 5！",
+    "status": "ok"
+  },
+  {
+    "id": 839,
+    "audio": "/home/ubuntu/project/data/audio/test/840.wav",
+    "reference": "“但是这份报答远远超出了我的慷慨，”僧侣回答。",
+    "prediction": "但这次付款远超我的付款意愿，僧人回答。",
+    "status": "ok"
+  },
+  {
+    "id": 840,
+    "audio": "/home/ubuntu/project/data/audio/test/841.wav",
+    "reference": "它是皇家装甲部队的一部分。",
+    "prediction": "它是皇家装甲军团的一部分。",
+    "status": "ok"
+  },
+  {
+    "id": 841,
+    "audio": "/home/ubuntu/project/data/audio/test/842.wav",
+    "reference": "你不需要签任何东西。",
+    "prediction": "您不需要签署任何内容。",
+    "status": "ok"
+  },
+  {
+    "id": 842,
+    "audio": "/home/ubuntu/project/data/audio/test/843.wav",
+    "reference": "他种草莓，所以你不会喜欢它的。",
+    "prediction": "他种草莓，所以你应该不喜欢。",
+    "status": "ok"
+  },
+  {
+    "id": 843,
+    "audio": "/home/ubuntu/project/data/audio/test/844.wav",
+    "reference": "欢迎来到 Dave 的吉他课。",
+    "prediction": "欢迎来到Dave的吉他演奏会。",
+    "status": "ok"
+  },
+  {
+    "id": 844,
+    "audio": "/home/ubuntu/project/data/audio/test/845.wav",
+    "reference": "甜言蜜语不能当饭吃。",
+    "prediction": "fair words，但不是甘蓝！",
+    "status": "ok"
+  },
+  {
+    "id": 845,
+    "audio": "/home/ubuntu/project/data/audio/test/846.wav",
+    "reference": "没了石英谐振器，我的手表就不能工作。",
+    "prediction": "如果没有石英谐振器，我的手表将无法工作。",
+    "status": "ok"
+  },
+  {
+    "id": 846,
+    "audio": "/home/ubuntu/project/data/audio/test/847.wav",
+    "reference": "年轻的女士振作起来！",
+    "prediction": "小姐，加油！",
+    "status": "ok"
+  },
+  {
+    "id": 847,
+    "audio": "/home/ubuntu/project/data/audio/test/848.wav",
+    "reference": "不是每个人都能阅读源代码。",
+    "prediction": "不是每个人都能看懂源代码。",
+    "status": "ok"
+  },
+  {
+    "id": 848,
+    "audio": "/home/ubuntu/project/data/audio/test/849.wav",
+    "reference": "宝藏在金字塔里；你已经知道了。",
+    "prediction": "宝藏就在你知道的金字塔里。",
+    "status": "ok"
+  },
+  {
+    "id": 849,
+    "audio": "/home/ubuntu/project/data/audio/test/850.wav",
+    "reference": "公共汽车仍然使用以前的无轨电车环线。",
+    "prediction": "以前的有轨电车环路仍然作为公共汽车使用。",
+    "status": "ok"
+  },
+  {
+    "id": 850,
+    "audio": "/home/ubuntu/project/data/audio/test/851.wav",
+    "reference": "不要问我为什么；我也不知道为什么。",
+    "prediction": "别问我为什么，我不知道。",
+    "status": "ok"
+  },
+  {
+    "id": 851,
+    "audio": "/home/ubuntu/project/data/audio/test/852.wav",
+    "reference": "汽车有窗户、灯、轮子...等等。",
+    "prediction": "汽车有窗户、灯光、车轮等。",
+    "status": "ok"
+  },
+  {
+    "id": 852,
+    "audio": "/home/ubuntu/project/data/audio/test/853.wav",
+    "reference": "帮助那位女士站起来。",
+    "prediction": "帮助那个女人站起来。",
+    "status": "ok"
+  },
+  {
+    "id": 853,
+    "audio": "/home/ubuntu/project/data/audio/test/854.wav",
+    "reference": "我能区分水晶的好坏，还有其他关于水晶的一切品质。",
+    "prediction": "我知道好的水晶和不好的水晶以及其他所有的事情。",
+    "status": "ok"
+  },
+  {
+    "id": 854,
+    "audio": "/home/ubuntu/project/data/audio/test/855.wav",
+    "reference": "岁月不饶人。",
+    "prediction": "时不我待。",
+    "status": "ok"
+  },
+  {
+    "id": 855,
+    "audio": "/home/ubuntu/project/data/audio/test/856.wav",
+    "reference": "这本书的标题借用了 Reinhold Niebuhr 著作中的一句话。",
+    "prediction": "该书的标题借用了Reinhold Niebuhr的作品中的一个短语。",
+    "status": "ok"
+  },
+  {
+    "id": 856,
+    "audio": "/home/ubuntu/project/data/audio/test/857.wav",
+    "reference": "那家日本公司的首席执行官辞职了。",
+    "prediction": "日本公司首席执行官辞职。",
+    "status": "ok"
+  },
+  {
+    "id": 857,
+    "audio": "/home/ubuntu/project/data/audio/test/858.wav",
+    "reference": "其他仆人在水烟袋里保持了火种。",
+    "prediction": "其他仆人在钩子上保留文件。",
+    "status": "ok"
+  },
+  {
+    "id": 858,
+    "audio": "/home/ubuntu/project/data/audio/test/859.wav",
+    "reference": "实现自己的命运是一个人唯一真正的职责。",
+    "prediction": "纠正自己的命运是一个人唯一的真正义务。",
+    "status": "ok"
+  },
+  {
+    "id": 859,
+    "audio": "/home/ubuntu/project/data/audio/test/860.wav",
+    "reference": "是你做的吗？",
+    "prediction": "你那么做了吗？",
+    "status": "ok"
+  },
+  {
+    "id": 860,
+    "audio": "/home/ubuntu/project/data/audio/test/861.wav",
+    "reference": "一个男孩向我跑来。",
+    "prediction": "男孩向我跑来。",
+    "status": "ok"
+  },
+  {
+    "id": 861,
+    "audio": "/home/ubuntu/project/data/audio/test/862.wav",
+    "reference": "Neil Armstrong 是第一个登上月球的人。",
+    "prediction": "尼尔·阿姆斯特朗是第一个登上月球的人。",
+    "status": "ok"
+  },
+  {
+    "id": 862,
+    "audio": "/home/ubuntu/project/data/audio/test/863.wav",
+    "reference": "由于桥断，汽车无法到达这个地方。",
+    "prediction": "由于断了一座桥，该地区交通不便。",
+    "status": "ok"
+  },
+  {
+    "id": 863,
+    "audio": "/home/ubuntu/project/data/audio/test/864.wav",
+    "reference": "空虚被填满了，我甚至都没有意识到。",
+    "prediction": "我甚至没有意识到自己曾经充满窟窿。",
+    "status": "ok"
+  },
+  {
+    "id": 864,
+    "audio": "/home/ubuntu/project/data/audio/test/865.wav",
+    "reference": "我叫 Heather。",
+    "prediction": "我叫Heather。",
+    "status": "ok"
+  },
+  {
+    "id": 865,
+    "audio": "/home/ubuntu/project/data/audio/test/866.wav",
+    "reference": "在海滨酒店。",
+    "prediction": "在海岸酒店。",
+    "status": "ok"
+  },
+  {
+    "id": 866,
+    "audio": "/home/ubuntu/project/data/audio/test/867.wav",
+    "reference": "我在旅行中得知了炼金术士的秘密。",
+    "prediction": "我在旅行中学会了炼金术士的秘密。",
+    "status": "ok"
+  },
+  {
+    "id": 867,
+    "audio": "/home/ubuntu/project/data/audio/test/868.wav",
+    "reference": "在建造的时候，这座建筑是纽约最高的。",
+    "prediction": "在建造时，该建筑物是纽约最高的建筑物。",
+    "status": "ok"
+  },
+  {
+    "id": 868,
+    "audio": "/home/ubuntu/project/data/audio/test/869.wav",
+    "reference": "南回归线在南半球。",
+    "prediction": "南回归线位于南半球。",
+    "status": "ok"
+  },
+  {
+    "id": 869,
+    "audio": "/home/ubuntu/project/data/audio/test/870.wav",
+    "reference": "这是因为它们是以像素命名的。",
+    "prediction": "这是由于它们以像素命名。",
+    "status": "ok"
+  },
+  {
+    "id": 870,
+    "audio": "/home/ubuntu/project/data/audio/test/871.wav",
+    "reference": "这本书由 Chris DiBona、Sam Ockman 和 Mark Stone 编辑。",
+    "prediction": "该书由Chris Debona、Sam Oakman和Mark Song编辑。",
+    "status": "ok"
+  },
+  {
+    "id": 871,
+    "audio": "/home/ubuntu/project/data/audio/test/872.wav",
+    "reference": "桑斯基莫斯特有几个非政府组织。",
+    "prediction": "松克莫斯特有几个非政府组织。",
+    "status": "ok"
+  },
+  {
+    "id": 872,
+    "audio": "/home/ubuntu/project/data/audio/test/873.wav",
+    "reference": "说得好！制作精良。",
+    "prediction": "很好的观点。",
+    "status": "ok"
+  },
+  {
+    "id": 873,
+    "audio": "/home/ubuntu/project/data/audio/test/874.wav",
+    "reference": "她看起来不开心。",
+    "prediction": "她看起来不高兴。",
+    "status": "ok"
+  },
+  {
+    "id": 874,
+    "audio": "/home/ubuntu/project/data/audio/test/875.wav",
+    "reference": "坚持守住您的俱乐部。",
+    "prediction": "坚持你的俱乐部！",
+    "status": "ok"
+  },
+  {
+    "id": 875,
+    "audio": "/home/ubuntu/project/data/audio/test/876.wav",
+    "reference": "他找不到表达自己感情的词语。",
+    "prediction": "他找不到表达自己感受的言语。",
+    "status": "ok"
+  },
+  {
+    "id": 876,
+    "audio": "/home/ubuntu/project/data/audio/test/877.wav",
+    "reference": "他已经做了很多年了，知道每个通过考试人的时间表。",
+    "prediction": "他这样做已经做了几年，知道每个人经过时的时间表。",
+    "status": "ok"
+  },
+  {
+    "id": 877,
+    "audio": "/home/ubuntu/project/data/audio/test/878.wav",
+    "reference": "把邮票贴在信封上。",
+    "prediction": "将邮票贴在信封上。",
+    "status": "ok"
+  },
+  {
+    "id": 878,
+    "audio": "/home/ubuntu/project/data/audio/test/879.wav",
+    "reference": "与 Joshua不 同，他不需要神的帮助。",
+    "prediction": "与佐治亚州不同，他的学生在民主党的初选中排名靠后。",
+    "status": "ok"
+  },
+  {
+    "id": 879,
+    "audio": "/home/ubuntu/project/data/audio/test/880.wav",
+    "reference": "你会过得很糟糕。",
+    "prediction": "你即将度过一段艰难的时期。",
+    "status": "ok"
+  },
+  {
+    "id": 880,
+    "audio": "/home/ubuntu/project/data/audio/test/881.wav",
+    "reference": "这个家庭版允许玩家从三种难度模式中选择。",
+    "prediction": "家庭版允许玩家从三种难度模式中进行选择。",
+    "status": "ok"
+  },
+  {
+    "id": 881,
+    "audio": "/home/ubuntu/project/data/audio/test/882.wav",
+    "reference": "我可以用来请求调用远程系统上的子系统吗？",
+    "prediction": "它可以用作在远程系统中请求子系统新位置的信号。",
+    "status": "ok"
+  },
+  {
+    "id": 882,
+    "audio": "/home/ubuntu/project/data/audio/test/883.wav",
+    "reference": "我没有选择那种措辞。",
+    "prediction": "我并没有选择那个短语。",
+    "status": "ok"
+  },
+  {
+    "id": 883,
+    "audio": "/home/ubuntu/project/data/audio/test/884.wav",
+    "reference": "最后，他举起一块木板，小心地放在一边，看着地板下面的空间。",
+    "prediction": "最终，他搬起一块木板，小心翼翼地将其放在一边，然后俯身看着地板下面的空间。",
+    "status": "ok"
+  },
+  {
+    "id": 884,
+    "audio": "/home/ubuntu/project/data/audio/test/885.wav",
+    "reference": "它的首都是特立尼达。",
+    "prediction": "它的首府是特立尼达。",
+    "status": "ok"
+  },
+  {
+    "id": 885,
+    "audio": "/home/ubuntu/project/data/audio/test/886.wav",
+    "reference": "贪得无厌,自食其果",
+    "prediction": "贪婪使口袋爆炸。",
+    "status": "ok"
+  },
+  {
+    "id": 886,
+    "audio": "/home/ubuntu/project/data/audio/test/887.wav",
+    "reference": "在那儿，你能想象到的所有古董都有一个适合的小空间。",
+    "prediction": "那里有您能想象到的所有可以放入小空间的复古物品。",
+    "status": "ok"
+  },
+  {
+    "id": 887,
+    "audio": "/home/ubuntu/project/data/audio/test/888.wav",
+    "reference": "一个女人正在一张大网上使用一把小剪刀。",
+    "prediction": "一位女士正在用小剪刀剪布。",
+    "status": "ok"
+  },
+  {
+    "id": 888,
+    "audio": "/home/ubuntu/project/data/audio/test/889.wav",
+    "reference": "只有和你在一起才会容易得多。",
+    "prediction": "只有你在我身边，才感觉轻松。",
+    "status": "ok"
+  },
+  {
+    "id": 889,
+    "audio": "/home/ubuntu/project/data/audio/test/890.wav",
+    "reference": "我们为我们的网络选择了环形拓扑结构。",
+    "prediction": "我们选择星型拓扑结构来构建网络。",
+    "status": "ok"
+  },
+  {
+    "id": 890,
+    "audio": "/home/ubuntu/project/data/audio/test/891.wav",
+    "reference": "很好，很好。",
+    "prediction": "非常好，非常好！",
+    "status": "ok"
+  },
+  {
+    "id": 891,
+    "audio": "/home/ubuntu/project/data/audio/test/892.wav",
+    "reference": "嗯，看来我的早餐麦片快用完了。",
+    "prediction": "我意识到自己正在错过重要的事情。",
+    "status": "ok"
+  },
+  {
+    "id": 892,
+    "audio": "/home/ubuntu/project/data/audio/test/893.wav",
+    "reference": "我的猫躺在那里，沐浴着太阳。",
+    "prediction": "我的猫躺在那里，吸收阳光。",
+    "status": "ok"
+  },
+  {
+    "id": 893,
+    "audio": "/home/ubuntu/project/data/audio/test/894.wav",
+    "reference": "空气从边缘的薄弱位置进进出出，发出咝咝的声音。",
+    "prediction": "空气要么在边缘处嘶嘶作响而进入，要么在边缘处逃逸。",
+    "status": "ok"
+  },
+  {
+    "id": 894,
+    "audio": "/home/ubuntu/project/data/audio/test/895.wav",
+    "reference": "它也是一个乘客在慢车和快车之间常用的换乘站。",
+    "prediction": "对于乘客来说，它也是一个慢车服务和快车服务之间常用的换乘枢纽。",
+    "status": "ok"
+  },
+  {
+    "id": 895,
+    "audio": "/home/ubuntu/project/data/audio/test/896.wav",
+    "reference": "人靠金钱马靠鞍",
+    "prediction": "有钱能使鬼推磨。",
+    "status": "ok"
+  },
+  {
+    "id": 896,
+    "audio": "/home/ubuntu/project/data/audio/test/897.wav",
+    "reference": "日落之前，平息怒火吧",
+    "prediction": "不要因为你愤怒的日落。",
+    "status": "ok"
+  },
+  {
+    "id": 897,
+    "audio": "/home/ubuntu/project/data/audio/test/898.wav",
+    "reference": "Grogan 也成为了一名电影和电视演员。",
+    "prediction": "戈根还成为了电影和电视女演员。",
+    "status": "ok"
+  },
+  {
+    "id": 898,
+    "audio": "/home/ubuntu/project/data/audio/test/899.wav",
+    "reference": "如果它没坏，就不要修理它。",
+    "prediction": "如果它不坏，就不要修它。",
+    "status": "ok"
+  },
+  {
+    "id": 899,
+    "audio": "/home/ubuntu/project/data/audio/test/900.wav",
+    "reference": "他记得祖父曾经告诉过他的一些事：蝴蝶是一个好兆头。",
+    "prediction": "他想起了爷爷曾经告诉他的一种好预兆：看到蝴蝶飞舞。",
+    "status": "ok"
+  },
+  {
+    "id": 900,
+    "audio": "/home/ubuntu/project/data/audio/test/901.wav",
+    "reference": "目前，多数由于侵蚀而被损坏或丢失。",
+    "prediction": "现在许多都因侵蚀而损坏或丢失。",
+    "status": "ok"
+  },
+  {
+    "id": 901,
+    "audio": "/home/ubuntu/project/data/audio/test/902.wav",
+    "reference": "日落之前，平息心中的怒火吧。",
+    "prediction": "不要让太阳落下，也不要对任何人发怒。",
+    "status": "ok"
+  },
+  {
+    "id": 902,
+    "audio": "/home/ubuntu/project/data/audio/test/903.wav",
+    "reference": "公众投票结果与陪审团投票结果相结合。",
+    "prediction": "公众投票的结果与评审团的投票相结合。",
+    "status": "ok"
+  },
+  {
+    "id": 903,
+    "audio": "/home/ubuntu/project/data/audio/test/904.wav",
+    "reference": "这意味着什么？",
+    "prediction": "它可能是什么意思？",
+    "status": "ok"
+  },
+  {
+    "id": 904,
+    "audio": "/home/ubuntu/project/data/audio/test/905.wav",
+    "reference": "因此，武装的公民士兵肩负起了责任。",
+    "prediction": "因此，武装公民士兵承担了责任。",
+    "status": "ok"
+  },
+  {
+    "id": 905,
+    "audio": "/home/ubuntu/project/data/audio/test/906.wav",
+    "reference": "挥拍的板球击球手",
+    "prediction": "一个板球运动员挥杆。",
+    "status": "ok"
+  },
+  {
+    "id": 906,
+    "audio": "/home/ubuntu/project/data/audio/test/907.wav",
+    "reference": "英国人没有直接回答他。",
+    "prediction": "哦！",
+    "status": "ok"
+  },
+  {
+    "id": 907,
+    "audio": "/home/ubuntu/project/data/audio/test/908.wav",
+    "reference": "“这些是间谍，”其中一个人说。",
+    "prediction": "这些是小费中的香料。",
+    "status": "ok"
+  },
+  {
+    "id": 908,
+    "audio": "/home/ubuntu/project/data/audio/test/909.wav",
+    "reference": "我不相信！",
+    "prediction": "我不会相信。",
+    "status": "ok"
+  },
+  {
+    "id": 909,
+    "audio": "/home/ubuntu/project/data/audio/test/910.wav",
+    "reference": "商店包括一家阿尔迪超市、一家较小的 食品工厂 杂货店和一家麦当劳餐厅。",
+    "prediction": "商店包括一家阿尔迪超市、一家较小的食品杂货店和一家麦当劳餐厅。",
+    "status": "ok"
+  },
+  {
+    "id": 910,
+    "audio": "/home/ubuntu/project/data/audio/test/911.wav",
+    "reference": "如果他身上有，那么他们也会有。",
+    "prediction": "如果他身上有，他们就会有了。",
+    "status": "ok"
+  },
+  {
+    "id": 911,
+    "audio": "/home/ubuntu/project/data/audio/test/912.wav",
+    "reference": "狐狸在我的家乡很少见。",
+    "prediction": "我在附近很少见到狐狸。",
+    "status": "ok"
+  },
+  {
+    "id": 912,
+    "audio": "/home/ubuntu/project/data/audio/test/913.wav",
+    "reference": "他花了半个小时才走到它的边缘。",
+    "prediction": "他花了一个半小时才达到边缘。",
+    "status": "ok"
+  },
+  {
+    "id": 913,
+    "audio": "/home/ubuntu/project/data/audio/test/914.wav",
+    "reference": "完全成熟的四龄幼虫很长。",
+    "prediction": "完全成熟的四龄幼虫很长。",
+    "status": "ok"
+  },
+  {
+    "id": 914,
+    "audio": "/home/ubuntu/project/data/audio/test/915.wav",
+    "reference": "Baker 赢了这场比赛。",
+    "prediction": "Baker 赢得了比赛。",
+    "status": "ok"
+  },
+  {
+    "id": 915,
+    "audio": "/home/ubuntu/project/data/audio/test/916.wav",
+    "reference": "四个人穿着暖和的衣服在街上散步。",
+    "prediction": "四个人穿着秋装在街上行走。",
+    "status": "ok"
+  },
+  {
+    "id": 916,
+    "audio": "/home/ubuntu/project/data/audio/test/917.wav",
+    "reference": "注意缝隙。",
+    "prediction": "注意间隙。",
+    "status": "ok"
+  },
+  {
+    "id": 917,
+    "audio": "/home/ubuntu/project/data/audio/test/918.wav",
+    "reference": "它是 Grootegast 市的一部分。",
+    "prediction": "它是图尔尼桑市的一部分。",
+    "status": "ok"
+  },
+  {
+    "id": 918,
+    "audio": "/home/ubuntu/project/data/audio/test/919.wav",
+    "reference": "他确信这个女孩永远不会明白。",
+    "prediction": "他确定女孩永远不会理解。",
+    "status": "ok"
+  },
+  {
+    "id": 919,
+    "audio": "/home/ubuntu/project/data/audio/test/920.wav",
+    "reference": "找个时间四处看看。",
+    "prediction": "有时看看周围。",
+    "status": "ok"
+  },
+  {
+    "id": 920,
+    "audio": "/home/ubuntu/project/data/audio/test/921.wav",
+    "reference": "他给了男孩他的祝福。",
+    "prediction": "他给这孩子祝福了。",
+    "status": "ok"
+  },
+  {
+    "id": 921,
+    "audio": "/home/ubuntu/project/data/audio/test/922.wav",
+    "reference": "哎呀，天哪!",
+    "prediction": "为什么，天哪！",
+    "status": "ok"
+  },
+  {
+    "id": 922,
+    "audio": "/home/ubuntu/project/data/audio/test/923.wav",
+    "reference": "现在上帝决定使用其他方法。",
+    "prediction": "现在上帝决定使用其他方法。",
+    "status": "ok"
+  },
+  {
+    "id": 923,
+    "audio": "/home/ubuntu/project/data/audio/test/924.wav",
+    "reference": "python 不是蛇，而是一种编程语言。",
+    "prediction": "蟒蛇不是蛇——它是编程语言。",
+    "status": "ok"
+  },
+  {
+    "id": 924,
+    "audio": "/home/ubuntu/project/data/audio/test/925.wav",
+    "reference": "在那里，炼金术士将圆盘分成四部分。",
+    "prediction": "德伊尔和阿耳忒弥斯将这片区域分为两部分。",
+    "status": "ok"
+  },
+  {
+    "id": 925,
+    "audio": "/home/ubuntu/project/data/audio/test/926.wav",
+    "reference": "太阳升起时，男人们开始打男孩。",
+    "prediction": "随着太阳升起，男人开始殴打男孩。",
+    "status": "ok"
+  },
+  {
+    "id": 926,
+    "audio": "/home/ubuntu/project/data/audio/test/927.wav",
+    "reference": "你怎么知道它是正确的？",
+    "prediction": "你怎么知道是对的？",
+    "status": "ok"
+  },
+  {
+    "id": 927,
+    "audio": "/home/ubuntu/project/data/audio/test/928.wav",
+    "reference": "这匹马将小心探索着前进到终点。",
+    "prediction": "这匹马将在终点前 nosedive。",
+    "status": "ok"
+  },
+  {
+    "id": 928,
+    "audio": "/home/ubuntu/project/data/audio/test/929.wav",
+    "reference": "我不知道。",
+    "prediction": "我讨厌不得不这么做。",
+    "status": "ok"
+  },
+  {
+    "id": 929,
+    "audio": "/home/ubuntu/project/data/audio/test/930.wav",
+    "reference": "他继续在保险行业发展。",
+    "prediction": "他继续在保险公司工作。",
+    "status": "ok"
+  },
+  {
+    "id": 930,
+    "audio": "/home/ubuntu/project/data/audio/test/931.wav",
+    "reference": "这是约翰内斯堡南部边缘的一个安静的农场式郊区。",
+    "prediction": "它是约翰内斯堡南部边缘的一个安静的农场郊区。",
+    "status": "ok"
+  },
+  {
+    "id": 931,
+    "audio": "/home/ubuntu/project/data/audio/test/932.wav",
+    "reference": "抱歉让你久等了。",
+    "prediction": "对不起，让你久等了。",
+    "status": "ok"
+  },
+  {
+    "id": 932,
+    "audio": "/home/ubuntu/project/data/audio/test/933.wav",
+    "reference": "他们把他们的孩子们从公立学校带走。",
+    "prediction": "他们把孩子从公立学校带走。",
+    "status": "ok"
+  },
+  {
+    "id": 933,
+    "audio": "/home/ubuntu/project/data/audio/test/934.wav",
+    "reference": "我喜欢新一集的复仇者，他真是个坏蛋。",
+    "prediction": "我喜欢新剧集的预告片；他真的是一名重案组警察。",
+    "status": "ok"
+  },
+  {
+    "id": 934,
+    "audio": "/home/ubuntu/project/data/audio/test/935.wav",
+    "reference": "Darius 划了十二个小时后，爬出独木舟，躺在沙滩上打盹。",
+    "prediction": "划了十二小时的船后，Daris 爬出独木舟，躺在沙滩上小睡了一会儿。",
+    "status": "ok"
+  },
+  {
+    "id": 935,
+    "audio": "/home/ubuntu/project/data/audio/test/936.wav",
+    "reference": "他们目前在赫尔辛基的 Hartwall Areena 逗留。",
+    "prediction": "他们目前在赫尔辛基的Hartwall Arena演出。",
+    "status": "ok"
+  },
+  {
+    "id": 936,
+    "audio": "/home/ubuntu/project/data/audio/test/937.wav",
+    "reference": "“不要让他们看到你在害怕，”炼金术士说。",
+    "prediction": "炼金术士说：不要让他们看到你害怕。",
+    "status": "ok"
+  },
+  {
+    "id": 937,
+    "audio": "/home/ubuntu/project/data/audio/test/938.wav",
+    "reference": "上帝保佑我的灵魂！",
+    "prediction": "上帝保佑我的灵魂。",
+    "status": "ok"
+  },
+  {
+    "id": 938,
+    "audio": "/home/ubuntu/project/data/audio/test/939.wav",
+    "reference": "从那里，他可以看到远处的非洲。",
+    "prediction": "从那里他可以看到远处的非洲。",
+    "status": "ok"
+  },
+  {
+    "id": 939,
+    "audio": "/home/ubuntu/project/data/audio/test/940.wav",
+    "reference": "你认为 Ken 是怎么拿到那把枪的？",
+    "prediction": "您认为如何才能获得那把枪？",
+    "status": "ok"
+  },
+  {
+    "id": 940,
+    "audio": "/home/ubuntu/project/data/audio/test/941.wav",
+    "reference": "理想主义把他引向哲学的无政府状态，而且他的家人把他赶了出来。",
+    "prediction": "理想主义使他陷入哲学无政府主义，他的家人把他赶走了。",
+    "status": "ok"
+  },
+  {
+    "id": 941,
+    "audio": "/home/ubuntu/project/data/audio/test/942.wav",
+    "reference": "我不禁觉得这个话题已经过时了，无可救药。",
+    "prediction": "我不得不觉得这个话题是无可救药的过时。",
+    "status": "ok"
+  },
+  {
+    "id": 942,
+    "audio": "/home/ubuntu/project/data/audio/test/943.wav",
+    "reference": "它目前的常住人口为四到五人。",
+    "prediction": "目前的永久居民为四或五。",
+    "status": "ok"
+  },
+  {
+    "id": 943,
+    "audio": "/home/ubuntu/project/data/audio/test/944.wav",
+    "reference": "Jackson 反对该法案的主要理由之一是该项目的地方性。",
+    "prediction": "Jackson 反对这项法案的主要论点是该项目具有省级性质。",
+    "status": "ok"
+  },
+  {
+    "id": 944,
+    "audio": "/home/ubuntu/project/data/audio/test/945.wav",
+    "reference": "收益将用于该镇的体育项目。",
+    "prediction": "所得款项将用于镇上的体育项目。",
+    "status": "ok"
+  },
+  {
+    "id": 945,
+    "audio": "/home/ubuntu/project/data/audio/test/946.wav",
+    "reference": "家是世界上最好的地方。",
+    "prediction": "没有地方像家一样。",
+    "status": "ok"
+  },
+  {
+    "id": 946,
+    "audio": "/home/ubuntu/project/data/audio/test/947.wav",
+    "reference": "你明白我的意思吗？",
+    "prediction": "你明白我的意思吗？",
+    "status": "ok"
+  },
+  {
+    "id": 947,
+    "audio": "/home/ubuntu/project/data/audio/test/948.wav",
+    "reference": "法国人以迅雷不及掩耳的速度和咄咄逼人的气势把协约国赶过了埃纳河。",
+    "prediction": "在冰冻的格里维尔河上，拖拉机拉着雪橇，拖车拉着装有设备的框架。",
+    "status": "ok"
+  },
+  {
+    "id": 948,
+    "audio": "/home/ubuntu/project/data/audio/test/949.wav",
+    "reference": "当他回到苏里南时，他在金融系统工作。",
+    "prediction": "当他回到苏塞克斯时，他在金融系统工作。",
+    "status": "ok"
+  },
+  {
+    "id": 949,
+    "audio": "/home/ubuntu/project/data/audio/test/950.wav",
+    "reference": "地方性甲状腺肿采用碘和甲状腺素制剂治疗。",
+    "prediction": "原发性甲状腺功能减退症的治疗是通过给予左旋甲状腺素制剂来进行的。",
+    "status": "ok"
+  },
+  {
+    "id": 950,
+    "audio": "/home/ubuntu/project/data/audio/test/951.wav",
+    "reference": "人们看见我来了要欢迎我，他想。",
+    "prediction": "他以为人们看到他来了，结果他醒了。",
+    "status": "ok"
+  },
+  {
+    "id": 951,
+    "audio": "/home/ubuntu/project/data/audio/test/952.wav",
+    "reference": "参议院成员必须是芬兰公民。",
+    "prediction": "参议院的成员必须是芬兰公民。",
+    "status": "ok"
+  },
+  {
+    "id": 952,
+    "audio": "/home/ubuntu/project/data/audio/test/953.wav",
+    "reference": "不要试图班门弄斧。",
+    "prediction": "不要尝试教奶奶如何吃鸡蛋。",
+    "status": "ok"
+  },
+  {
+    "id": 953,
+    "audio": "/home/ubuntu/project/data/audio/test/954.wav",
+    "reference": "一只白色的鸟展开翅膀，先跳到水里。",
+    "prediction": "一只白鸟展开翅膀然后像箭一样跃入水中。",
+    "status": "ok"
+  },
+  {
+    "id": 954,
+    "audio": "/home/ubuntu/project/data/audio/test/955.wav",
+    "reference": "她穿沙滩睡衣一定很好看！",
+    "prediction": "穿着睡衣的她一定很可爱！",
+    "status": "ok"
+  },
+  {
+    "id": 955,
+    "audio": "/home/ubuntu/project/data/audio/test/956.wav",
+    "reference": "那边那个金发的家伙是个饭桶。",
+    "prediction": "那边的金发家伙是个骗子。",
+    "status": "ok"
+  },
+  {
+    "id": 956,
+    "audio": "/home/ubuntu/project/data/audio/test/957.wav",
+    "reference": "在那之后你怎么会有幸福呢？",
+    "prediction": "在那之后你如何获得任何快乐。",
+    "status": "ok"
+  },
+  {
+    "id": 957,
+    "audio": "/home/ubuntu/project/data/audio/test/958.wav",
+    "reference": "一名男子正在一家餐馆的厨房点菜。",
+    "prediction": "一名男子正在餐厅厨房里下订单。",
+    "status": "ok"
+  },
+  {
+    "id": 958,
+    "audio": "/home/ubuntu/project/data/audio/test/959.wav",
+    "reference": "当然，这两个人什么也做不了。",
+    "prediction": "当然，他们很快就能跟上。",
+    "status": "ok"
+  },
+  {
+    "id": 959,
+    "audio": "/home/ubuntu/project/data/audio/test/960.wav",
+    "reference": "低语持续的时间比简单的誓言还要长。",
+    "prediction": "谋杀案持续的时间比简单的小冲突长。",
+    "status": "ok"
+  },
+  {
+    "id": 960,
+    "audio": "/home/ubuntu/project/data/audio/test/961.wav",
+    "reference": "想必 Ryan 从未做过任何健康检查。",
+    "prediction": "presumably 罗永浩从未进行任何精神检查。",
+    "status": "ok"
+  },
+  {
+    "id": 961,
+    "audio": "/home/ubuntu/project/data/audio/test/962.wav",
+    "reference": "他出生在科隆，是作曲家 Karlheinz Stockhausen 的儿子。",
+    "prediction": "他出生于科隆，是作曲家Karlheinz Stockhausen的儿子。",
+    "status": "ok"
+  },
+  {
+    "id": 962,
+    "audio": "/home/ubuntu/project/data/audio/test/963.wav",
+    "reference": "草率结婚后悔多。",
+    "prediction": "十八",
+    "status": "ok"
+  },
+  {
+    "id": 963,
+    "audio": "/home/ubuntu/project/data/audio/test/964.wav",
+    "reference": "请让开过道，否则我们出不去了",
+    "prediction": "请赶紧清理一条路，否则我们就无法出去。",
+    "status": "ok"
+  },
+  {
+    "id": 964,
+    "audio": "/home/ubuntu/project/data/audio/test/965.wav",
+    "reference": "你打算做什么？",
+    "prediction": "你打算做什么？",
+    "status": "ok"
+  },
+  {
+    "id": 965,
+    "audio": "/home/ubuntu/project/data/audio/test/966.wav",
+    "reference": "你还想要什么？",
+    "prediction": "你还想要什么？",
+    "status": "ok"
+  },
+  {
+    "id": 966,
+    "audio": "/home/ubuntu/project/data/audio/test/967.wav",
+    "reference": "更多关于大学拉德克利夫角色转变的信息，请访问拉德克利夫学院。",
+    "prediction": "有关拉德克利夫在大学中的作用，请参见拉德克利夫学院。",
+    "status": "ok"
+  },
+  {
+    "id": 967,
+    "audio": "/home/ubuntu/project/data/audio/test/968.wav",
+    "reference": "Maud 委员会三年后报道。",
+    "prediction": "三年后，莫德委员会提交了报告。",
+    "status": "ok"
+  },
+  {
+    "id": 968,
+    "audio": "/home/ubuntu/project/data/audio/test/969.wav",
+    "reference": "凡事皆有其难处。",
+    "prediction": "每条路都有它的烂泥。",
+    "status": "ok"
+  },
+  {
+    "id": 969,
+    "audio": "/home/ubuntu/project/data/audio/test/970.wav",
+    "reference": "Kuakata 是印度教和佛教团体的朝圣地。",
+    "prediction": "库尔卡塔是耆那教徒和佛教徒朝圣的圣地。",
+    "status": "ok"
+  },
+  {
+    "id": 970,
+    "audio": "/home/ubuntu/project/data/audio/test/971.wav",
+    "reference": "她也加入了。",
+    "prediction": "她加入了阿波。",
+    "status": "ok"
+  },
+  {
+    "id": 971,
+    "audio": "/home/ubuntu/project/data/audio/test/972.wav",
+    "reference": "但是它不允许向接口添加新成员。",
+    "prediction": "但是，它不允许向界面添加新成员。",
+    "status": "ok"
+  },
+  {
+    "id": 972,
+    "audio": "/home/ubuntu/project/data/audio/test/973.wav",
+    "reference": "耐心是一种美德。",
+    "prediction": "播放一首rap歌曲。",
+    "status": "ok"
+  },
+  {
+    "id": 973,
+    "audio": "/home/ubuntu/project/data/audio/test/974.wav",
+    "reference": "Sophocles 的《特拉西斯的女人》和 Ovid 的《变形记》讲述了这个故事。",
+    "prediction": "这些故事也出现在萨福的《塞壬篇》和奥维德的《变形记》中。",
+    "status": "ok"
+  },
+  {
+    "id": 974,
+    "audio": "/home/ubuntu/project/data/audio/test/975.wav",
+    "reference": "他的男仆也被绑架并与他关押在一起。",
+    "prediction": "他的男仆也与他一同被绑架。",
+    "status": "ok"
+  },
+  {
+    "id": 975,
+    "audio": "/home/ubuntu/project/data/audio/test/976.wav",
+    "reference": "Ines 喜欢去游泳。",
+    "prediction": "Inez 喜欢去游泳。",
+    "status": "ok"
+  },
+  {
+    "id": 976,
+    "audio": "/home/ubuntu/project/data/audio/test/977.wav",
+    "reference": "靠近蒙巴顿路的旧跑道现在被称为老机场路。",
+    "prediction": "靠近温顿山道路的旧跑道现在称为旧机场路。",
+    "status": "ok"
+  },
+  {
+    "id": 977,
+    "audio": "/home/ubuntu/project/data/audio/test/978.wav",
+    "reference": "在网站上查看主要特点。",
+    "prediction": "检查网站上的主要功能。",
+    "status": "ok"
+  },
+  {
+    "id": 978,
+    "audio": "/home/ubuntu/project/data/audio/test/979.wav",
+    "reference": "随遇而安,苦中作乐",
+    "prediction": "如果生活给你酸橙，那就做柠檬水。",
+    "status": "ok"
+  },
+  {
+    "id": 979,
+    "audio": "/home/ubuntu/project/data/audio/test/980.wav",
+    "reference": "是的，这将会很难。",
+    "prediction": "我知道这很难。",
+    "status": "ok"
+  },
+  {
+    "id": 980,
+    "audio": "/home/ubuntu/project/data/audio/test/981.wav",
+    "reference": "玩得开心。",
+    "prediction": "玩得开心吗?",
+    "status": "ok"
+  },
+  {
+    "id": 981,
+    "audio": "/home/ubuntu/project/data/audio/test/982.wav",
+    "reference": "帮助弱者保持实力。",
+    "prediction": "摇醒他们以保持他们的努力。",
+    "status": "ok"
+  },
+  {
+    "id": 982,
+    "audio": "/home/ubuntu/project/data/audio/test/983.wav",
+    "reference": "我总是这么说。",
+    "prediction": "我总是这么说。",
+    "status": "ok"
+  },
+  {
+    "id": 983,
+    "audio": "/home/ubuntu/project/data/audio/test/984.wav",
+    "reference": "我该拿它怎么办？",
+    "prediction": "我打算用它做什么",
+    "status": "ok"
+  },
+  {
+    "id": 984,
+    "audio": "/home/ubuntu/project/data/audio/test/985.wav",
+    "reference": "大约在 Cayley 给它们命名的同时， Bertrand 迈出了第一步。",
+    "prediction": "大约在凯利命名它们的同时，这是首次由贝尔特兰完成。",
+    "status": "ok"
+  },
+  {
+    "id": 985,
+    "audio": "/home/ubuntu/project/data/audio/test/986.wav",
+    "reference": "但你得让我自己待一会。",
+    "prediction": "但是他们必须让我一个人待着。",
+    "status": "ok"
+  },
+  {
+    "id": 986,
+    "audio": "/home/ubuntu/project/data/audio/test/987.wav",
+    "reference": "魔鬼带走了他！",
+    "prediction": "魔鬼的契约",
+    "status": "ok"
+  },
+  {
+    "id": 987,
+    "audio": "/home/ubuntu/project/data/audio/test/988.wav",
+    "reference": "特工从屋顶秘密进入大使馆。",
+    "prediction": "代理人秘密地从屋顶进入大使馆。",
+    "status": "ok"
+  },
+  {
+    "id": 988,
+    "audio": "/home/ubuntu/project/data/audio/test/989.wav",
+    "reference": "尽管羊没有教我说阿拉伯语。",
+    "prediction": "即使那样，他们也没教我说阿拉伯语。",
+    "status": "ok"
+  },
+  {
+    "id": 989,
+    "audio": "/home/ubuntu/project/data/audio/test/990.wav",
+    "reference": "然后他们拿了些钱，就远走高飞了。",
+    "prediction": "然后他们抓到了一只狗，变得愚蠢起来。",
+    "status": "ok"
+  },
+  {
+    "id": 990,
+    "audio": "/home/ubuntu/project/data/audio/test/991.wav",
+    "reference": "它无法对付这个说世界语言的男孩。",
+    "prediction": "但是无法应对这个说世界语言的男孩。",
+    "status": "ok"
+  },
+  {
+    "id": 991,
+    "audio": "/home/ubuntu/project/data/audio/test/992.wav",
+    "reference": "我帮你咳嗽一下",
+    "prediction": "我马上叫人去帮你。",
+    "status": "ok"
+  },
+  {
+    "id": 992,
+    "audio": "/home/ubuntu/project/data/audio/test/993.wav",
+    "reference": "我对太阳的评论：一颗恒星。",
+    "prediction": "给《太阳报》一星。",
+    "status": "ok"
+  },
+  {
+    "id": 993,
+    "audio": "/home/ubuntu/project/data/audio/test/994.wav",
+    "reference": "这就是我要说的。",
+    "prediction": "这就是我要说的。",
+    "status": "ok"
+  },
+  {
+    "id": 994,
+    "audio": "/home/ubuntu/project/data/audio/test/995.wav",
+    "reference": "现实是逐渐发展的。",
+    "prediction": "现实是逐步的发展。",
+    "status": "ok"
+  },
+  {
+    "id": 995,
+    "audio": "/home/ubuntu/project/data/audio/test/996.wav",
+    "reference": "用编织的草席遮蔽走廊。",
+    "prediction": "用编织的草席遮挡露台。",
+    "status": "ok"
+  },
+  {
+    "id": 996,
+    "audio": "/home/ubuntu/project/data/audio/test/997.wav",
+    "reference": "那个英国人也消失了，去找炼金术士了。",
+    "prediction": "那个英国人也消失了：去找炼金术师了。",
+    "status": "ok"
+  },
+  {
+    "id": 997,
+    "audio": "/home/ubuntu/project/data/audio/test/998.wav",
+    "reference": "“因为预兆，”炼金术士回答。",
+    "prediction": "由于预兆，炼金术士回答。",
+    "status": "ok"
+  },
+  {
+    "id": 998,
+    "audio": "/home/ubuntu/project/data/audio/test/999.wav",
+    "reference": "这些人热烈地讨论起来。",
+    "prediction": "这个人陷入激烈的讨论。",
+    "status": "ok"
+  }
+]

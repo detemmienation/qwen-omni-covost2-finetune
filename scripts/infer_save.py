@@ -1,7 +1,7 @@
 import os
 os.environ["TRANSFORMERS_OFFLINE"]  = "1"
 os.environ["HF_DATASETS_OFFLINE"]   = "1"
-os.environ["CUDA_LAUNCH_BLOCKING"]  = "1"   # ★ 让 CUDA 错误同步报出，stacktrace 准确
+os.environ["CUDA_LAUNCH_BLOCKING"]  = "1"
 
 import json
 import time
@@ -23,8 +23,10 @@ os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 # ===== 1. Processor =====
 print("Loading processor...", flush=True)
 processor = AutoProcessor.from_pretrained(BASE_MODEL, trust_remote_code=True)
-VOCAB_SIZE = processor.tokenizer.vocab_size
-print(f"Vocab size: {VOCAB_SIZE}", flush=True)
+
+# ★ 用 len(tokenizer) 而不是 vocab_size，Qwen 里两者不一样
+VOCAB_SIZE = len(processor.tokenizer)
+print(f"Vocab size (len): {VOCAB_SIZE}", flush=True)
 
 # ===== 2. 4bit 量化加载 =====
 bnb_config = BitsAndBytesConfig(
@@ -40,6 +42,7 @@ model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
     quantization_config=bnb_config,
     device_map="auto",
     trust_remote_code=True,
+    enable_audio_output=False,   # ★ 关键：禁用音频输出，不加载 token2wav
 )
 print(f"GPU after base model: {torch.cuda.memory_allocated(0)/1e9:.2f} GB", flush=True)
 
@@ -51,7 +54,22 @@ print(f"GPU after LoRA: {torch.cuda.memory_allocated(0)/1e9:.2f} GB", flush=True
 model.eval()
 print("Model ready.", flush=True)
 
-# ===== 4. 推理函数 =====
+# ===== 4. 后处理：去掉末尾残留的特殊 token =====
+TAIL_TOKENS = ["⽗", "父", "<|im_end|>", "<|endoftext|>"]
+
+def clean_prediction(text: str) -> str:
+    text = text.strip()
+    # 去掉末尾残留的特殊字符，可能叠多个
+    changed = True
+    while changed:
+        changed = False
+        for tail in TAIL_TOKENS:
+            if text.endswith(tail):
+                text = text[:-len(tail)].strip()
+                changed = True
+    return text
+
+# ===== 5. 推理函数 =====
 def infer(item):
     messages   = item["messages"]
     audio_path = item["audios"][0]
@@ -100,33 +118,32 @@ def infer(item):
             max_new_tokens=128,
             do_sample=False,
             use_audio_in_video=False,
+            return_audio=False,       # ★ 加这行，明确不返回音频
         )
 
-    # ★ outputs 是 tuple，取第 0 个
+    # outputs 是 tuple，取第 0 个
     output_ids = outputs[0] if isinstance(outputs, tuple) else outputs
     input_len  = inputs["input_ids"].shape[1]
     gen_ids    = output_ids[:, input_len:]
 
-    # ★ clamp 防止越界 token id 导致 CUDA assert
+    # ★ clamp 用正确的 vocab size 防止越界
     gen_ids = gen_ids.clamp(0, VOCAB_SIZE - 1)
 
     prediction = processor.batch_decode(
         gen_ids,
         skip_special_tokens=True,
         clean_up_tokenization_spaces=False,
-    )[0].strip()
+    )[0]
 
-    # token错误生成的父？
-    prediction = prediction.replace("<|im_end|>", "").strip()
-    if prediction.endswith("父"):
-        prediction = prediction[:-1].strip()
-    # ★ 每条推理后清理显存碎片
+    # ★ 去掉末尾残留的特殊 token 解码字符
+    prediction = clean_prediction(prediction)
+
     torch.cuda.empty_cache()
 
     return prediction, reference
 
 
-# ===== 5. 跑全部 =====
+# ===== 6. 跑全部 =====
 print("Loading dataset...", flush=True)
 dataset = load_dataset("json", data_files=DATA_FILE)["train"]
 print(f"Dataset size: {len(dataset)}, starting inference...\n", flush=True)
@@ -147,7 +164,7 @@ for i, item in enumerate(dataset):
     except Exception as e:
         import traceback
         traceback.print_exc()
-        torch.cuda.empty_cache()   # ★ CUDA 报错后也清理
+        torch.cuda.empty_cache()
         pred   = ""
         ref    = [m["content"] for m in item["messages"] if m["role"] == "assistant"][-1]
         status = f"ERR:{e}"
@@ -165,7 +182,7 @@ for i, item in enumerate(dataset):
         flush=True
     )
 
-# ===== 6. 保存 =====
+# ===== 7. 保存 =====
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
