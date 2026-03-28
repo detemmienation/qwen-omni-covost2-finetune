@@ -1,6 +1,7 @@
 import os
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
-os.environ["HF_DATASETS_OFFLINE"]  = "1"
+os.environ["TRANSFORMERS_OFFLINE"]  = "1"
+os.environ["HF_DATASETS_OFFLINE"]   = "1"
+os.environ["CUDA_LAUNCH_BLOCKING"]  = "1"   # ★ 让 CUDA 错误同步报出，stacktrace 准确
 
 import json
 import time
@@ -12,20 +13,18 @@ from peft import PeftModel
 
 # ===== 路径配置 =====
 BASE_MODEL  = "Qwen/Qwen2.5-Omni-7B"
-LORA_PATH   = "/home/ubuntu/project/output/run_500/v0-20260327-185755/checkpoint-500"
-# DATA_FILE   = "/home/ubuntu/project/data/val_100.jsonl"
-# OUTPUT_FILE = "/home/ubuntu/project/predictions.json"
-
-# 用text集来推理
-DATA_FILE   = "/home/ubuntu/project/data/test.jsonl"     
-# 输出路径
-OUTPUT_FILE = "/home/ubuntu/project/predictions_test.json" 
+LORA_PATH   = "/home/ubuntu/project/output/run_2000/v4-20260328-051327/checkpoint-1500"
+DATA_FILE   = "/home/ubuntu/project/data/test.jsonl"
+OUTPUT_FILE = "/home/ubuntu/project/outputs/predictions_1000.json"
 OFFLOAD_DIR = "/home/ubuntu/project/offload"
 os.makedirs(OFFLOAD_DIR, exist_ok=True)
+os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
 # ===== 1. Processor =====
 print("Loading processor...", flush=True)
 processor = AutoProcessor.from_pretrained(BASE_MODEL, trust_remote_code=True)
+VOCAB_SIZE = processor.tokenizer.vocab_size
+print(f"Vocab size: {VOCAB_SIZE}", flush=True)
 
 # ===== 2. 4bit 量化加载 =====
 bnb_config = BitsAndBytesConfig(
@@ -103,14 +102,26 @@ def infer(item):
             use_audio_in_video=False,
         )
 
-    # outputs 是 tuple，第 0 个是 text token ids
-    output_ids = outputs[0]
+    # ★ outputs 是 tuple，取第 0 个
+    output_ids = outputs[0] if isinstance(outputs, tuple) else outputs
     input_len  = inputs["input_ids"].shape[1]
+    gen_ids    = output_ids[:, input_len:]
+
+    # ★ clamp 防止越界 token id 导致 CUDA assert
+    gen_ids = gen_ids.clamp(0, VOCAB_SIZE - 1)
+
     prediction = processor.batch_decode(
-        output_ids[:, input_len:],
+        gen_ids,
         skip_special_tokens=True,
         clean_up_tokenization_spaces=False,
     )[0].strip()
+
+    # token错误生成的父？
+    prediction = prediction.replace("<|im_end|>", "").strip()
+    if prediction.endswith("父"):
+        prediction = prediction[:-1].strip()
+    # ★ 每条推理后清理显存碎片
+    torch.cuda.empty_cache()
 
     return prediction, reference
 
@@ -120,8 +131,8 @@ print("Loading dataset...", flush=True)
 dataset = load_dataset("json", data_files=DATA_FILE)["train"]
 print(f"Dataset size: {len(dataset)}, starting inference...\n", flush=True)
 
-results  = []
-t_total  = time.time()
+results = []
+t_total = time.time()
 
 for i, item in enumerate(dataset):
     t0 = time.time()
@@ -134,6 +145,9 @@ for i, item in enumerate(dataset):
         ref    = [m["content"] for m in item["messages"] if m["role"] == "assistant"][-1]
         status = "OOM"
     except Exception as e:
+        import traceback
+        traceback.print_exc()
+        torch.cuda.empty_cache()   # ★ CUDA 报错后也清理
         pred   = ""
         ref    = [m["content"] for m in item["messages"] if m["role"] == "assistant"][-1]
         status = f"ERR:{e}"
