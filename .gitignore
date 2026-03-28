@@ -15,6 +15,7 @@ data/debug_train.jsonl
 data/debug_val.jsonl
 data/tiny_train.jsonl
 data/tiny_val.jsonl
+data/*.jsonl
 offload/
 scripts/infer_batch.py
 

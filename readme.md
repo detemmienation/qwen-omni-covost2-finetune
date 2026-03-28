@@ -46,10 +46,13 @@ Run:
 
 `python scripts/prepare_covost2.py`
 
-This script:
+use prepare_covost2 to 
 	1.	downloads a small subset of CoVoST2
 	2.	saves audio files locally as .wav
 	3.	converts the dataset into SWIFT JSONL format
+
+`python scripts/prepare_test.py`
+use prepare_test.py to download the test set (1000 items)
 
 Expected output structure:
 ```
@@ -74,7 +77,7 @@ Each JSONL record looks like this:
 }
 ```
 
-## Create Tiny Debug Split
+## Create Debug Split
 
 To reduce memory usage, create a debug split:
 ```
@@ -88,9 +91,10 @@ head -n 500 data/debug_train.jsonl > data/train_500.jsonl
 head -n 100 data/debug_val.jsonl > data/val_100.jsonl
 ```
 
-## Training
 
-example training command(use size of 500 and 100):
+## Training
+1. e2e(audio->text) training example
+training command(use size of 500 and 100):
 
 ```
 CUDA_VISIBLE_DEVICES=0 \
@@ -117,5 +121,38 @@ swift sft \
   --lora_dropout 0.05 \
   --output_dir /home/ubuntu/project/output/run_500
 ```
+2. text2text translation training example:
+
+firstly, use the data in the whisper folder: run `prepare_text_translation_from_whisper.py' to get formatted training set and validation set.
+
+then run the following instruction
+
+```
+CUDA_VISIBLE_DEVICES=0 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+USE_HF=1 \
+swift sft \
+  --model Qwen/Qwen2.5-Omni-7B \
+  --use_hf true \
+  --dataset /home/ubuntu/project/data/text_train_1000.jsonl \
+  --val_dataset /home/ubuntu/project/data/text_val_200.jsonl \
+  --train_type lora \
+  --torch_dtype float16 \
+  --num_train_epochs 2 \
+  --per_device_train_batch_size 1 \
+  --per_device_eval_batch_size 1 \
+  --gradient_accumulation_steps 4 \
+  --learning_rate 3e-5 \
+  --max_length 512 \
+  --logging_steps 10 \
+  --save_steps 200 \
+  --eval_steps 100 \
+  --lora_rank 8 \
+  --lora_alpha 16 \
+  --lora_dropout 0.1 \
+  --output_dir /home/ubuntu/project/output/text_translation_omni_1000
+  ```
+
 -> try to modify learning_rate/lora_rank/num_train_epochs...
+
 
