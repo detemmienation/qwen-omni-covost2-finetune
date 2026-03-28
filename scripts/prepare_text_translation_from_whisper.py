@@ -10,11 +10,7 @@ VAL_OUT = Path("/home/ubuntu/project/data/text_val_200.jsonl")
 TRAIN_LIMIT = 1000
 VAL_LIMIT = 200
 
-SYSTEM_PROMPT = (
-    "You are a translation assistant. "
-    "Translate the input English text into simplified Chinese only."
-)
-
+SYSTEM_PROMPT = "You are a translation assistant. Translate the input English text into simplified Chinese only."
 def normalize_text(s: str) -> str:
     s = s.strip()
     s = s.replace("\n", " ")
@@ -36,13 +32,14 @@ def convert_record(obj):
     if not src or not tgt:
         return None
 
-    return {
+    rec = {
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": src},
+            {"role": "user", "content": f"Translate into Chinese: {src}"},
             {"role": "assistant", "content": tgt},
         ]
     }
+    return rec
 
 def collect_records(folder: Path, limit: int):
     records = []
