@@ -1,12 +1,12 @@
 # Qwen-Omni Fine-tuning on CoVoST2 
 (English Speech → Chinese Text)
 
-This repository contains a minimal pipeline for fine-tuning **Qwen2.5-Omni-7B** with **SWIFT** on a small subset of **CoVoST2** for speech translation from English audio to Chinese text.
+This repository contains a minimal pipeline for fine-tuning **Qwen3-Omni-30B-A3B-Instruct** with **SWIFT** on a small subset of **CoVoST2** for speech translation from English audio to Chinese text.
 
 The main goal of this repo is to provide a **reproducible debug pipeline**:
 - download a small subset of CoVoST2
 - convert it into SWIFT multimodal JSONL format
-- run LoRA fine-tuning on Qwen2.5-Omni/Qwem3.0-Omni
+- run LoRA fine-tuning on Qwen3-Omni-30B-A3B-Instruct
 
 ## Environment
 
@@ -101,10 +101,10 @@ CUDA_VISIBLE_DEVICES=0 \
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
 USE_HF=1 \
 swift sft \
-  --model Qwen/Qwen2.5-Omni-7B \
+  --model Qwen/Qwen3-Omni-30B-A3B-Instruct \
   --use_hf true \
-  --dataset /home/ubuntu/project/data/train_500.jsonl \
-  --val_dataset /home/ubuntu/project/data/val_100.jsonl \
+  --dataset /home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/train_500.jsonl \
+  --val_dataset /home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/val_100.jsonl \
   --train_type lora \
   --torch_dtype float16 \
   --num_train_epochs 1 \
@@ -119,7 +119,7 @@ swift sft \
   --lora_rank 4 \
   --lora_alpha 8 \
   --lora_dropout 0.05 \
-  --output_dir /home/ubuntu/project/output/run_500
+  --output_dir /home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/output/run_500
 ```
 2. text2text translation training example:
 
@@ -132,10 +132,10 @@ CUDA_VISIBLE_DEVICES=0 \
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
 USE_HF=1 \
 swift sft \
-  --model Qwen/Qwen2.5-Omni-7B \
+  --model Qwen/Qwen3-Omni-30B-A3B-Instruct \
   --use_hf true \
-  --dataset /home/ubuntu/project/data/text_train_1000.jsonl \
-  --val_dataset /home/ubuntu/project/data/text_val_200.jsonl \
+  --dataset /home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/text_train_1000.jsonl \
+  --val_dataset /home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/text_val_200.jsonl \
   --train_type lora \
   --torch_dtype float16 \
   --num_train_epochs 2 \
@@ -150,7 +150,7 @@ swift sft \
   --lora_rank 8 \
   --lora_alpha 16 \
   --lora_dropout 0.1 \
-  --output_dir /home/ubuntu/project/output/text_translation_omni_1000
+  --output_dir /home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/output/text_translation_omni_1000
   ```
 
 -> try to modify learning_rate/lora_rank/num_train_epochs...

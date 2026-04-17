@@ -8,7 +8,7 @@ import argparse
 from pathlib import Path
 
 import torch
-from transformers import AutoProcessor, Qwen2_5OmniForConditionalGeneration, BitsAndBytesConfig
+from transformers import AutoProcessor, Qwen3OmniMoeForConditionalGeneration, BitsAndBytesConfig
 from peft import PeftModel
 
 
@@ -30,8 +30,8 @@ def iter_jsonl(path: str):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base_model",     type=str, default="Qwen/Qwen2.5-Omni-7B")
-    parser.add_argument("--lora_path",      type=str, default="/home/ubuntu/project/output/text_translation_omni_1000/v1-20260328-014640/checkpoint-500")
+    parser.add_argument("--base_model",     type=str, default="Qwen/Qwen3-Omni-30B-A3B-Instruct")
+    parser.add_argument("--lora_path",      type=str, default="/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/output/text_translation_omni_1000/checkpoint-500")
     parser.add_argument("--input_jsonl",    type=str, required=True)
     parser.add_argument("--output_jsonl",   type=str, required=True)
     parser.add_argument("--max_new_tokens", type=int, default=64)
@@ -50,7 +50,7 @@ def main():
     )
 
     print("Loading base model (4bit)...", flush=True)
-    model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
+    model = Qwen3OmniMoeForConditionalGeneration.from_pretrained(
         args.base_model,
         quantization_config=bnb_config,
         device_map="auto",

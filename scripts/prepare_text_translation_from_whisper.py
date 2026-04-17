@@ -1,11 +1,11 @@
 import json
 from pathlib import Path
 
-TRAIN_DIR = Path("/home/ubuntu/project/data/whisper/training")
-VAL_DIR = Path("/home/ubuntu/project/data/whisper/validation")
+TRAIN_DIR = Path("/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/whisper/training")
+VAL_DIR = Path("/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/whisper/validation")
 
-TRAIN_OUT = Path("/home/ubuntu/project/data/text_train_1000.jsonl")
-VAL_OUT = Path("/home/ubuntu/project/data/text_val_200.jsonl")
+TRAIN_OUT = Path("/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/text_train_1000.jsonl")
+VAL_OUT = Path("/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/text_val_200.jsonl")
 
 TRAIN_LIMIT = 1000
 VAL_LIMIT = 200

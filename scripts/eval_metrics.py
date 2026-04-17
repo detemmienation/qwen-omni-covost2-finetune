@@ -3,7 +3,7 @@ import re
 import os
 
 # ===== 路径配置 =====
-PREDICTIONS_FILE = "/home/ubuntu/project/outputs/predictions_1000.json"
+PREDICTIONS_FILE = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/outputs/predictions_cot_smoothing.json"
 
 # ===== 1. 读取结果 =====
 with open(PREDICTIONS_FILE, "r", encoding="utf-8") as f:

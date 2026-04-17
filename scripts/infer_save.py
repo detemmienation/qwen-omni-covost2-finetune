@@ -8,15 +8,15 @@ import time
 import torch
 import soundfile as sf
 from datasets import load_dataset
-from transformers import AutoProcessor, Qwen2_5OmniForConditionalGeneration, BitsAndBytesConfig
+from transformers import AutoProcessor, Qwen3OmniMoeForConditionalGeneration, BitsAndBytesConfig
 from peft import PeftModel
 
 # ===== 路径配置 =====
-BASE_MODEL  = "Qwen/Qwen2.5-Omni-7B"
-LORA_PATH   = "/home/ubuntu/project/output/run_2000/v4-20260328-051327/checkpoint-1500"
-DATA_FILE   = "/home/ubuntu/project/data/test.jsonl"
-OUTPUT_FILE = "/home/ubuntu/project/outputs/predictions_1000.json"
-OFFLOAD_DIR = "/home/ubuntu/project/offload"
+BASE_MODEL  = "Qwen/Qwen3-Omni-30B-A3B-Instruct"
+LORA_PATH   = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/output/full_e2e/v10-20260417-014453/checkpoint-625"
+DATA_FILE   = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data/test.jsonl"
+OUTPUT_FILE = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/outputs/predictions_cot_smoothing.json"
+OFFLOAD_DIR = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/offload"
 os.makedirs(OFFLOAD_DIR, exist_ok=True)
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
@@ -28,18 +28,10 @@ processor = AutoProcessor.from_pretrained(BASE_MODEL, trust_remote_code=True)
 VOCAB_SIZE = len(processor.tokenizer)
 print(f"Vocab size (len): {VOCAB_SIZE}", flush=True)
 
-# ===== 2. 4bit 量化加载 =====
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_compute_dtype=torch.float16,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_use_double_quant=True,
-)
-
-print("Loading base model (4bit)...", flush=True)
-model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
+print("Loading base model (bfloat16)...", flush=True)
+model = Qwen3OmniMoeForConditionalGeneration.from_pretrained(
     BASE_MODEL,
-    quantization_config=bnb_config,
+    torch_dtype=torch.bfloat16,
     device_map="auto",
     trust_remote_code=True,
     enable_audio_output=False,   # ★ 关键：禁用音频输出，不加载 token2wav
@@ -57,9 +49,18 @@ print("Model ready.", flush=True)
 # ===== 4. 后处理：去掉末尾残留的特殊 token =====
 TAIL_TOKENS = ["⽗", "父", "<|im_end|>", "<|endoftext|>"]
 
+SYSTEM_PROMPT = "You are a speech translation assistant."
+USER_PROMPT = (
+    "Step 1 – Transcription: Listen carefully and write down the exact "
+    "English words spoken in the audio.\n"
+    "Step 2 – Translation: Translate the transcription into natural Chinese.\n\n"
+    "Use this exact output format:\n"
+    "Transcription: <English text>\n"
+    "Translation: <Chinese text>"
+)
+
 def clean_prediction(text: str) -> str:
     text = text.strip()
-    # 去掉末尾残留的特殊字符，可能叠多个
     changed = True
     while changed:
         changed = False
@@ -69,23 +70,29 @@ def clean_prediction(text: str) -> str:
                 changed = True
     return text
 
+def parse_cot(text: str) -> str:
+    """Extract only the Translation line from CoT output."""
+    for line in text.splitlines():
+        line = line.strip()
+        if line.lower().startswith("translation:"):
+            return line[len("translation:"):].strip()
+    # Fallback: return full text if format not found
+    return text.strip()
+
 # ===== 5. 推理函数 =====
 def infer(item):
-    messages   = item["messages"]
     audio_path = item["audios"][0]
-
-    user_text = [m["content"] for m in messages if m["role"] == "user"][-1]
-    user_text = user_text.replace("<audio>", "").strip()
-    reference = [m["content"] for m in messages if m["role"] == "assistant"][-1]
+    reference  = [m["content"] for m in item["messages"] if m["role"] == "assistant"][-1]
 
     audio, sr = sf.read(audio_path)
 
     conversation = [
+        {"role": "system", "content": SYSTEM_PROMPT},
         {
             "role": "user",
             "content": [
                 {"type": "audio", "audio": audio_path},
-                {"type": "text",  "text": user_text},
+                {"type": "text",  "text": USER_PROMPT},
             ],
         }
     ]
@@ -105,7 +112,7 @@ def infer(item):
 
     device = torch.device("cuda:0")
     inputs = {
-        k: (v.to(device=device, dtype=torch.float16)
+        k: (v.to(device=device, dtype=torch.bfloat16)
             if isinstance(v, torch.Tensor) and v.dtype in (torch.float32, torch.float64)
             else v.to(device=device) if isinstance(v, torch.Tensor)
             else v)
@@ -115,7 +122,7 @@ def infer(item):
     with torch.inference_mode():
         outputs = model.generate(
             **inputs,
-            max_new_tokens=128,
+            max_new_tokens=512,
             do_sample=False,
             use_audio_in_video=False,
             return_audio=False,       # ★ 加这行，明确不返回音频
@@ -136,7 +143,7 @@ def infer(item):
     )[0]
 
     # ★ 去掉末尾残留的特殊 token 解码字符
-    prediction = clean_prediction(prediction)
+    prediction = parse_cot(clean_prediction(prediction))
 
     torch.cuda.empty_cache()
 

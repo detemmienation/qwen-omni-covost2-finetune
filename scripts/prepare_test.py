@@ -2,7 +2,7 @@ import os
 import json
 import soundfile as sf
 from datasets import load_dataset
-BASE_DIR = "/home/ubuntu/project"
+BASE_DIR = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data"
 DATA_DIR = os.path.join(BASE_DIR, "data")
 # ===== prompt =====
 SYSTEM_PROMPT = "You are a speech translation assistant."
@@ -43,16 +43,20 @@ def save_audio(audio_obj, path):
 
 # 4. 处理逻辑和之前 val 一样，路径换成 test
 print("Processing test...")
+skipped = 0
 with open(TEST_JSONL, "w", encoding="utf-8") as f:
-    for i, item in enumerate(test_ds):
+    for i in range(len(test_ds)):
         audio_path = os.path.join(AUDIO_TEST_DIR, f"{i}.wav")
         try:
+            item = test_ds[i]
             save_audio(item["audio"], audio_path)
+            tgt = normalize_text(item["translation"])
+            if not tgt:
+                continue
+            record = build_record(audio_path, tgt)
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
         except Exception as e:
-            print("skip audio:", e)
+            skipped += 1
+            print(f"skip {i}: {e}")
             continue
-        tgt = normalize_text(item["translation"])
-        if not tgt:
-            continue
-        record = build_record(audio_path, tgt)
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+print(f"Done. skipped {skipped}/{len(test_ds)}")

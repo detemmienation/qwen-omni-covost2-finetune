@@ -4,7 +4,7 @@ import soundfile as sf
 from datasets import load_dataset
 
 # ===== 路径配置 =====
-BASE_DIR = "/home/ubuntu/project"
+BASE_DIR = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data"
 DATA_DIR = os.path.join(BASE_DIR, "data")
 AUDIO_TRAIN_DIR = os.path.join(DATA_DIR, "audio/train")
 AUDIO_VAL_DIR = os.path.join(DATA_DIR, "audio/val")
@@ -47,51 +47,38 @@ train_ds = load_dataset("fixie-ai/covost2", "en_zh-CN", split="train")
 val_ds = load_dataset("fixie-ai/covost2", "en_zh-CN", split="validation")
 
 # ===== 数据配置 =====
-TRAIN_SIZE = 2000
-VAL_SIZE = 200
+# 全量数据，如需子集可取消注释以下几行
+# TRAIN_SIZE = 2000
+# VAL_SIZE = 200
+# train_ds = train_ds.select(range(TRAIN_SIZE))
+# val_ds = val_ds.select(range(VAL_SIZE))
 
-# 选择数据子集，快速测试脚本
-# 可以调整这个数字，或者直接注释掉，处理完整数据集
-train_ds = train_ds.select(range(TRAIN_SIZE))
-val_ds = val_ds.select(range(VAL_SIZE))
+def process_split(ds, audio_dir, jsonl_path, split_name):
+    skipped = 0
+    with open(jsonl_path, "w", encoding="utf-8") as f:
+        for i in range(len(ds)):
+            audio_path = os.path.join(audio_dir, f"{i}.wav")
+            try:
+                item = ds[i]
+                save_audio(item["audio"], audio_path)
+                tgt = normalize_text(item["translation"])
+                if not tgt:
+                    continue
+                record = build_record(audio_path, tgt)
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            except Exception as e:
+                skipped += 1
+                print(f"[{split_name}] skip {i}: {e}")
+                continue
+            if i % 5000 == 0:
+                print(f"[{split_name}] {i}/{len(ds)} ...")
+    print(f"[{split_name}] done, skipped {skipped}")
 
 print("Processing train...")
-
-with open(TRAIN_JSONL, "w", encoding="utf-8") as f:
-    for i, item in enumerate(train_ds):
-        audio_path = os.path.join(AUDIO_TRAIN_DIR, f"{i}.wav")
-
-        try:
-            save_audio(item["audio"], audio_path)
-        except Exception as e:
-            print("skip audio:", e)
-            continue
-
-        tgt = normalize_text(item["translation"])
-        if not tgt:
-            continue
-
-        record = build_record(audio_path, tgt)
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+process_split(train_ds, AUDIO_TRAIN_DIR, TRAIN_JSONL, "train")
 
 print("Processing val...")
-
-with open(VAL_JSONL, "w", encoding="utf-8") as f:
-    for i, item in enumerate(val_ds):
-        audio_path = os.path.join(AUDIO_VAL_DIR, f"{i}.wav")
-
-        try:
-            save_audio(item["audio"], audio_path)
-        except Exception as e:
-            print("skip audio:", e)
-            continue
-
-        tgt = normalize_text(item["translation"])
-        if not tgt:
-            continue
-
-        record = build_record(audio_path, tgt)
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+process_split(val_ds, AUDIO_VAL_DIR, VAL_JSONL, "val")
 
 print("Done!")
 print("Train JSON:", TRAIN_JSONL)
