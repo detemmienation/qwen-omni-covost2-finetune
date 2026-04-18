@@ -13,8 +13,8 @@ USE_HF=1 \
 swift sft \
   --model Qwen/Qwen3-Omni-30B-A3B-Instruct \
   --use_hf true \
-  --dataset "$DATA_DIR/train_5000.jsonl" \
-  --val_dataset "$DATA_DIR/val_500.jsonl" \
+  --dataset "$DATA_DIR/train_10000_20000_cot.jsonl" \
+  --val_dataset "$DATA_DIR/val_500_cot.jsonl" \
   --train_type lora \
   --torch_dtype bfloat16 \
   --num_train_epochs 1 \
@@ -29,8 +29,8 @@ swift sft \
   --lora_rank 4 \
   --lora_alpha 8 \
   --lora_dropout 0.05 \
-  --target_modules q_proj v_proj \
+  --target_modules q_proj v_proj o_proj \
   --attn_impl flash_attn \
-  --label_smoothing_factor 0.1 \
   --dataloader_num_workers 0 \
+  --adapters "$OUTPUT_DIR/v16-20260418-060538/checkpoint-1250" \
   --output_dir "$OUTPUT_DIR"
