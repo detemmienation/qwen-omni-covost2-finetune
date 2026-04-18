@@ -42,6 +42,7 @@ Example
       --output_dir /path/to/output/custom_loss_500
 """
 
+import os
 import sys
 import json
 import collections
@@ -59,8 +60,11 @@ ENTITY_WEIGHT  = 5.0   # loss multiplier for digit / Latin-letter tokens
 # Part 1 — Audio encoder cache  (copied verbatim from run_train_cached.py)
 # ══════════════════════════════════════════════════════════════════════════════
 
-DATA_DIR  = "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data"
-CACHE_DIR = Path(DATA_DIR) / "audio_cache"
+DATA_DIR  = os.environ.get(
+    "SWIFT_DATA_DIR",
+    "/home/ubuntu/leili-cmu-lab/CMU-project/Y4_data/data",
+)
+CACHE_DIR = Path(os.environ.get("SWIFT_CACHE_DIR", str(Path(DATA_DIR) / "audio_cache")))
 
 _CACHE: dict[str, Path] = {}
 for _split in ("train", "val"):
@@ -201,7 +205,6 @@ print(
 # ══════════════════════════════════════════════════════════════════════════════
 
 # Ensure scripts/ dir is on the path so custom_loss.py is importable
-import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from swift.cli.sft import sft_main  # noqa: E402
